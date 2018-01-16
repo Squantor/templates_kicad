@@ -79,7 +79,7 @@ U 1 1 5A5D17A8
 P 1750 7350
 F 0 "H4" H 1750 7100 60  0000 C CNN
 F 1 "Drill_Hole_connected" H 1750 7600 60  0000 C CNN
-F 2 "SquantorPcbOutline:MountingHole_4.5mm_8mm_metal" H 1750 7350 60  0001 C CNN
+F 2 "SquantorPcbOutline:MountingHole_5mm_8mm_metal" H 1750 7350 60  0001 C CNN
 F 3 "" H 1750 7350 60  0001 C CNN
 	1    1750 7350
 	-1   0    0    1   
@@ -90,7 +90,7 @@ U 1 1 5A5D1A2B
 P 1750 6750
 F 0 "H3" H 1750 6500 60  0000 C CNN
 F 1 "Drill_Hole_connected" H 1750 7000 60  0000 C CNN
-F 2 "SquantorPcbOutline:MountingHole_4.5mm_8mm_metal" H 1750 6750 60  0001 C CNN
+F 2 "SquantorPcbOutline:MountingHole_5mm_8mm_metal" H 1750 6750 60  0001 C CNN
 F 3 "" H 1750 6750 60  0001 C CNN
 	1    1750 6750
 	-1   0    0    1   
@@ -101,7 +101,7 @@ U 1 1 5A5D1AAB
 P 1750 6150
 F 0 "H2" H 1750 5900 60  0000 C CNN
 F 1 "Drill_Hole_connected" H 1750 6400 60  0000 C CNN
-F 2 "SquantorPcbOutline:MountingHole_4.5mm_8mm_metal" H 1750 6150 60  0001 C CNN
+F 2 "SquantorPcbOutline:MountingHole_5mm_8mm_metal" H 1750 6150 60  0001 C CNN
 F 3 "" H 1750 6150 60  0001 C CNN
 	1    1750 6150
 	-1   0    0    1   
@@ -112,7 +112,7 @@ U 1 1 5A5D1B24
 P 1750 5550
 F 0 "H1" H 1750 5300 60  0000 C CNN
 F 1 "Drill_Hole_connected" H 1750 5800 60  0000 C CNN
-F 2 "SquantorPcbOutline:MountingHole_4.5mm_8mm_metal" H 1750 5550 60  0001 C CNN
+F 2 "SquantorPcbOutline:MountingHole_5mm_8mm_metal" H 1750 5550 60  0001 C CNN
 F 3 "" H 1750 5550 60  0001 C CNN
 	1    1750 5550
 	-1   0    0    1   
