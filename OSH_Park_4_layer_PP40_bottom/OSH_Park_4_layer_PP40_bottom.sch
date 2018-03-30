@@ -31,12 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:SquantorButtons
-LIBS:SquantorConnectors
-LIBS:SquantorLabels
-LIBS:SquantorPCBOutline
-LIBS:SquantorProto
-LIBS:OSH_Park_2_layer_PB1_bottom-cache
+LIBS:OSH_Park_4_layer_PP40_bottom-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -56,7 +51,7 @@ L VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "V20171120" H 850 7700 60  0000 C CNN
+F 1 "V20180330" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -105,27 +100,5 @@ F 2 "SquantorPcbOutline:MountingHole_2.2mm_no_metal" H 3400 7450 60  0001 C CNN
 F 3 "" H 3400 7450 60  0001 C CNN
 	1    3400 7450
 	1    0    0    -1  
-$EndComp
-$Comp
-L PINS_1X12 J1
-U 1 1 5A135BF8
-P 4050 7000
-F 0 "J1" H 4000 7700 60  0000 C CNN
-F 1 "PINS_1X12" H 4050 6300 60  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X12-H015" H 4050 7550 60  0001 C CNN
-F 3 "" H 4050 7550 60  0001 C CNN
-	1    4050 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L PINS_1X12 J2
-U 1 1 5A135C4B
-P 6700 7000
-F 0 "J2" H 6650 7700 60  0000 C CNN
-F 1 "PINS_1X12" H 6700 6300 60  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X12-H015" H 6700 7550 60  0001 C CNN
-F 3 "" H 6700 7550 60  0001 C CNN
-	1    6700 7000
-	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
