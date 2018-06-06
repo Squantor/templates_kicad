@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../squantorPcbComponentLibrary/kicad
+LibDir=../../squantorPcbLibrary
 [eeschema/libraries]
 LibName1=power
 LibName2=device

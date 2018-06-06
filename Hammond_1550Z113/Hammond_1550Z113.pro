@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../SquantorPcbComponentLibrary/kicad
+LibDir=../../squantorPcbLibrary
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,10 +59,10 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorButtons
-LibName34=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorConnectors
-LibName35=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorLabels
-LibName36=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorPCBOutline
-LibName37=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorProto
+LibName33=/home/abilos/projects/public/squantorPcbLibrary/SquantorButtons
+LibName34=/home/abilos/projects/public/squantorPcbLibrary/SquantorConnectors
+LibName35=/home/abilos/projects/public/squantorPcbLibrary/SquantorLabels
+LibName36=/home/abilos/projects/public/squantorPcbLibrary/SquantorPCBOutline
+LibName37=/home/abilos/projects/public/squantorPcbLibrary/SquantorProto
 [general]
 version=1
