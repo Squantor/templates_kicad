@@ -36,6 +36,7 @@ LIBS:SquantorConnectors
 LIBS:SquantorLabels
 LIBS:SquantorPCBOutline
 LIBS:SquantorProto
+LIBS:Hammond_1551G_OSH2layer-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -70,6 +71,28 @@ F 1 "OHWLOGO" H 850 7200 60  0000 C CNN
 F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 850 7350 60  0001 C CNN
 F 3 "" H 850 7350 60  0001 C CNN
 	1    850  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H?
+U 1 1 5B1CFFB9
+P 1450 7450
+F 0 "H?" H 1450 7200 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 1450 7700 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_2.5mm_no_metal" H 1450 7450 60  0001 C CNN
+F 3 "" H 1450 7450 60  0001 C CNN
+	1    1450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H?
+U 1 1 5B1D000C
+P 2350 7450
+F 0 "H?" H 2350 7200 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 2350 7700 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_2.5mm_no_metal" H 2350 7450 60  0001 C CNN
+F 3 "" H 2350 7450 60  0001 C CNN
+	1    2350 7450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

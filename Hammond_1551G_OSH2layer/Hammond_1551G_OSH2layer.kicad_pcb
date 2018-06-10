@@ -1,14 +1,14 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu17.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~61~ubuntu18.04.1)
 
   (general
     (links 0)
     (no_connects 0)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 10)
     (tracks 0)
     (zones 0)
-    (modules 2)
+    (modules 4)
     (nets 1)
   )
 
@@ -118,7 +118,7 @@
   )
 
   (module Symbols:OSHW-Symbol_6.7x6mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 5A135134)
-    (at 148 101)
+    (at 150.4 99.1)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (path /5A135869)
@@ -217,7 +217,7 @@
   )
 
   (module SquantorLabels:Label_version (layer F.Cu) (tedit 59D3ED5E) (tstamp 5A135138)
-    (at 148 105)
+    (at 150.4 102.7)
     (path /5A1357A5)
     (fp_text reference N2 (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -226,5 +226,40 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
   )
+
+  (module SquantorPcbOutline:MountingHole_2.5mm_no_metal locked (layer F.Cu) (tedit 5B1D0196) (tstamp 5B1D07E7)
+    (at 140 88.25)
+    (path /5B1CFFB9)
+    (fp_text reference H1 (at 0 -3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Drill_Hole_no_metal (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask))
+  )
+
+  (module SquantorPcbOutline:MountingHole_2.5mm_no_metal locked (layer F.Cu) (tedit 5B1D018E) (tstamp 5B1D07EC)
+    (at 160 111.75)
+    (path /5B1D000C)
+    (fp_text reference H2 (at 0 -3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Drill_Hole_no_metal (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask))
+  )
+
+  (gr_line (start 165.75 88.75) (end 165.75 85.5) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 172 91.75) (end 168.75 91.75) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 168.75 88.75) (end 168.75 91.75) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 134.25 111.25) (end 134.25 114.5) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 128 108.25) (end 131.25 108.25) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 131.25 111.25) (end 131.25 108.25) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 128 85.5) (end 128 108.25) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 165.75 85.5) (end 128 85.5) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 172 114.5) (end 172 91.75) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 134.25 114.5) (end 172 114.5) (layer Edge.Cuts) (width 0.15))
 
 )
