@@ -36,7 +36,7 @@ LIBS:SquantorConnectors
 LIBS:SquantorLabels
 LIBS:SquantorPCBOutline
 LIBS:SquantorProto
-LIBS:Hammond_1551G_OSH4layer_central-cache
+LIBS:nickel_beetle_breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -221,4 +221,132 @@ F 3 "" H 1350 2350 50  0001 C CNN
 	1    1350 2350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1150 950  1100 950 
+Text Label 1100 950  2    60   ~ 0
+ANALOG_00
+Wire Wire Line
+	1150 1050 1100 1050
+Wire Wire Line
+	1150 1150 1100 1150
+Wire Wire Line
+	1150 1250 1100 1250
+Wire Wire Line
+	1150 1350 1100 1350
+Wire Wire Line
+	1150 1450 1100 1450
+Wire Wire Line
+	1150 1550 1100 1550
+Wire Wire Line
+	1150 1650 1100 1650
+Wire Wire Line
+	1650 950  1700 950 
+Wire Wire Line
+	1650 1050 1700 1050
+Wire Wire Line
+	1650 1150 1700 1150
+Wire Wire Line
+	1650 1250 1700 1250
+Wire Wire Line
+	1650 1350 1700 1350
+Wire Wire Line
+	1650 1450 1700 1450
+Wire Wire Line
+	1650 1550 1700 1550
+Wire Wire Line
+	1650 1650 1700 1650
+Text Label 1100 1050 2    60   ~ 0
+ANALOG_02
+Text Label 1100 1150 2    60   ~ 0
+ANALOG_04
+Text Label 1100 1250 2    60   ~ 0
+ANALOG_06
+Text Label 1100 1350 2    60   ~ 0
+ANALOG_08
+Text Label 1100 1450 2    60   ~ 0
+ANALOG_10
+Text Label 1100 1550 2    60   ~ 0
+ANALOG_12
+Text Label 1100 1650 2    60   ~ 0
+ANALOG_14
+Text Label 1700 950  0    60   ~ 0
+ANALOG_01
+Text Label 1700 1050 0    60   ~ 0
+ANALOG_03
+Text Label 1700 1150 0    60   ~ 0
+ANALOG_05
+Text Label 1700 1250 0    60   ~ 0
+ANALOG_07
+Text Label 1700 1350 0    60   ~ 0
+ANALOG_09
+Text Label 1700 1450 0    60   ~ 0
+ANALOG_11
+Text Label 1700 1550 0    60   ~ 0
+ANALOG_13
+Text Label 1700 1650 0    60   ~ 0
+ANALOG_15
+Wire Wire Line
+	1150 2150 1100 2150
+Wire Wire Line
+	1150 2250 1100 2250
+Wire Wire Line
+	1150 2350 1100 2350
+Wire Wire Line
+	1150 2450 1100 2450
+Wire Wire Line
+	1150 2550 1100 2550
+Wire Wire Line
+	1150 2650 1100 2650
+Wire Wire Line
+	1150 2750 1100 2750
+Wire Wire Line
+	1150 2850 1100 2850
+Wire Wire Line
+	1650 2150 1700 2150
+Wire Wire Line
+	1650 2250 1700 2250
+Wire Wire Line
+	1650 2350 1700 2350
+Wire Wire Line
+	1650 2450 1700 2450
+Wire Wire Line
+	1650 2550 1700 2550
+Wire Wire Line
+	1650 2650 1700 2650
+Wire Wire Line
+	1650 2750 1700 2750
+Wire Wire Line
+	1650 2850 1700 2850
+Text Label 1100 2150 2    60   ~ 0
+DIGITAL_00
+Text Label 1100 2250 2    60   ~ 0
+DIGITAL_02
+Text Label 1100 2350 2    60   ~ 0
+DIGITAL_04
+Text Label 1100 2450 2    60   ~ 0
+DIGITAL_06
+Text Label 1100 2550 2    60   ~ 0
+DIGITAL_08
+Text Label 1100 2650 2    60   ~ 0
+DIGITAL_10
+Text Label 1100 2750 2    60   ~ 0
+DIGITAL_12
+Text Label 1100 2850 2    60   ~ 0
+DIGITAL_14
+Text Label 1700 2150 0    60   ~ 0
+DIGITAL_01
+Text Label 1700 2250 0    60   ~ 0
+DIGITAL_03
+Text Label 1700 2350 0    60   ~ 0
+DIGITAL_05
+Text Label 1700 2450 0    60   ~ 0
+DIGITAL_07
+Text Label 1700 2550 0    60   ~ 0
+DIGITAL_09
+Text Label 1700 2650 0    60   ~ 0
+DIGITAL_11
+Text Label 1700 2750 0    60   ~ 0
+DIGITAL_13
+Text Label 1700 2850 0    60   ~ 0
+DIGITAL_15
 $EndSCHEMATC
