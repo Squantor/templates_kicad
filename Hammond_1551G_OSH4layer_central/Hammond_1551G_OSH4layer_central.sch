@@ -36,7 +36,7 @@ LIBS:SquantorConnectors
 LIBS:SquantorLabels
 LIBS:SquantorPCBOutline
 LIBS:SquantorProto
-LIBS:nickel_beetle_breakout-cache
+LIBS:Hammond_1551G_OSH4layer_central-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -101,7 +101,7 @@ U 1 1 5B1D0821
 P 1350 1150
 F 0 "J1" H 1400 1650 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 1400 550 50  0000 C CNN
-F 2 "SquantorConnectors:Header_0127_2X10_H007" H 1350 1150 50  0001 C CNN
+F 2 "SquantorConnectors:Header-0127-2X10-H006" H 1350 1150 50  0001 C CNN
 F 3 "" H 1350 1150 50  0001 C CNN
 	1    1350 1150
 	1    0    0    -1  
@@ -216,7 +216,7 @@ U 1 1 5B1D18B3
 P 1350 2350
 F 0 "J2" H 1400 2850 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 1400 1750 50  0000 C CNN
-F 2 "SquantorConnectors:Header_0127_2X10_H007" H 1350 2350 50  0001 C CNN
+F 2 "SquantorConnectors:Header-0127-2X10-H006" H 1350 2350 50  0001 C CNN
 F 3 "" H 1350 2350 50  0001 C CNN
 	1    1350 2350
 	1    0    0    -1  
