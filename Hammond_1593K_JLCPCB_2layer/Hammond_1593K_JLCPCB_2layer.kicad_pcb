@@ -5,10 +5,10 @@
     (no_connects 0)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 12)
     (tracks 0)
     (zones 0)
-    (modules 2)
+    (modules 6)
     (nets 1)
   )
 
@@ -226,5 +226,66 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
   )
+
+  (module SquantorPcbOutline:MountingHole_3.2mm_no_metal locked (layer F.Cu) (tedit 5B50D1B0) (tstamp 5B50D9E4)
+    (at 38.9 144.2)
+    (path /5B50D036)
+    (fp_text reference H1 (at 0 -3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Drill_Hole_no_metal (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module SquantorPcbOutline:MountingHole_3.2mm_no_metal locked (layer F.Cu) (tedit 5B50D19B) (tstamp 5B50D9E9)
+    (at 66.9 144.2)
+    (path /5B50D091)
+    (fp_text reference H2 (at 0 -3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Drill_Hole_no_metal (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module SquantorPcbOutline:MountingHole_3.2mm_no_metal locked (layer F.Cu) (tedit 5B50D1B9) (tstamp 5B50D9EE)
+    (at 38.9 172.2)
+    (path /5B50D0D9)
+    (fp_text reference H3 (at 0 -3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Drill_Hole_no_metal (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module SquantorPcbOutline:MountingHole_3.2mm_no_metal locked (layer F.Cu) (tedit 5B50D1C2) (tstamp 5B50D9F3)
+    (at 66.9 172.2)
+    (path /5B50D104)
+    (fp_text reference H4 (at 0 -3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Drill_Hole_no_metal (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (gr_arc (start 74.5 151.2) (end 74.5 154.6) (angle 180) (layer Edge.Cuts) (width 0.15) (tstamp 5B50DA52))
+  (gr_arc (start 31.3 151.2) (end 31.3 147.8) (angle 180) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 24.6 147.8) (end 24.6 129.4) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 31.3 147.8) (end 24.6 147.8) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 24.6 154.6) (end 31.3 154.6) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 24.6 187) (end 24.6 154.6) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 81.2 187) (end 24.6 187) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 81.2 154.6) (end 81.2 187) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 74.5 154.6) (end 81.2 154.6) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 81.2 147.8) (end 74.5 147.8) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 81.2 129.4) (end 81.2 147.8) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 24.6 129.4) (end 81.2 129.4) (layer Edge.Cuts) (width 0.15))
 
 )
