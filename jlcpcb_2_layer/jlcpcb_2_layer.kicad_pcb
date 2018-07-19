@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 143.609505 97.866906 152.473829 108.0274)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -222,7 +222,7 @@
     (fp_text reference N2 (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value V20171120 (at 0 0) (layer F.SilkS)
+    (fp_text value V20180719 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
   )
