@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name SquantorButtons)(type Legacy)(uri /home/abilos/projects/public/squantorPcbLibrary/SquantorButtons.lib)(options "")(descr ""))
+  (lib (name SquantorConnectors)(type Legacy)(uri /home/abilos/projects/public/squantorPcbLibrary/SquantorConnectors.lib)(options "")(descr ""))
+  (lib (name SquantorLabels)(type Legacy)(uri /home/abilos/projects/public/squantorPcbLibrary/SquantorLabels.lib)(options "")(descr ""))
+  (lib (name SquantorPCBOutline)(type Legacy)(uri /home/abilos/projects/public/squantorPcbLibrary/SquantorPCBOutline.lib)(options "")(descr ""))
+  (lib (name SquantorProto)(type Legacy)(uri /home/abilos/projects/public/squantorPcbLibrary/SquantorProto.lib)(options "")(descr ""))
+)
