@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~61~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~65~ubuntu18.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 127.924999 85.424999 172.075001 114.575001)
     (thickness 1.6)
     (drawings 10)
     (tracks 0)
@@ -84,6 +81,9 @@
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -92,8 +92,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -218,17 +217,6 @@
       (xy 0.555814 -2.531069)) (layer F.SilkS) (width 0.01))
   )
 
-  (module SquantorLabels:Label_version (layer F.Cu) (tedit 59D3ED5E) (tstamp 5A135138)
-    (at 150.4 102.7)
-    (path /5A1357A5)
-    (fp_text reference N2 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value V20171120 (at 0 0) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-  )
-
   (module SquantorPcbOutline:MountingHole_2.5mm_no_metal locked (layer F.Cu) (tedit 5B1D0196) (tstamp 5B1D07E7)
     (at 140 88.25)
     (path /5B1CFFB9)
@@ -251,6 +239,20 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask))
+  )
+
+  (module SquantorLabels:Label_version (layer F.Cu) (tedit 5B5A1E49) (tstamp 5B5A2356)
+    (at 151.5 103.1)
+    (path /5A1357A5)
+    (fp_text reference N2 (at 0 1.4) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20180726 (at -0.4 -0.1) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user V: (at -4.9 -0.1) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
   )
 
   (gr_line (start 165.75 88.75) (end 165.75 85.5) (layer Edge.Cuts) (width 0.15))
