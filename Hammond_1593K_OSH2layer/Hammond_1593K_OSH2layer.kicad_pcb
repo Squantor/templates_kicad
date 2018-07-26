@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu17.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~65~ubuntu18.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -82,6 +79,9 @@
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -90,8 +90,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -222,7 +221,7 @@
     (fp_text reference N2 (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value V20171120 (at 0 0) (layer F.SilkS)
+    (fp_text value V20180726 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
   )
