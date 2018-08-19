@@ -37,10 +37,10 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorPCBOutline:Drill_Hole_no_metal H?
+L SquantorPCBOutline:Drill_Hole_no_metal H1
 U 1 1 5B1CFFB9
 P 1450 7450
-F 0 "H?" H 1450 7200 60  0000 C CNN
+F 0 "H1" H 1450 7200 60  0000 C CNN
 F 1 "Drill_Hole_no_metal" H 1450 7700 60  0000 C CNN
 F 2 "SquantorPcbOutline:MountingHole_2.5mm_no_metal" H 1450 7450 60  0001 C CNN
 F 3 "" H 1450 7450 60  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 1450 7450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorPCBOutline:Drill_Hole_no_metal H?
+L SquantorPCBOutline:Drill_Hole_no_metal H2
 U 1 1 5B1D000C
 P 2350 7450
-F 0 "H?" H 2350 7200 60  0000 C CNN
+F 0 "H2" H 2350 7200 60  0000 C CNN
 F 1 "Drill_Hole_no_metal" H 2350 7700 60  0000 C CNN
 F 2 "SquantorPcbOutline:MountingHole_2.5mm_no_metal" H 2350 7450 60  0001 C CNN
 F 3 "" H 2350 7450 60  0001 C CNN
