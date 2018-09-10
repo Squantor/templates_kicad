@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name SquantorButtons)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorButtons.lib)(options "")(descr ""))
+  (lib (name SquantorConnectors)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorConnectors.lib)(options "")(descr ""))
+  (lib (name SquantorLabels)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorLabels.lib)(options "")(descr ""))
+  (lib (name SquantorPCBOutline)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorPCBOutline.lib)(options "")(descr ""))
+  (lib (name SquantorProto)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorProto.lib)(options "")(descr ""))
+)
