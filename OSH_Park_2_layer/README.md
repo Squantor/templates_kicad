@@ -1,14 +1,15 @@
 # Template project
-Fill in a description
+Project description goes here
 ## TODO's
 Still some things need to be done:
-* schematic entry (Done)
-* PCB layout (Done)
-* Review with one night in between (In progress)
-* Produce at [OSHPARK](https://oshpark.com/)
-* Assemble 
-* Test & characterise
-* update Readme.md with pictures and BOM
+* Think of a project description
+* schematic entry (TODO)
+* PCB layout (TODO)
+* Review with one night in between (TODO)
+* Produce at [OSHPARK](https://oshpark.com/) (TODO)
+* Assemble (TODO)
+* Test & characterise (TODO)
+* update Readme.md with pictures and BOM (TODO)
 ## BOM
 Due to the general shortage of passive components, where mentioned, just whatever you can find.
 * component from [farnell](https://www.farnell.com/)
