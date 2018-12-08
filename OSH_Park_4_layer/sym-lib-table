@@ -20,6 +20,7 @@
   (lib (name SquantorOnSemi)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorOnSemi.lib)(options "")(descr ""))
   (lib (name SquantorOpto)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorOpto.lib)(options "")(descr ""))
   (lib (name SquantorRCL)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorRCL.lib)(options "")(descr ""))
+  (lib (name SquantorSpecial)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorSpecial.lib)(options "")(descr ""))
   (lib (name SquantorST)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorST.lib)(options "")(descr ""))
   (lib (name SquantorTexasInstruments)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTexasInstruments.lib)(options "")(descr ""))
   (lib (name SquantorTransformer)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTransformer.lib)(options "")(descr ""))
