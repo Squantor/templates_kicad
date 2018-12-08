@@ -1,5 +1,7 @@
 # Template project
 Project description goes here
+## Usage
+to generate a zip with gerbers type, `make`, To cleanup use `make clean`.
 ## TODO's
 Still some things need to be done:
 * Think of a project description
