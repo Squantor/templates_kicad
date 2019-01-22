@@ -1,20 +1,15 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Conn_02x10_Odd_Even
+# Connector_Generic_Conn_02x10_Odd_Even
 #
-DEF Conn_02x10_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x10_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 500 50 H V C CNN
-F1 "Conn_02x10_Odd_Even" 50 -600 50 H V C CNN
+F1 "Connector_Generic_Conn_02x10_Odd_Even" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -39,16 +34,7 @@ S 150 205 100 195 1 1 6 N
 S 150 305 100 295 1 1 6 N
 S 150 405 100 395 1 1 6 N
 X Pin_1 1 -200 400 150 R 50 50 1 1 P
-X Pin_2 2 300 400 150 L 50 50 1 1 P
-X Pin_3 3 -200 300 150 R 50 50 1 1 P
-X Pin_4 4 300 300 150 L 50 50 1 1 P
-X Pin_5 5 -200 200 150 R 50 50 1 1 P
-X Pin_6 6 300 200 150 L 50 50 1 1 P
-X Pin_7 7 -200 100 150 R 50 50 1 1 P
-X Pin_8 8 300 100 150 L 50 50 1 1 P
-X Pin_9 9 -200 0 150 R 50 50 1 1 P
 X Pin_10 10 300 0 150 L 50 50 1 1 P
-X Pin_20 20 300 -500 150 L 50 50 1 1 P
 X Pin_11 11 -200 -100 150 R 50 50 1 1 P
 X Pin_12 12 300 -100 150 L 50 50 1 1 P
 X Pin_13 13 -200 -200 150 R 50 50 1 1 P
@@ -58,27 +44,23 @@ X Pin_16 16 300 -300 150 L 50 50 1 1 P
 X Pin_17 17 -200 -400 150 R 50 50 1 1 P
 X Pin_18 18 300 -400 150 L 50 50 1 1 P
 X Pin_19 19 -200 -500 150 R 50 50 1 1 P
+X Pin_2 2 300 400 150 L 50 50 1 1 P
+X Pin_20 20 300 -500 150 L 50 50 1 1 P
+X Pin_3 3 -200 300 150 R 50 50 1 1 P
+X Pin_4 4 300 300 150 L 50 50 1 1 P
+X Pin_5 5 -200 200 150 R 50 50 1 1 P
+X Pin_6 6 300 200 150 L 50 50 1 1 P
+X Pin_7 7 -200 100 150 R 50 50 1 1 P
+X Pin_8 8 300 100 150 L 50 50 1 1 P
+X Pin_9 9 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Drill_Hole_no_metal
+# SquantorLabels_OHWLOGO
 #
-DEF Drill_Hole_no_metal H 0 40 Y Y 1 F N
-F0 "H" 0 -250 60 H V C CNN
-F1 "Drill_Hole_no_metal" 0 250 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 0 100 0 1 0 N
-C 0 0 150 0 1 0 N
-ENDDRAW
-ENDDEF
-#
-# OHWLOGO
-#
-DEF OHWLOGO N 0 40 Y Y 1 F N
+DEF SquantorLabels_OHWLOGO N 0 40 Y Y 1 F N
 F0 "N" 0 150 60 H V C CNN
-F1 "OHWLOGO" 0 -150 60 H V C CNN
+F1 "SquantorLabels_OHWLOGO" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -87,11 +69,36 @@ C 0 0 100 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# VDD
+# SquantorLabels_VYYYYMMDD
 #
-DEF VDD #PWR 0 0 Y Y 1 F P
+DEF SquantorLabels_VYYYYMMDD N 0 40 Y Y 1 F N
+F0 "N" 0 100 60 H V C CNN
+F1 "SquantorLabels_VYYYYMMDD" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 300 -50 -300 150 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# SquantorPCBOutline_Drill_Hole_no_metal
+#
+DEF SquantorPCBOutline_Drill_Hole_no_metal H 0 40 Y Y 1 F N
+F0 "H" 0 -250 60 H V C CNN
+F1 "SquantorPCBOutline_Drill_Hole_no_metal" 0 250 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 100 0 1 0 N
+C 0 0 150 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# power_VDD
+#
+DEF power_VDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VDD" 0 150 50 H V C CNN
+F1 "power_VDD" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -101,11 +108,11 @@ X VDD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# VDDA
+# power_VDDA
 #
-DEF VDDA #PWR 0 0 Y Y 1 F P
+DEF power_VDDA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VDDA" 0 150 50 H V C CNN
+F1 "power_VDDA" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -115,11 +122,11 @@ X VDDA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# VSS
+# power_VSS
 #
-DEF VSS #PWR 0 0 Y Y 1 F P
+DEF power_VSS #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VSS" 0 150 50 H V C CNN
+F1 "power_VSS" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -129,29 +136,17 @@ X VSS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# VSSA
+# power_VSSA
 #
-DEF VSSA #PWR 0 0 Y Y 1 F P
+DEF power_VSSA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VSSA" 0 150 50 H V C CNN
+F1 "power_VSSA" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VSSA 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# VYYYYMMDD
-#
-DEF VYYYYMMDD N 0 40 Y Y 1 F N
-F0 "N" 0 100 60 H V C CNN
-F1 "VYYYYMMDD" 0 0 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 300 -50 -300 150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
