@@ -12,6 +12,8 @@
   (page A4)
   (layers
     (0 F.Cu signal)
+    (1 In1.Cu signal)
+    (2 In2.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -34,8 +36,8 @@
   )
 
   (setup
-    (last_trace_width 0.1524)
-    (user_trace_width 0.1524)
+    (last_trace_width 0.127)
+    (user_trace_width 0.127)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -43,10 +45,10 @@
     (user_trace_width 1)
     (user_trace_width 1.5)
     (user_trace_width 2)
-    (trace_clearance 0.1524)
+    (trace_clearance 0.127)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.1524)
+    (trace_min 0.127)
     (segment_width 0.2)
     (edge_width 0.15)
     (via_size 0.381)
@@ -114,8 +116,8 @@
   (net 5 VSSA)
 
   (net_class Default "This is the default net class."
-    (clearance 0.1524)
-    (trace_width 0.1524)
+    (clearance 0.127)
+    (trace_width 0.127)
     (via_dia 0.381)
     (via_drill 0.254)
     (uvia_dia 0.6)
