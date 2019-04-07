@@ -26,6 +26,6 @@
   (lib (name SquantorTexasInstruments)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTexasInstruments.lib)(options "")(descr ""))
   (lib (name SquantorTransformer)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTransformer.lib)(options "")(descr ""))
   (lib (name SquantorUsb)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorUsb.lib)(options "")(descr ""))
-  (lib (name SquantorWCH)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/squantorPcbLibrary/SquantorWCH.lib)(options "")(descr "")(disabled))
+  (lib (name SquantorWCH)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorWCH.lib)(options "")(descr ""))
   (lib (name SquantorWinbond)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorWinbond.lib)(options "")(descr ""))
 )
