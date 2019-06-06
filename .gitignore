@@ -22,3 +22,7 @@ _autosave-*
 
 # additional directories
 rescue-backup/
+
+#various caches
+fp-info-cache
+
