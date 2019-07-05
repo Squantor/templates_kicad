@@ -11,7 +11,7 @@
   (lib (name SquantorDiodes)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorDiodes.lib)(options "")(descr ""))
   (lib (name SquantorFtdi)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorFtdi.lib)(options "")(descr ""))
   (lib (name SquantorGenericAnalog)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorGenericAnalog.lib)(options "")(descr ""))
-  (lib (name SquantorHoltek)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/squantorPcbLibrary/SquantorHoltek.lib)(options "")(descr ""))
+  (lib (name SquantorHoltek)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorHoltek.lib)(options "")(descr ""))
   (lib (name SquantorIC)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorIC.lib)(options "")(descr ""))
   (lib (name SquantorLinearTechnology)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorLinearTechnology.lib)(options "")(descr ""))
   (lib (name SquantorLogic)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorLogic.lib)(options "")(descr ""))
