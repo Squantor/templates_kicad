@@ -25,4 +25,5 @@ rescue-backup/
 
 #various caches
 fp-info-cache
+*-cache.lib
 
