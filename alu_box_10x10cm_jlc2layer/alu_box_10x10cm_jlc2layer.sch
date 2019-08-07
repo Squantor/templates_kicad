@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:jlcpcb_2_layer-cache
-EELAYER 26 0
+LIBS:alu_box_10x10cm_jlc2layer-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -19,7 +19,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "V20180826" H 850 7700 60  0000 C CNN
+F 1 "V20190807" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
