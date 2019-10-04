@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:nuclone_devboard_small-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -231,7 +232,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5D6A68B9
 P 5300 7350
 F 0 "N2" H 5250 7450 60  0000 L CNN
-F 1 "20190925" H 5050 7350 60  0000 L CNN
+F 1 "20191004" H 5050 7350 60  0000 L CNN
 F 2 "SquantorLabels:Label_version" H 5300 7350 60  0001 C CNN
 F 3 "" H 5300 7350 60  0001 C CNN
 	1    5300 7350
