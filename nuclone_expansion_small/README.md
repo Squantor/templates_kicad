@@ -1,5 +1,5 @@
-# Nuclone development board template for low pincount microcontrollers
-Small development board inspired by the nucleo series from STM32.
+# Small nuclone expansion board
+Small nuclone expansion board.
 ## TODO's
 Still some things need to be done:
 * proper description(TODO)
