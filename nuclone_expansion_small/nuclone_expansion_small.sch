@@ -239,23 +239,23 @@ F 3 "" H 5300 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorConnectorsNamed:nuclone_20pin_gpio J3
+L SquantorConnectorsNamed:nuclone_small_exp_gpio J3
 U 1 1 5D87167A
 P 10200 1150
 F 0 "J3" H 10200 1750 50  0000 C CNN
-F 1 "nuclone_20pin_gpio" H 10200 550 50  0000 C CNN
-F 2 "SquantorConnectorsNamed:Nuclone_20pin_gpio" H 10350 1100 50  0001 C CNN
+F 1 "nuclone_small_exp_gpio" H 10200 550 50  0000 C CNN
+F 2 "SquantorConnectorsNamed:nuclone_small_exp_gpio" H 10350 1100 50  0001 C CNN
 F 3 "" H 10350 1100 50  0001 C CNN
 	1    10200 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorConnectorsNamed:nuclone_20pin_bus_analog J4
+L SquantorConnectorsNamed:nuclone_small_exp_bus_analog J4
 U 1 1 5D897E29
 P 10200 2450
 F 0 "J4" H 10200 3050 50  0000 C CNN
-F 1 "nuclone_20pin_bus_analog" H 10200 1850 50  0000 C CNN
-F 2 "SquantorConnectorsNamed:Nuclone_20pin_bus_analog" H 10200 2400 50  0001 C CNN
+F 1 "nuclone_small_exp_bus_analog" H 10200 1850 50  0000 C CNN
+F 2 "SquantorConnectorsNamed:nuclone_small_exp_bus_analog" H 10200 2400 50  0001 C CNN
 F 3 "" H 10200 2400 50  0001 C CNN
 	1    10200 2450
 	1    0    0    -1  
