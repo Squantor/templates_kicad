@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:alu_box_10x10cm_jlc2layer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -29,7 +30,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5DA0A665
 P 6100 7150
 F 0 "N2" H 6050 7250 60  0000 L CNN
-F 1 "V:20191011" H 5850 7150 60  0000 L CNN
+F 1 "V:20191012" H 5850 7150 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 6100 7150 60  0001 C CNN
 F 3 "" H 6100 7150 60  0001 C CNN
 	1    6100 7150
@@ -127,15 +128,35 @@ $Comp
 L SquantorProto:testpad TP1
 U 1 1 5DA1D0F9
 P 1650 7700
-F 0 "TP1" H 1728 7758 60  0000 L CNN
-F 1 "testpad" H 1728 7652 60  0000 L CNN
+F 0 "TP1" H 1700 7700 60  0000 L CNN
+F 1 "testpad" H 1900 7700 60  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1650 7700 60  0001 C CNN
 F 3 "" H 1650 7700 60  0001 C CNN
 	1    1650 7700
 	1    0    0    -1  
 $EndComp
-Text Label 1450 7700 2    50   ~ 0
+$Comp
+L SquantorProto:testpad TP2
+U 1 1 5DA18D93
+P 1650 7550
+F 0 "TP2" H 1700 7550 60  0000 L CNN
+F 1 "testpad" H 1900 7550 60  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1650 7550 60  0001 C CNN
+F 3 "" H 1650 7550 60  0001 C CNN
+	1    1650 7550
+	1    0    0    -1  
+$EndComp
+Text Label 1400 7650 2    50   ~ 0
 VSS
 Wire Wire Line
 	1500 7700 1450 7700
+Wire Wire Line
+	1450 7700 1450 7650
+Wire Wire Line
+	1450 7550 1500 7550
+Wire Wire Line
+	1400 7650 1450 7650
+Connection ~ 1450 7650
+Wire Wire Line
+	1450 7650 1450 7550
 $EndSCHEMATC
