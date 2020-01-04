@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name SquantorButtons)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorButtons.lib)(options "")(descr ""))
   (lib (name SquantorConnectors)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectors.lib)(options "")(descr ""))
   (lib (name SquantorConnectorsNamed)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectorsNamed.lib)(options "")(descr ""))
   (lib (name SquantorLabels)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorLabels.lib)(options "")(descr ""))
