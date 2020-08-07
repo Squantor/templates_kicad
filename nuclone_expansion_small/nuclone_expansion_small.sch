@@ -323,12 +323,12 @@ GPIO_10
 Text Label 3700 2250 2    50   ~ 0
 GPIO_12
 $Comp
-L SquantorConnectors:PINS_1X17 J?
+L SquantorConnectors:PINS_1X17 J4
 U 1 1 5F34098B
 P 3950 1550
-F 0 "J?" H 4000 2500 60  0000 R CNN
+F 0 "J4" H 4000 2500 60  0000 R CNN
 F 1 "PINS_1X17" H 4200 600 60  0000 R CNN
-F 2 "SquantorConnectors:Header-0127-1X17-H008" H 3950 2350 60  0001 C CNN
+F 2 "SquantorConnectors:Header-0127-1X17-H006" H 3950 2350 60  0001 C CNN
 F 3 "" H 3950 2350 60  0001 C CNN
 	1    3950 1550
 	-1   0    0    -1  
@@ -384,12 +384,12 @@ VDD2
 Text Label 3000 850  2    50   ~ 0
 VSS2
 $Comp
-L SquantorConnectors:PINS_1X18 J?
+L SquantorConnectors:PINS_1X18 J3
 U 1 1 5F3585BD
 P 3250 1600
-F 0 "J?" H 3300 2600 60  0000 R CNN
+F 0 "J3" H 3300 2600 60  0000 R CNN
 F 1 "PINS_1X18" H 3500 600 60  0000 R CNN
-F 2 "SquantorConnectors:Header-0127-1X18-H008" H 3250 2450 60  0001 C CNN
+F 2 "SquantorConnectors:Header-0127-1X18-H006" H 3250 2450 60  0001 C CNN
 F 3 "" H 3250 2450 60  0001 C CNN
 	1    3250 1600
 	-1   0    0    -1  
