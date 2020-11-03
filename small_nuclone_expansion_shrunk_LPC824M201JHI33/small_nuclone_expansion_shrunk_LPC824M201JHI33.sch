@@ -242,4 +242,16 @@ F 3 "" H 1150 7000 60  0001 C CNN
 $EndComp
 Wire Notes Line
 	550  6850 550  7750
+Text Label 950  2750 2    50   ~ 0
+GPIO_19
+Text Label 950  2950 2    50   ~ 0
+GPIO_15
+Text Label 2050 2950 0    50   ~ 0
+GPIO_14
+Wire Wire Line
+	2050 2950 2000 2950
+Wire Wire Line
+	950  2950 1000 2950
+Wire Wire Line
+	1000 2750 950  2750
 $EndSCHEMATC
