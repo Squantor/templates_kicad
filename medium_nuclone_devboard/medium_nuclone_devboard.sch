@@ -707,4 +707,18 @@ Wire Notes Line
 	2300 7500 1300 7500
 Wire Notes Line
 	1300 7500 1300 7650
+Wire Notes Line
+	11150 550  11150 1500
+Wire Notes Line
+	11150 1500 9750 1500
+Wire Notes Line
+	9750 1500 9750 550 
+Wire Notes Line
+	9750 550  11150 550 
+Text Notes 10900 1450 0    50   ~ 0
+TODO
+Wire Notes Line
+	10850 1500 10850 1350
+Wire Notes Line
+	10850 1350 11150 1350
 $EndSCHEMATC
