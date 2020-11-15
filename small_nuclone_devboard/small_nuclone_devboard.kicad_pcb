@@ -5,7 +5,7 @@
     (drawings 8)
     (tracks 118)
     (zones 0)
-    (modules 29)
+    (modules 30)
     (nets 51)
   )
 
@@ -233,6 +233,21 @@
     (via_drill 0.3)
     (uvia_dia 0.6)
     (uvia_drill 0.3)
+  )
+
+  (module SquantorLabels:Label_Generic (layer F.Cu) (tedit 5D8A7D4C) (tstamp 5FB20A10)
+    (at 83.82 105.41)
+    (descr "Label for general purpose use")
+    (tags Label)
+    (path /5FB4F484)
+    (attr smd)
+    (fp_text reference N4 (at 0 1.85) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Small Nuclone" (at 0.8 -0.1) (layer F.SilkS)
+      (effects (font (size 1.5 1.5) (thickness 0.25)))
+    )
+    (fp_line (start -0.5 0.6) (end 0.5 0.6) (layer F.SilkS) (width 0.15))
   )
 
   (module SquantorConnectorsNamed:nuclone_small_right (layer F.Cu) (tedit 5FB14C60) (tstamp 5FB1F6B2)
@@ -1475,7 +1490,7 @@
     (fp_text reference N2 (at 0 0.1) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 20201110 (at 0.8 0.1) (layer B.SilkS)
+    (fp_text value 20201115 (at 0.8 0.1) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user V: (at 5.3 0.1) (layer B.SilkS)

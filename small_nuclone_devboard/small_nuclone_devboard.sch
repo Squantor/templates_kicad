@@ -93,7 +93,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5D6A68B9
 P 950 7250
 F 0 "N2" H 900 7350 60  0000 L CNN
-F 1 "20201110" H 700 7250 60  0000 L CNN
+F 1 "20201115" H 700 7250 60  0000 L CNN
 F 2 "SquantorLabels:Label_version" H 950 7250 60  0001 C CNN
 F 3 "" H 950 7250 60  0001 C CNN
 	1    950  7250
@@ -102,12 +102,12 @@ $EndComp
 $Comp
 L SquantorLabels:Label N3
 U 1 1 5D8B1B32
-P 950 6850
-F 0 "N3" H 900 6900 60  0000 L CNN
-F 1 "JLCJLCJLCJLC" H 650 6800 60  0000 L CNN
-F 2 "SquantorLabels:Label_Generic" H 950 6850 60  0001 C CNN
-F 3 "" H 950 6850 60  0001 C CNN
-	1    950  6850
+P 950 6700
+F 0 "N3" H 900 6750 60  0000 L CNN
+F 1 "JLCJLCJLCJLC" H 650 6650 60  0000 L CNN
+F 2 "SquantorLabels:Label_Generic" H 950 6700 60  0001 C CNN
+F 3 "" H 950 6700 60  0001 C CNN
+	1    950  6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -594,11 +594,11 @@ Wire Notes Line
 Text Notes 1350 7600 0    50   ~ 0
 Labels and mounting
 Wire Notes Line
-	2300 7650 2300 6600
+	2300 7650 2300 6550
 Wire Notes Line
-	2300 6600 600  6600
+	2300 6550 600  6550
 Wire Notes Line
-	600  6600 600  7650
+	600  6550 600  7650
 Wire Notes Line
 	600  7650 2300 7650
 Wire Notes Line
@@ -620,10 +620,10 @@ Wire Notes Line
 Wire Notes Line
 	10850 1350 11150 1350
 $Comp
-L SquantorConnectorsNamed:nuclone_small_left J?
+L SquantorConnectorsNamed:nuclone_small_left J3
 U 1 1 5FB16F21
 P 1450 1250
-F 0 "J?" H 1450 1850 50  0000 C CNN
+F 0 "J3" H 1450 1850 50  0000 C CNN
 F 1 "nuclone_small_left" H 1450 650 50  0000 C CNN
 F 2 "SquantorConnectorsNamed:nuclone_small_left" H 1600 1200 50  0001 C CNN
 F 3 "" H 1600 1200 50  0001 C CNN
@@ -631,14 +631,25 @@ F 3 "" H 1600 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorConnectorsNamed:nuclone_small_right J?
+L SquantorConnectorsNamed:nuclone_small_right J4
 U 1 1 5FB18073
 P 3200 1250
-F 0 "J?" H 3200 650 50  0000 C CNN
+F 0 "J4" H 3200 650 50  0000 C CNN
 F 1 "nuclone_small_right" H 3200 1850 50  0000 C CNN
 F 2 "SquantorConnectorsNamed:nuclone_small_right" H 3200 1200 50  0001 C CNN
 F 3 "" H 3200 1200 50  0001 C CNN
 	1    3200 1250
 	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorLabels:Label N?
+U 1 1 5FB4F484
+P 950 6950
+F 0 "N?" H 900 7000 60  0000 L CNN
+F 1 "Small Nuclone" H 650 6900 60  0000 L CNN
+F 2 "SquantorLabels:Label_Generic" H 950 6950 60  0001 C CNN
+F 3 "" H 950 6950 60  0001 C CNN
+	1    950  6950
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
