@@ -642,10 +642,10 @@ F 3 "" H 3200 1200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SquantorLabels:Label N?
+L SquantorLabels:Label N4
 U 1 1 5FB4F484
 P 950 6950
-F 0 "N?" H 900 7000 60  0000 L CNN
+F 0 "N4" H 900 7000 60  0000 L CNN
 F 1 "Small Nuclone" H 650 6900 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 950 6950 60  0001 C CNN
 F 3 "" H 950 6950 60  0001 C CNN
