@@ -4,6 +4,7 @@
   (lib (name SquantorConnectorsNamed)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectorsNamed.pretty)(options "")(descr ""))
   (lib (name SquantorCrystal)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorCrystal.pretty)(options "")(descr ""))
   (lib (name SquantorDiodes)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorDiodes.pretty)(options "")(descr ""))
+  (lib (name SquantorHeatsink)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorHeatsink.pretty)(options "")(descr ""))
   (lib (name SquantorIC)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorIC.pretty)(options "")(descr ""))
   (lib (name SquantorLabels)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorLabels.pretty)(options "")(descr ""))
   (lib (name SquantorLinearTechnology)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorLinearTechnology.pretty)(options "")(descr ""))
