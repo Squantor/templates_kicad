@@ -13,6 +13,7 @@
   (lib (name SquantorOnSemi)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorOnSemi.pretty)(options "")(descr ""))
   (lib (name SquantorOpto)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorOpto.pretty)(options "")(descr ""))
   (lib (name SquantorPcbOutline)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorPcbOutline.pretty)(options "")(descr ""))
+  (lib (name SquantorPhoenixContact)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorPhoenixContact.pretty)(options "")(descr ""))
   (lib (name SquantorProto)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorProto.pretty)(options "")(descr ""))
   (lib (name SquantorRcl)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorRcl.pretty)(options "")(descr ""))
   (lib (name SquantorSpecial)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorSpecial.pretty)(options "")(descr ""))
