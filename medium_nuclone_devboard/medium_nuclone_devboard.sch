@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -93,7 +93,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5D6A68B9
 P 950 7200
 F 0 "N2" H 900 7300 60  0000 L CNN
-F 1 "20210705" H 700 7200 60  0000 L CNN
+F 1 "20210819" H 700 7200 60  0000 L CNN
 F 2 "SquantorLabels:Label_version" H 950 7200 60  0001 C CNN
 F 3 "" H 950 7200 60  0001 C CNN
 	1    950  7200
@@ -104,7 +104,7 @@ L SquantorConnectorsNamed:nuclone_medium_right J4
 U 1 1 5D897E29
 P 3200 1750
 F 0 "J4" H 3200 650 50  0000 C CNN
-F 1 "nuclone_small_right" H 3200 2850 50  0000 C CNN
+F 1 "nuclone_medium_right" H 3200 2850 50  0000 C CNN
 F 2 "SquantorConnectorsNamed:nuclone_medium_right" H 3200 1700 50  0001 C CNN
 F 3 "" H 3200 1700 50  0001 C CNN
 	1    3200 1750
@@ -332,14 +332,12 @@ L SquantorConnectorsNamed:nuclone_medium_left J3
 U 1 1 5D87167A
 P 1450 1750
 F 0 "J3" H 1450 2850 50  0000 C CNN
-F 1 "nuclone_small_left" H 1450 650 50  0000 C CNN
+F 1 "nuclone_medium_left" H 1450 650 50  0000 C CNN
 F 2 "SquantorConnectorsNamed:nuclone_medium_left" H 1600 1700 50  0001 C CNN
 F 3 "" H 1600 1700 50  0001 C CNN
 	1    1450 1750
 	1    0    0    -1  
 $EndComp
-Text Label 950  2600 2    50   ~ 0
-GPIO_28
 Text Label 1950 2600 0    50   ~ 0
 GPIO_29
 Text Label 1200 5500 0    50   ~ 0
@@ -496,50 +494,30 @@ Wire Notes Line
 Wire Notes Line
 	1300 7500 1300 7650
 Wire Notes Line
-	6850 6750 6850 7700
+	6850 6500 6850 7700
 Wire Notes Line
-	6850 7700 4450 7700
+	6850 7700 4200 7700
 Wire Notes Line
-	4450 7700 4450 6750
+	4200 7700 4200 6500
 Wire Notes Line
-	4450 6750 6850 6750
+	4200 6500 6850 6500
 Text Notes 6600 7650 0    50   ~ 0
 TODO
 Wire Notes Line
 	6550 7700 6550 7550
 Wire Notes Line
 	6550 7550 6850 7550
-NoConn ~ 950  2600
-NoConn ~ 1950 2600
-NoConn ~ 2700 2400
-NoConn ~ 2700 2500
-NoConn ~ 2700 2600
-NoConn ~ 3700 2600
-NoConn ~ 3700 2500
-NoConn ~ 3700 2400
 $Comp
 L SquantorLabels:Label N4
 U 1 1 5FB0926C
 P 950 6650
 F 0 "N4" H 900 6700 60  0000 L CNN
-F 1 "NuClone LPC84X LQFP64 V1.1" H 800 6600 60  0000 L CNN
+F 1 "NuClone Medium template V1.2" H 800 6600 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 950 6650 60  0001 C CNN
 F 3 "" H 950 6650 60  0001 C CNN
 	1    950  6650
 	1    0    0    -1  
 $EndComp
-Text Notes 9900 6400 0    50   ~ 0
-Microcontroller + support
-Wire Notes Line
-	7050 6450 7050 600 
-Wire Notes Line
-	7050 600  11050 600 
-Wire Notes Line
-	7050 6450 11050 6450
-Wire Notes Line
-	9850 6300 11050 6300
-Wire Notes Line
-	9850 6300 9850 6450
 $Comp
 L Device:R R13
 U 1 1 5FDF2312
@@ -610,113 +588,99 @@ Wire Wire Line
 Text Label 2600 7350 2    50   ~ 0
 VSS
 Text Label 950  1100 2    50   ~ 0
-PIO1_8
+GPIO_00
 Text Label 1950 1100 0    50   ~ 0
-PIO0_13
+GPIO_01
 Text Label 950  1200 2    50   ~ 0
-PIO1_9
+GPIO_02
 Text Label 1950 1200 0    50   ~ 0
-PIO0_12
+GPIO_03
 Text Label 950  1300 2    50   ~ 0
-PIO0_5
+GPIO_04
 Text Label 1950 1300 0    50   ~ 0
-PIO0_4
+GPIO_05
 Text Label 950  1400 2    50   ~ 0
-PIO1_12
+GPIO_06
 Text Label 1950 1400 0    50   ~ 0
-PIO0_28
+GPIO_07
 Text Label 950  1500 2    50   ~ 0
-PIO1_13
+GPIO_08
 Text Label 1950 1500 0    50   ~ 0
-PIO0_3
+GPIO_09
 Text Label 950  1600 2    50   ~ 0
-PIO0_31
+GPIO_10
 Text Label 1950 1600 0    50   ~ 0
-PIO0_2
+GPIO_11
 Text Label 950  1700 2    50   ~ 0
-PIO1_0
+GPIO_12
 Text Label 1950 1700 0    50   ~ 0
-PIO0_11
-Text Label 950  1900 2    50   ~ 0
-PIO0_10
+GPIO_13
 Text Label 1950 1900 0    50   ~ 0
-PIO1_1
-Text Label 950  2000 2    50   ~ 0
-PIO0_16
+GPIO_15
 Text Label 1950 2000 0    50   ~ 0
-PIO1_2
-Text Label 950  2100 2    50   ~ 0
-PIO0_27
+GPIO_17
 Text Label 1950 2100 0    50   ~ 0
-PIO1_14
-Text Label 950  2200 2    50   ~ 0
-PIO0_26
+GPIO_19
 Text Label 1950 2200 0    50   ~ 0
-PIO1_15
-Text Label 950  2300 2    50   ~ 0
-PIO0_25
+GPIO_21
 Text Label 1950 2300 0    50   ~ 0
-PIO0_24
-Text Label 950  2400 2    50   ~ 0
-PIO1_3
+GPIO_23
 Text Label 1950 2400 0    50   ~ 0
-PIO0_15
-Text Label 950  2500 2    50   ~ 0
-PIO1_4
+GPIO_25
 Text Label 1950 2500 0    50   ~ 0
-PIO0_1
+GPIO_27
 Text Label 3700 1000 0    50   ~ 0
-PIO1_10
+GPIO_60
 Text Label 2700 1000 2    50   ~ 0
-PIO0_17
+GPIO_61
 Text Label 3700 1100 0    50   ~ 0
-PIO1_11
+GPIO_58
 Text Label 2700 1100 2    50   ~ 0
-PIO0_18
+GPIO_59
 Text Label 3700 1200 0    50   ~ 0
-PIO0_19
+GPIO_56
 Text Label 2700 1200 2    50   ~ 0
-PIO1_21
+GPIO_57
 Text Label 3700 1300 0    50   ~ 0
-PIO0_20
+GPIO_54
 Text Label 2700 1300 2    50   ~ 0
-PIO0_21
+GPIO_55
 Text Label 3700 1400 0    50   ~ 0
-PIO1_20
+GPIO_52
 Text Label 2700 1400 2    50   ~ 0
-PIO0_22
+GPIO_53
 Text Label 3700 1500 0    50   ~ 0
-PIO0_30
+GPIO_50
 Text Label 2700 1500 2    50   ~ 0
-PIO0_23
+GPIO_51
 Text Label 3700 1600 0    50   ~ 0
-PIO0_29
+GPIO_48
 Text Label 2700 1600 2    50   ~ 0
-PIO0_14
+GPIO_49
 Text Label 3700 1700 0    50   ~ 0
-PIO0_0
+GPIO_46
 Text Label 2700 1700 2    50   ~ 0
-PIO1_7
+GPIO_47
 Text Label 3700 1900 0    50   ~ 0
-PIO0_6
+GPIO_44
 Text Label 2700 1900 2    50   ~ 0
-PIO0_7
+GPIO_45
 Text Label 3700 2000 0    50   ~ 0
-PIO1_19
+GPIO_42
 Text Label 2700 2000 2    50   ~ 0
-PIO1_18
+GPIO_43
 Text Label 3700 2100 0    50   ~ 0
-PIO1_6
+GPIO_40
 Text Label 2700 2100 2    50   ~ 0
-PIO1_17
+GPIO_41
 Text Label 3700 2200 0    50   ~ 0
-PIO1_16
+GPIO_38
 Text Label 2700 2200 2    50   ~ 0
-PIO1_5
+GPIO_39
 Text Label 3700 2300 0    50   ~ 0
-PIO0_8
+GPIO_36
 Text Label 2700 2300 2    50   ~ 0
-PIO0_9
+GPIO_37
 Wire Wire Line
 	1150 5600 1800 5600
 Wire Wire Line
@@ -939,6 +903,170 @@ F 3 "~" H 2650 5900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2350 5900 2100 5900
-Wire Notes Line
-	11050 600  11050 6450
+Text Label 7850 2100 2    50   ~ 0
+GPIO_14
+Text Label 7850 2300 2    50   ~ 0
+GPIO_16
+Text Label 7850 2500 2    50   ~ 0
+GPIO_18
+Text Label 7850 2700 2    50   ~ 0
+GPIO_20
+Text Label 7850 2900 2    50   ~ 0
+GPIO_22
+Text Label 7850 3100 2    50   ~ 0
+GPIO_24
+Text Label 7850 3300 2    50   ~ 0
+GPIO_26
+Text Label 7850 700  2    50   ~ 0
+GPIO_00
+Text Label 7850 900  2    50   ~ 0
+GPIO_02
+Text Label 7850 1100 2    50   ~ 0
+GPIO_04
+Text Label 7850 1300 2    50   ~ 0
+GPIO_06
+Text Label 7850 1500 2    50   ~ 0
+GPIO_08
+Text Label 7850 1700 2    50   ~ 0
+GPIO_10
+Text Label 7850 1900 2    50   ~ 0
+GPIO_12
+Text Label 7850 800  2    50   ~ 0
+GPIO_01
+Text Label 7850 1000 2    50   ~ 0
+GPIO_03
+Text Label 7850 1200 2    50   ~ 0
+GPIO_05
+Text Label 7850 1400 2    50   ~ 0
+GPIO_07
+Text Label 7850 1600 2    50   ~ 0
+GPIO_09
+Text Label 7850 1800 2    50   ~ 0
+GPIO_11
+Text Label 7850 2000 2    50   ~ 0
+GPIO_13
+$Sheet
+S 7900 600  1550 5700
+U 6127A958
+F0 "microcontroller" 50
+F1 "microcontroller.sch" 50
+F2 "VSS" I L 7900 6200 50 
+F3 "VDD" I L 7900 6100 50 
+$EndSheet
+Text Label 7850 6100 2    50   ~ 0
+VDD
+Text Label 7850 6200 2    50   ~ 0
+VSS
+Wire Wire Line
+	7900 6200 7850 6200
+Wire Wire Line
+	7850 6100 7900 6100
+Text Label 7850 3500 2    50   ~ 0
+GPIO_28
+Text Label 7850 2200 2    50   ~ 0
+GPIO_15
+Text Label 7850 2400 2    50   ~ 0
+GPIO_17
+Text Label 7850 2600 2    50   ~ 0
+GPIO_19
+Text Label 7850 2800 2    50   ~ 0
+GPIO_21
+Text Label 7850 3000 2    50   ~ 0
+GPIO_23
+Text Label 7850 3200 2    50   ~ 0
+GPIO_25
+Text Label 7850 3400 2    50   ~ 0
+GPIO_27
+Text Label 7850 3600 2    50   ~ 0
+GPIO_29
+Text Label 950  1900 2    50   ~ 0
+GPIO_14
+Text Label 950  2000 2    50   ~ 0
+GPIO_16
+Text Label 950  2100 2    50   ~ 0
+GPIO_18
+Text Label 950  2200 2    50   ~ 0
+GPIO_20
+Text Label 950  2300 2    50   ~ 0
+GPIO_22
+Text Label 950  2400 2    50   ~ 0
+GPIO_24
+Text Label 950  2500 2    50   ~ 0
+GPIO_26
+Text Label 950  2600 2    50   ~ 0
+GPIO_28
+Text Label 9500 3800 0    50   ~ 0
+GPIO_30
+Text Label 9500 3600 0    50   ~ 0
+GPIO_32
+Text Label 9500 3400 0    50   ~ 0
+GPIO_34
+Text Label 9500 800  0    50   ~ 0
+GPIO_60
+Text Label 9500 1000 0    50   ~ 0
+GPIO_58
+Text Label 9500 1200 0    50   ~ 0
+GPIO_56
+Text Label 9500 1400 0    50   ~ 0
+GPIO_54
+Text Label 9500 1600 0    50   ~ 0
+GPIO_52
+Text Label 9500 1800 0    50   ~ 0
+GPIO_50
+Text Label 9500 2000 0    50   ~ 0
+GPIO_48
+Text Label 9500 2200 0    50   ~ 0
+GPIO_46
+Text Label 9500 2400 0    50   ~ 0
+GPIO_44
+Text Label 9500 2600 0    50   ~ 0
+GPIO_42
+Text Label 9500 2800 0    50   ~ 0
+GPIO_40
+Text Label 9500 3000 0    50   ~ 0
+GPIO_38
+Text Label 9500 3200 0    50   ~ 0
+GPIO_36
+Text Label 9500 3300 0    50   ~ 0
+GPIO_35
+Text Label 9500 3500 0    50   ~ 0
+GPIO_33
+Text Label 9500 3700 0    50   ~ 0
+GPIO_31
+Text Label 9500 700  0    50   ~ 0
+GPIO_61
+Text Label 9500 900  0    50   ~ 0
+GPIO_59
+Text Label 9500 1100 0    50   ~ 0
+GPIO_57
+Text Label 9500 1300 0    50   ~ 0
+GPIO_55
+Text Label 9500 1500 0    50   ~ 0
+GPIO_53
+Text Label 9500 1700 0    50   ~ 0
+GPIO_51
+Text Label 9500 1900 0    50   ~ 0
+GPIO_49
+Text Label 9500 2100 0    50   ~ 0
+GPIO_47
+Text Label 9500 2300 0    50   ~ 0
+GPIO_45
+Text Label 9500 2500 0    50   ~ 0
+GPIO_43
+Text Label 9500 2700 0    50   ~ 0
+GPIO_41
+Text Label 9500 2900 0    50   ~ 0
+GPIO_39
+Text Label 9500 3100 0    50   ~ 0
+GPIO_37
+Text Label 9500 5800 0    50   ~ 0
+TMS
+Text Label 9500 5900 0    50   ~ 0
+TCK
+Text Label 9500 6000 0    50   ~ 0
+TDO
+Text Label 9500 6100 0    50   ~ 0
+TDI
+Text Label 9500 6200 0    50   ~ 0
+RESET
 $EndSCHEMATC
