@@ -19,7 +19,7 @@
   (lib (name SquantorRcl)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorRcl.pretty)(options "")(descr ""))
   (lib (name SquantorSpecial)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorSpecial.pretty)(options "")(descr ""))
   (lib (name SquantorST)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorST.pretty)(options "")(descr ""))
-  (lib (name SquantorSwitches)(type KiCad)(uri ${KICAD_USER_TEMPLATE_DIR}/squantorPcbLibrary/SquantorSwitches.pretty)(options "")(descr ""))
+  (lib (name SquantorSwitches)(type KiCad)(uri ${KIPRJMOD}/squantorPcbLibrary/SquantorSwitches.pretty)(options "")(descr ""))
   (lib (name SquantorTestPoints)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTestPoints.pretty)(options "")(descr ""))
   (lib (name SquantorTexasInstruments)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTexasInstruments.pretty)(options "")(descr ""))
   (lib (name SquantorTransformer)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTransformer.pretty)(options "")(descr ""))
