@@ -1,5 +1,7 @@
 # copy all the tables
 #!/bin/bash
+cp fp-lib-table Aisler_simple_2_layer
+cp sym-lib-table Aisler_simple_2_layer
 cp fp-lib-table alu_box_10x10cm_jlc2layer
 cp sym-lib-table alu_box_10x10cm_jlc2layer
 cp fp-lib-table Hammond_1550Z113
