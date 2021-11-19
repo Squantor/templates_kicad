@@ -105,7 +105,7 @@ U 1 1 5D897E29
 P 3200 1750
 F 0 "J4" H 3200 650 50  0000 C CNN
 F 1 "nuclone_medium_right" H 3200 2850 50  0000 C CNN
-F 2 "SquantorConnectorsNamed:nuclone_medium_right" H 3200 1700 50  0001 C CNN
+F 2 "SquantorConnectorsNamed:nuclone_medium_right_stacked" H 3200 1700 50  0001 C CNN
 F 3 "" H 3200 1700 50  0001 C CNN
 	1    3200 1750
 	-1   0    0    1   
