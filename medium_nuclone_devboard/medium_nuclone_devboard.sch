@@ -93,7 +93,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5D6A68B9
 P 950 7200
 F 0 "N2" H 900 7300 60  0000 L CNN
-F 1 "20210921" H 700 7200 60  0000 L CNN
+F 1 "20211121" H 700 7200 60  0000 L CNN
 F 2 "SquantorLabels:Label_version" H 950 7200 60  0001 C CNN
 F 3 "" H 950 7200 60  0001 C CNN
 	1    950  7200
@@ -333,7 +333,7 @@ U 1 1 5D87167A
 P 1450 1750
 F 0 "J3" H 1450 2850 50  0000 C CNN
 F 1 "nuclone_medium_left" H 1450 650 50  0000 C CNN
-F 2 "SquantorConnectorsNamed:nuclone_medium_left" H 1600 1700 50  0001 C CNN
+F 2 "SquantorConnectorsNamed:nuclone_medium_left_stacked" H 1600 1700 50  0001 C CNN
 F 3 "" H 1600 1700 50  0001 C CNN
 	1    1450 1750
 	1    0    0    -1  
@@ -1275,7 +1275,7 @@ L SquantorLabels:Label N5
 U 1 1 618D2648
 P 950 6400
 F 0 "N5" H 900 6450 60  0000 L CNN
-F 1 "Nuclone Template 20211109" H 800 6350 60  0000 L CNN
+F 1 "Nuclone Template 20211121" H 800 6350 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 950 6400 60  0001 C CNN
 F 3 "" H 950 6400 60  0001 C CNN
 	1    950  6400
