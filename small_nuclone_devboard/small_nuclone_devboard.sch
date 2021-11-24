@@ -93,7 +93,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5D6A68B9
 P 950 7200
 F 0 "N2" H 900 7300 60  0000 L CNN
-F 1 "20211119" H 700 7200 60  0000 L CNN
+F 1 "20211124" H 700 7200 60  0000 L CNN
 F 2 "SquantorLabels:Label_version" H 950 7200 60  0001 C CNN
 F 3 "" H 950 7200 60  0001 C CNN
 	1    950  7200
@@ -108,7 +108,7 @@ F 1 "nuclone_small_right" H 3200 1850 50  0000 C CNN
 F 2 "SquantorConnectorsNamed:nuclone_small_right_stacked" H 3200 1200 50  0001 C CNN
 F 3 "" H 3200 1200 50  0001 C CNN
 	1    3200 1250
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorLabels:Label N3
@@ -322,7 +322,7 @@ F 3 "" H 1600 1200 50  0001 C CNN
 	1    1450 1250
 	1    0    0    -1  
 $EndComp
-Text Label 2700 1000 2    50   ~ 0
+Text Label 3700 1000 0    50   ~ 0
 GPIO_29
 Text Label 1200 5400 0    50   ~ 0
 TDI
@@ -587,19 +587,19 @@ Text Label 950  1700 2    50   ~ 0
 GPIO_12
 Text Label 1950 1700 0    50   ~ 0
 GPIO_13
-Text Label 2700 1700 2    50   ~ 0
+Text Label 3700 1700 0    50   ~ 0
 GPIO_15
-Text Label 2700 1600 2    50   ~ 0
+Text Label 3700 1600 0    50   ~ 0
 GPIO_17
-Text Label 2700 1500 2    50   ~ 0
+Text Label 3700 1500 0    50   ~ 0
 GPIO_19
-Text Label 2700 1400 2    50   ~ 0
+Text Label 3700 1400 0    50   ~ 0
 GPIO_21
-Text Label 2700 1300 2    50   ~ 0
+Text Label 3700 1300 0    50   ~ 0
 GPIO_23
-Text Label 2700 1200 2    50   ~ 0
+Text Label 3700 1200 0    50   ~ 0
 GPIO_25
-Text Label 2700 1100 2    50   ~ 0
+Text Label 3700 1100 0    50   ~ 0
 GPIO_27
 Wire Wire Line
 	1150 5500 1800 5500
@@ -934,21 +934,21 @@ Text Label 7850 3400 2    50   ~ 0
 GPIO_27
 Text Label 7850 3600 2    50   ~ 0
 GPIO_29
-Text Label 3700 1700 0    50   ~ 0
+Text Label 2700 1700 2    50   ~ 0
 GPIO_14
-Text Label 3700 1600 0    50   ~ 0
+Text Label 2700 1600 2    50   ~ 0
 GPIO_16
-Text Label 3700 1500 0    50   ~ 0
+Text Label 2700 1500 2    50   ~ 0
 GPIO_18
-Text Label 3700 1400 0    50   ~ 0
+Text Label 2700 1400 2    50   ~ 0
 GPIO_20
-Text Label 3700 1300 0    50   ~ 0
+Text Label 2700 1300 2    50   ~ 0
 GPIO_22
-Text Label 3700 1200 0    50   ~ 0
+Text Label 2700 1200 2    50   ~ 0
 GPIO_24
-Text Label 3700 1100 0    50   ~ 0
+Text Label 2700 1100 2    50   ~ 0
 GPIO_26
-Text Label 3700 1000 0    50   ~ 0
+Text Label 2700 1000 2    50   ~ 0
 GPIO_28
 Text Label 9500 5800 0    50   ~ 0
 TMS
@@ -1035,7 +1035,7 @@ L SquantorLabels:Label N5
 U 1 1 618B84BF
 P 950 6400
 F 0 "N5" H 900 6450 60  0000 L CNN
-F 1 "Nuclone Template 20211119" H 800 6350 60  0000 L CNN
+F 1 "Nuclone Template 20211124" H 800 6350 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 950 6400 60  0001 C CNN
 F 3 "" H 950 6400 60  0001 C CNN
 	1    950  6400
