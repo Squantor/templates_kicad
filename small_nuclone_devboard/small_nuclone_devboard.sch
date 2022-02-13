@@ -93,7 +93,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5D6A68B9
 P 950 7200
 F 0 "N2" H 900 7300 60  0000 L CNN
-F 1 "20211124" H 700 7200 60  0000 L CNN
+F 1 "20220213" H 700 7200 60  0000 L CNN
 F 2 "SquantorLabels:Label_version" H 950 7200 60  0001 C CNN
 F 3 "" H 950 7200 60  0001 C CNN
 	1    950  7200
@@ -484,7 +484,7 @@ L SquantorLabels:Label N4
 U 1 1 5FB0926C
 P 950 6650
 F 0 "N4" H 900 6700 60  0000 L CNN
-F 1 "NuClone Medium template V1.3" H 800 6600 60  0000 L CNN
+F 1 "NuClone Small template V1.4" H 800 6600 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 950 6650 60  0001 C CNN
 F 3 "" H 950 6650 60  0001 C CNN
 	1    950  6650
