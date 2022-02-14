@@ -1,5 +1,5 @@
-# $(HARDWARE_PROJECT) project
-Project description goes here.
+# Nuclone board
+Nuclone board
 # HSI (Hardware Software Interface)
 This applies to a project that has a embedded software component. Describe what each pin/bus does, what it is connected to, what its function is and some "safe" behaviour when starting up.
 ## TODO's
