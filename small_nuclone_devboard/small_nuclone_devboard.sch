@@ -1015,26 +1015,15 @@ F 3 "" H 950 6400 60  0001 C CNN
 	1    950  6400
 	1    0    0    -1  
 $EndComp
-$Comp
-L SquantorDevice:TVS_4_Array U?
-U 1 1 620A924D
-P 2550 4000
-F 0 "U?" H 2550 4300 50  0000 C CNN
-F 1 "TPESD0504C6" H 2550 3800 50  0000 C CNN
-F 2 "SquantorIC:SOT363-ONsemi" H 2550 4000 50  0001 C CNN
-F 3 "" H 2550 4000 50  0001 C CNN
-	1    2550 4000
-	1    0    0    -1  
-$EndComp
 Text Label 2100 3550 2    50   ~ 0
 VUSB
 Text Label 3000 3950 0    50   ~ 0
 VUSB
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 620BF5CA
 P 2550 4350
-F 0 "C?" V 2600 4450 50  0000 C CNN
+F 0 "C4" V 2600 4450 50  0000 C CNN
 F 1 "1u" V 2500 4250 50  0000 C CNN
 F 2 "SquantorRcl:C_0402" H 2588 4200 50  0001 C CNN
 F 3 "~" H 2550 4350 50  0001 C CNN
@@ -1091,14 +1080,25 @@ Wire Wire Line
 Wire Wire Line
 	1750 3950 1550 3950
 Connection ~ 1550 3950
-Text Label 2100 3850 2    50   ~ 0
+Text Label 3000 3850 0    50   ~ 0
 DP
-Text Label 2100 4050 2    50   ~ 0
+Text Label 2100 3850 2    50   ~ 0
 DN
 Wire Wire Line
-	2100 4050 2150 4050
-Wire Wire Line
 	2150 3850 2100 3850
-NoConn ~ 2950 3850
 NoConn ~ 2950 4050
+$Comp
+L SquantorDevice:TVS_4_Array U2
+U 1 1 620A924D
+P 2550 4000
+F 0 "U2" H 2550 4300 50  0000 C CNN
+F 1 "TPESD0504C6" H 2550 3800 50  0000 C CNN
+F 2 "SquantorIC:SOT363-ONsemi" H 2550 4000 50  0001 C CNN
+F 3 "" H 2550 4000 50  0001 C CNN
+	1    2550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3850 2950 3850
+NoConn ~ 2150 4050
 $EndSCHEMATC
