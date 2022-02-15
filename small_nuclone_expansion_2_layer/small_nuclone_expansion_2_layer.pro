@@ -1,4 +1,4 @@
-update=za 08 aug 2020 13:40:32 CEST
+update=vr 17 jan 2020 15:54:11 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -66,9 +66,9 @@ dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.15
-SilkTextSizeV=0.7999999999999999
-SilkTextSizeH=0.7999999999999999
-SilkTextSizeThickness=0.12
+SilkTextSizeV=1
+SilkTextSizeH=1
+SilkTextSizeThickness=0.15
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -88,7 +88,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.09999999999999999
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=-0.1
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -260,6 +260,28 @@ Enabled=0
 Name=Default
 Clearance=0.127
 TrackWidth=0.127
+ViaDiameter=0.6
+ViaDrill=0.3
+uViaDiameter=0.6
+uViaDrill=0.3
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Power
+Clearance=0.127
+TrackWidth=0.6
+ViaDiameter=1.1
+ViaDrill=0.8
+uViaDiameter=0.6
+uViaDrill=0.3
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=Signal
+Clearance=0.127
+TrackWidth=0.3
 ViaDiameter=0.6
 ViaDrill=0.3
 uViaDiameter=0.6
