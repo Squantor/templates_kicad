@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 19)
     (tracks 98)
     (zones 0)
     (modules 44)
@@ -1485,9 +1485,6 @@
   (gr_arc (start 63.7 107.3) (end 60 107.3) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 612E978B))
   (gr_arc (start 106.3 107.3) (end 106.3 111) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 612E95F3))
   (gr_arc (start 106.3 64.7) (end 110 64.7) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 6208E827))
-  (gr_text Power (at 106.4 70.9 90) (layer F.SilkS) (tstamp 62091896)
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-  )
   (gr_line (start 106.3 61) (end 63.7 61) (layer Edge.Cuts) (width 0.15) (tstamp 61982351))
   (gr_arc (start 63.7 64.7) (end 63.7 61) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 110 107.3) (end 110 64.7) (layer Edge.Cuts) (width 0.15) (tstamp 6208E7C3))
