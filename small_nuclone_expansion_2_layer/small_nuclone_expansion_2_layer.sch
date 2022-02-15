@@ -234,4 +234,259 @@ Text Label 2700 1100 2    50   ~ 0
 GPIO_26
 Text Label 2700 1000 2    50   ~ 0
 GPIO_28
+$Comp
+L SquantorProto:testpad TP1
+U 1 1 620FC9D4
+P 1300 2450
+F 0 "TP1" H 1450 2450 50  0000 C CNN
+F 1 "VDD1" H 1100 2500 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 2475 50  0001 C CNN
+F 3 "" H 1350 2475 50  0001 C CNN
+	1    1300 2450
+	-1   0    0    1   
+$EndComp
+Text Label 1450 2450 0    50   ~ 0
+VDD1
+Wire Wire Line
+	1450 2450 1400 2450
+$Comp
+L SquantorProto:testpad TP2
+U 1 1 6210092C
+P 1300 2600
+F 0 "TP2" H 1450 2600 50  0000 C CNN
+F 1 "VBUS" H 1100 2650 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 2625 50  0001 C CNN
+F 3 "" H 1350 2625 50  0001 C CNN
+	1    1300 2600
+	-1   0    0    1   
+$EndComp
+Text Label 1450 2600 0    50   ~ 0
+VBUS
+$Comp
+L SquantorProto:testpad TP3
+U 1 1 62101380
+P 1300 2750
+F 0 "TP3" H 1450 2750 50  0000 C CNN
+F 1 "VSS" H 1100 2800 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 2775 50  0001 C CNN
+F 3 "" H 1350 2775 50  0001 C CNN
+	1    1300 2750
+	-1   0    0    1   
+$EndComp
+Text Label 1450 2750 0    50   ~ 0
+VSS
+Wire Wire Line
+	1450 2750 1400 2750
+Wire Wire Line
+	1400 2600 1450 2600
+Text Label 1450 2900 0    50   ~ 0
+GPIO_00
+Text Label 1450 3200 0    50   ~ 0
+GPIO_02
+Text Label 1450 3500 0    50   ~ 0
+GPIO_04
+Text Label 1450 3800 0    50   ~ 0
+GPIO_06
+Text Label 1450 4100 0    50   ~ 0
+GPIO_08
+Text Label 1450 4400 0    50   ~ 0
+GPIO_10
+Text Label 1450 4700 0    50   ~ 0
+GPIO_12
+Text Label 1450 3050 0    50   ~ 0
+GPIO_01
+Text Label 1450 3350 0    50   ~ 0
+GPIO_03
+Text Label 1450 3650 0    50   ~ 0
+GPIO_05
+Text Label 1450 4250 0    50   ~ 0
+GPIO_09
+Text Label 1450 4550 0    50   ~ 0
+GPIO_11
+Text Label 1450 4850 0    50   ~ 0
+GPIO_13
+Text Label 1450 3950 0    50   ~ 0
+GPIO_07
+$Comp
+L SquantorProto:testpad TP4
+U 1 1 621292DB
+P 1300 2900
+F 0 "TP4" H 1450 2900 50  0000 C CNN
+F 1 "GPIO_00" H 1100 2950 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 2925 50  0001 C CNN
+F 3 "" H 1350 2925 50  0001 C CNN
+	1    1300 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP5
+U 1 1 621298F8
+P 1300 3050
+F 0 "TP5" H 1450 3050 50  0000 C CNN
+F 1 "GPIO_01" H 1100 3100 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 3075 50  0001 C CNN
+F 3 "" H 1350 3075 50  0001 C CNN
+	1    1300 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP6
+U 1 1 62129D41
+P 1300 3200
+F 0 "TP6" H 1450 3200 50  0000 C CNN
+F 1 "GPIO_02" H 1100 3250 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 3225 50  0001 C CNN
+F 3 "" H 1350 3225 50  0001 C CNN
+	1    1300 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP7
+U 1 1 6212A1B7
+P 1300 3350
+F 0 "TP7" H 1450 3350 50  0000 C CNN
+F 1 "GPIO_03" H 1100 3400 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 3375 50  0001 C CNN
+F 3 "" H 1350 3375 50  0001 C CNN
+	1    1300 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP8
+U 1 1 6212A62D
+P 1300 3500
+F 0 "TP8" H 1450 3500 50  0000 C CNN
+F 1 "GPIO_04" H 1100 3550 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 3525 50  0001 C CNN
+F 3 "" H 1350 3525 50  0001 C CNN
+	1    1300 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP9
+U 1 1 6212A9F7
+P 1300 3650
+F 0 "TP9" H 1450 3650 50  0000 C CNN
+F 1 "GPIO_05" H 1100 3700 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 3675 50  0001 C CNN
+F 3 "" H 1350 3675 50  0001 C CNN
+	1    1300 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP10
+U 1 1 6212F22C
+P 1300 3800
+F 0 "TP10" H 1450 3800 50  0000 C CNN
+F 1 "GPIO_06" H 1100 3850 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 3825 50  0001 C CNN
+F 3 "" H 1350 3825 50  0001 C CNN
+	1    1300 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP11
+U 1 1 6212F694
+P 1300 3950
+F 0 "TP11" H 1450 3950 50  0000 C CNN
+F 1 "GPIO_07" H 1100 4000 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 3975 50  0001 C CNN
+F 3 "" H 1350 3975 50  0001 C CNN
+	1    1300 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP12
+U 1 1 6212F9BA
+P 1300 4100
+F 0 "TP12" H 1450 4100 50  0000 C CNN
+F 1 "GPIO_08" H 1100 4150 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 4125 50  0001 C CNN
+F 3 "" H 1350 4125 50  0001 C CNN
+	1    1300 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP13
+U 1 1 6212FC9E
+P 1300 4250
+F 0 "TP13" H 1450 4250 50  0000 C CNN
+F 1 "GPIO_09" H 1100 4300 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 4275 50  0001 C CNN
+F 3 "" H 1350 4275 50  0001 C CNN
+	1    1300 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP14
+U 1 1 62130033
+P 1300 4400
+F 0 "TP14" H 1450 4400 50  0000 C CNN
+F 1 "GPIO_10" H 1100 4450 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 4425 50  0001 C CNN
+F 3 "" H 1350 4425 50  0001 C CNN
+	1    1300 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP15
+U 1 1 6213036E
+P 1300 4550
+F 0 "TP15" H 1450 4550 50  0000 C CNN
+F 1 "GPIO_11" H 1100 4600 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 4575 50  0001 C CNN
+F 3 "" H 1350 4575 50  0001 C CNN
+	1    1300 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP16
+U 1 1 6213070B
+P 1300 4700
+F 0 "TP16" H 1450 4700 50  0000 C CNN
+F 1 "GPIO_12" H 1100 4750 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 4725 50  0001 C CNN
+F 3 "" H 1350 4725 50  0001 C CNN
+	1    1300 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP17
+U 1 1 62130A76
+P 1300 4850
+F 0 "TP17" H 1450 4850 50  0000 C CNN
+F 1 "GPIO_13" H 1100 4900 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 1350 4875 50  0001 C CNN
+F 3 "" H 1350 4875 50  0001 C CNN
+	1    1300 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 2900 1400 2900
+Wire Wire Line
+	1400 3050 1450 3050
+Wire Wire Line
+	1450 3200 1400 3200
+Wire Wire Line
+	1400 3350 1450 3350
+Wire Wire Line
+	1450 3500 1400 3500
+Wire Wire Line
+	1400 3650 1450 3650
+Wire Wire Line
+	1450 3800 1400 3800
+Wire Wire Line
+	1400 3950 1450 3950
+Wire Wire Line
+	1450 4100 1400 4100
+Wire Wire Line
+	1400 4250 1450 4250
+Wire Wire Line
+	1450 4400 1400 4400
+Wire Wire Line
+	1400 4550 1450 4550
+Wire Wire Line
+	1450 4700 1400 4700
+Wire Wire Line
+	1400 4850 1450 4850
 $EndSCHEMATC
