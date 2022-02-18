@@ -773,4 +773,93 @@ Wire Notes Line
 	2200 4950 1600 4950
 Wire Notes Line
 	1600 4950 1600 5100
+$Comp
+L SquantorUsb:USB-C_PD_USB J?
+U 1 1 620F9243
+P 10000 1450
+F 0 "J?" H 9800 2150 50  0000 C CNN
+F 1 "USB-C_PD_USB" H 10250 2150 50  0000 C CNN
+F 2 "SquantorUsb:USB-C-HRO-31-M-12" H 10100 1450 50  0001 C CNN
+F 3 "" H 10100 1450 50  0001 C CNN
+	1    10000 1450
+	1    0    0    -1  
+$EndComp
+Text Label 10500 900  0    50   ~ 0
+VSS
+Text Label 10500 1000 0    50   ~ 0
+VUSB
+NoConn ~ 10450 1100
+NoConn ~ 10450 1700
+Text Label 10500 2000 0    50   ~ 0
+VSS
+Text Label 10500 1900 0    50   ~ 0
+VUSB
+Wire Wire Line
+	10500 1900 10450 1900
+Wire Wire Line
+	10450 2000 10500 2000
+Text Label 10500 1200 0    50   ~ 0
+CC1
+Text Label 10500 1800 0    50   ~ 0
+CC2
+Text Label 10550 1600 0    50   ~ 0
+DP
+Text Label 10550 1300 0    50   ~ 0
+DN
+Wire Wire Line
+	10450 1300 10550 1300
+Wire Wire Line
+	10550 1600 10500 1600
+Wire Wire Line
+	10450 1400 10500 1400
+Wire Wire Line
+	10500 1400 10500 1600
+Connection ~ 10500 1600
+Wire Wire Line
+	10500 1600 10450 1600
+Wire Wire Line
+	10450 1500 10550 1500
+Wire Wire Line
+	10550 1500 10550 1300
+Wire Wire Line
+	10450 900  10500 900 
+Wire Wire Line
+	10500 1000 10450 1000
+Wire Wire Line
+	10450 1200 10500 1200
+Wire Wire Line
+	10500 1800 10450 1800
+$Comp
+L Device:C C?
+U 1 1 62107156
+P 9550 1700
+F 0 "C?" H 9550 1800 50  0000 L CNN
+F 1 "10n" H 9550 1600 50  0000 L CNN
+F 2 "SquantorRcl:C_0603" H 9588 1550 50  0001 C CNN
+F 3 "~" H 9550 1700 50  0001 C CNN
+	1    9550 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1450 9550 1450
+Wire Wire Line
+	9550 1450 9550 1550
+Text Label 9550 1950 0    50   ~ 0
+VSS
+Wire Wire Line
+	9550 1950 9550 1850
+Text Notes 10100 2250 0    50   ~ 0
+USB connector
+Wire Notes Line
+	10700 2300 10700 700 
+Wire Notes Line
+	10700 700  9400 700 
+Wire Notes Line
+	9400 700  9400 2300
+Wire Notes Line
+	9400 2300 10700 2300
+Wire Notes Line
+	10700 2150 10050 2150
+Wire Notes Line
+	10050 2150 10050 2300
 $EndSCHEMATC
