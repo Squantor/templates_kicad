@@ -312,7 +312,7 @@ L SquantorProto:testpad TP4
 U 1 1 621292DB
 P 900 2750
 F 0 "TP4" H 1050 2750 50  0000 C CNN
-F 1 "GPIO_00" H 700 2800 50  0000 C CNN
+F 1 "P00" H 700 2800 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 2775 50  0001 C CNN
 F 3 "" H 950 2775 50  0001 C CNN
 	1    900  2750
@@ -323,7 +323,7 @@ L SquantorProto:testpad TP5
 U 1 1 621298F8
 P 900 2900
 F 0 "TP5" H 1050 2900 50  0000 C CNN
-F 1 "GPIO_01" H 700 2950 50  0000 C CNN
+F 1 "P01" H 700 2950 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 2925 50  0001 C CNN
 F 3 "" H 950 2925 50  0001 C CNN
 	1    900  2900
@@ -334,7 +334,7 @@ L SquantorProto:testpad TP6
 U 1 1 62129D41
 P 900 3050
 F 0 "TP6" H 1050 3050 50  0000 C CNN
-F 1 "GPIO_02" H 700 3100 50  0000 C CNN
+F 1 "P02" H 700 3100 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 3075 50  0001 C CNN
 F 3 "" H 950 3075 50  0001 C CNN
 	1    900  3050
@@ -345,7 +345,7 @@ L SquantorProto:testpad TP7
 U 1 1 6212A1B7
 P 900 3200
 F 0 "TP7" H 1050 3200 50  0000 C CNN
-F 1 "GPIO_03" H 700 3250 50  0000 C CNN
+F 1 "P03" H 700 3250 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 3225 50  0001 C CNN
 F 3 "" H 950 3225 50  0001 C CNN
 	1    900  3200
@@ -356,7 +356,7 @@ L SquantorProto:testpad TP8
 U 1 1 6212A62D
 P 900 3350
 F 0 "TP8" H 1050 3350 50  0000 C CNN
-F 1 "GPIO_04" H 700 3400 50  0000 C CNN
+F 1 "P04" H 700 3400 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 3375 50  0001 C CNN
 F 3 "" H 950 3375 50  0001 C CNN
 	1    900  3350
@@ -367,7 +367,7 @@ L SquantorProto:testpad TP9
 U 1 1 6212A9F7
 P 900 3500
 F 0 "TP9" H 1050 3500 50  0000 C CNN
-F 1 "GPIO_05" H 700 3550 50  0000 C CNN
+F 1 "P05" H 700 3550 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 3525 50  0001 C CNN
 F 3 "" H 950 3525 50  0001 C CNN
 	1    900  3500
@@ -378,7 +378,7 @@ L SquantorProto:testpad TP10
 U 1 1 6212F22C
 P 900 3650
 F 0 "TP10" H 1050 3650 50  0000 C CNN
-F 1 "GPIO_06" H 700 3700 50  0000 C CNN
+F 1 "P06" H 700 3700 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 3675 50  0001 C CNN
 F 3 "" H 950 3675 50  0001 C CNN
 	1    900  3650
@@ -389,7 +389,7 @@ L SquantorProto:testpad TP11
 U 1 1 6212F694
 P 900 3800
 F 0 "TP11" H 1050 3800 50  0000 C CNN
-F 1 "GPIO_07" H 700 3850 50  0000 C CNN
+F 1 "P07" H 700 3850 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 3825 50  0001 C CNN
 F 3 "" H 950 3825 50  0001 C CNN
 	1    900  3800
@@ -400,7 +400,7 @@ L SquantorProto:testpad TP12
 U 1 1 6212F9BA
 P 900 3950
 F 0 "TP12" H 1050 3950 50  0000 C CNN
-F 1 "GPIO_08" H 700 4000 50  0000 C CNN
+F 1 "P08" H 700 4000 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 3975 50  0001 C CNN
 F 3 "" H 950 3975 50  0001 C CNN
 	1    900  3950
@@ -411,7 +411,7 @@ L SquantorProto:testpad TP13
 U 1 1 6212FC9E
 P 900 4100
 F 0 "TP13" H 1050 4100 50  0000 C CNN
-F 1 "GPIO_09" H 700 4150 50  0000 C CNN
+F 1 "P09" H 700 4150 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 4125 50  0001 C CNN
 F 3 "" H 950 4125 50  0001 C CNN
 	1    900  4100
@@ -422,7 +422,7 @@ L SquantorProto:testpad TP14
 U 1 1 62130033
 P 900 4250
 F 0 "TP14" H 1050 4250 50  0000 C CNN
-F 1 "GPIO_10" H 700 4300 50  0000 C CNN
+F 1 "P10" H 700 4300 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 4275 50  0001 C CNN
 F 3 "" H 950 4275 50  0001 C CNN
 	1    900  4250
@@ -433,7 +433,7 @@ L SquantorProto:testpad TP15
 U 1 1 6213036E
 P 900 4400
 F 0 "TP15" H 1050 4400 50  0000 C CNN
-F 1 "GPIO_11" H 700 4450 50  0000 C CNN
+F 1 "P11" H 700 4450 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 4425 50  0001 C CNN
 F 3 "" H 950 4425 50  0001 C CNN
 	1    900  4400
@@ -444,7 +444,7 @@ L SquantorProto:testpad TP16
 U 1 1 6213070B
 P 900 4550
 F 0 "TP16" H 1050 4550 50  0000 C CNN
-F 1 "GPIO_12" H 700 4600 50  0000 C CNN
+F 1 "P12" H 700 4600 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 4575 50  0001 C CNN
 F 3 "" H 950 4575 50  0001 C CNN
 	1    900  4550
@@ -455,7 +455,7 @@ L SquantorProto:testpad TP17
 U 1 1 62130A76
 P 900 4700
 F 0 "TP17" H 1050 4700 50  0000 C CNN
-F 1 "GPIO_13" H 700 4750 50  0000 C CNN
+F 1 "P13" H 700 4750 50  0000 C CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 4725 50  0001 C CNN
 F 3 "" H 950 4725 50  0001 C CNN
 	1    900  4700
@@ -1056,205 +1056,538 @@ Wire Notes Line
 $Comp
 L SquantorWCH:CH340B U2
 U 1 1 62204CE6
-P 9150 2950
-F 0 "U2" H 9150 3450 50  0000 C CNN
-F 1 "CH340B" H 9150 2450 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 9150 2950 50  0001 C CNN
-F 3 "" H 9150 2950 50  0001 C CNN
-	1    9150 2950
+P 9750 2950
+F 0 "U2" H 9750 3450 50  0000 C CNN
+F 1 "CH340B" H 9750 2450 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 9750 2950 50  0001 C CNN
+F 3 "" H 9750 2950 50  0001 C CNN
+	1    9750 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 6220680A
-P 9150 3600
-F 0 "C5" V 9100 3700 50  0000 C CNN
-F 1 "1u" V 9200 3700 50  0000 C CNN
-F 2 "SquantorRcl:C_0402" H 9188 3450 50  0001 C CNN
-F 3 "~" H 9150 3600 50  0001 C CNN
-	1    9150 3600
+P 10350 3450
+F 0 "C5" V 10300 3550 50  0000 C CNN
+F 1 "1u" V 10400 3550 50  0000 C CNN
+F 2 "SquantorRcl:C_0402" H 10388 3300 50  0001 C CNN
+F 3 "~" H 10350 3450 50  0001 C CNN
+	1    10350 3450
 	0    1    1    0   
 $EndComp
-Text Label 8950 3600 2    50   ~ 0
+Text Label 10150 3450 2    50   ~ 0
 VSS
-Text Label 9350 3600 0    50   ~ 0
+Text Label 10550 3450 0    50   ~ 0
 VDD1
 Wire Wire Line
-	9350 3600 9300 3600
+	10550 3450 10500 3450
 Wire Wire Line
-	9000 3600 8950 3600
-Text Label 8750 2600 2    50   ~ 0
+	10200 3450 10150 3450
+Text Label 9350 2600 2    50   ~ 0
 VSS
-Text Label 8750 2900 2    50   ~ 0
+Text Label 9350 2900 2    50   ~ 0
 VDD1
-Text Label 9550 2600 0    50   ~ 0
+Text Label 10150 2600 0    50   ~ 0
 VDD1
-Text Label 8750 3100 2    50   ~ 0
+Text Label 9350 3100 2    50   ~ 0
 DN
-Text Label 8750 3000 2    50   ~ 0
+Text Label 9350 3000 2    50   ~ 0
 DP
-NoConn ~ 8800 3200
-NoConn ~ 9500 2700
-Text Label 8750 2700 2    50   ~ 0
+NoConn ~ 9400 3200
+NoConn ~ 10100 2700
+Text Label 9350 2700 2    50   ~ 0
 TXD
-Text Label 8750 2800 2    50   ~ 0
+Text Label 9350 2800 2    50   ~ 0
 RXD
-Text Label 9550 3300 0    50   ~ 0
+Text Label 10150 3300 0    50   ~ 0
 CTS
-Text Label 9550 3200 0    50   ~ 0
+Text Label 10150 3200 0    50   ~ 0
 DSR
-Text Label 9550 3100 0    50   ~ 0
+Text Label 10150 3100 0    50   ~ 0
 RI
-Text Label 9550 3000 0    50   ~ 0
+Text Label 10150 3000 0    50   ~ 0
 DCD
-Text Label 9550 2900 0    50   ~ 0
+Text Label 10150 2900 0    50   ~ 0
 DTR
-Text Label 9550 2800 0    50   ~ 0
+Text Label 10150 2800 0    50   ~ 0
 RTS
 Wire Wire Line
-	8800 3100 8750 3100
+	9400 3100 9350 3100
 Wire Wire Line
-	8750 3000 8800 3000
+	9350 3000 9400 3000
 Wire Wire Line
-	8800 2900 8750 2900
+	9400 2900 9350 2900
 Wire Wire Line
-	8750 2800 8800 2800
+	9350 2800 9400 2800
 Wire Wire Line
-	8800 2700 8750 2700
+	9400 2700 9350 2700
 Wire Wire Line
-	8750 2600 8800 2600
+	9350 2600 9400 2600
 Wire Wire Line
-	9500 2800 9550 2800
+	10100 2800 10150 2800
 Wire Wire Line
-	9550 2600 9500 2600
+	10150 2600 10100 2600
 Wire Wire Line
-	9500 2900 9550 2900
+	10100 2900 10150 2900
 Wire Wire Line
-	9550 3000 9500 3000
+	10150 3000 10100 3000
 Wire Wire Line
-	9500 3100 9550 3100
+	10100 3100 10150 3100
 Wire Wire Line
-	9550 3200 9500 3200
+	10150 3200 10100 3200
 Wire Wire Line
-	9500 3300 9550 3300
-Text Label 10050 2600 2    50   ~ 0
+	10100 3300 10150 3300
+Text Label 10550 2600 2    50   ~ 0
 TXD
-Text Label 10050 2700 2    50   ~ 0
+Text Label 10550 2700 2    50   ~ 0
 RXD
-Text Label 10050 2800 2    50   ~ 0
+Text Label 10550 2800 2    50   ~ 0
 RTS
-Text Label 10050 2900 2    50   ~ 0
+Text Label 10550 2900 2    50   ~ 0
 DTR
-Text Label 10050 3000 2    50   ~ 0
+Text Label 10550 3000 2    50   ~ 0
 DCD
-Text Label 10050 3100 2    50   ~ 0
+Text Label 10550 3100 2    50   ~ 0
 RI
-Text Label 10050 3200 2    50   ~ 0
+Text Label 10550 3200 2    50   ~ 0
 DSR
-Text Label 10050 3300 2    50   ~ 0
+Text Label 10550 3300 2    50   ~ 0
 CTS
 $Comp
 L SquantorProto:testpad TP36
 U 1 1 622461BB
-P 10350 2600
-F 0 "TP36" H 10500 2600 50  0000 C CNN
-F 1 "TXD" H 10150 2650 50  0000 C CNN
-F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10400 2625 50  0001 C CNN
-F 3 "" H 10400 2625 50  0001 C CNN
-	1    10350 2600
+P 10850 2600
+F 0 "TP36" H 11000 2600 50  0000 C CNN
+F 1 "TXD" H 10650 2650 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10900 2625 50  0001 C CNN
+F 3 "" H 10900 2625 50  0001 C CNN
+	1    10850 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorProto:testpad TP37
 U 1 1 62249A9B
-P 10350 2700
-F 0 "TP37" H 10500 2700 50  0000 C CNN
-F 1 "RXD" H 10150 2750 50  0000 C CNN
-F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10400 2725 50  0001 C CNN
-F 3 "" H 10400 2725 50  0001 C CNN
-	1    10350 2700
+P 10850 2700
+F 0 "TP37" H 11000 2700 50  0000 C CNN
+F 1 "RXD" H 10650 2750 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10900 2725 50  0001 C CNN
+F 3 "" H 10900 2725 50  0001 C CNN
+	1    10850 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorProto:testpad TP38
 U 1 1 6224A325
-P 10350 2800
-F 0 "TP38" H 10500 2800 50  0000 C CNN
-F 1 "RTS" H 10150 2850 50  0000 C CNN
-F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10400 2825 50  0001 C CNN
-F 3 "" H 10400 2825 50  0001 C CNN
-	1    10350 2800
+P 10850 2800
+F 0 "TP38" H 11000 2800 50  0000 C CNN
+F 1 "RTS" H 10650 2850 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10900 2825 50  0001 C CNN
+F 3 "" H 10900 2825 50  0001 C CNN
+	1    10850 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorProto:testpad TP39
 U 1 1 6224FC43
-P 10350 2900
-F 0 "TP39" H 10500 2900 50  0000 C CNN
-F 1 "DTR" H 10150 2950 50  0000 C CNN
-F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10400 2925 50  0001 C CNN
-F 3 "" H 10400 2925 50  0001 C CNN
-	1    10350 2900
+P 10850 2900
+F 0 "TP39" H 11000 2900 50  0000 C CNN
+F 1 "DTR" H 10650 2950 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10900 2925 50  0001 C CNN
+F 3 "" H 10900 2925 50  0001 C CNN
+	1    10850 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorProto:testpad TP40
 U 1 1 622504C9
-P 10350 3000
-F 0 "TP40" H 10500 3000 50  0000 C CNN
-F 1 "DCD" H 10150 3050 50  0000 C CNN
-F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10400 3025 50  0001 C CNN
-F 3 "" H 10400 3025 50  0001 C CNN
-	1    10350 3000
+P 10850 3000
+F 0 "TP40" H 11000 3000 50  0000 C CNN
+F 1 "DCD" H 10650 3050 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10900 3025 50  0001 C CNN
+F 3 "" H 10900 3025 50  0001 C CNN
+	1    10850 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorProto:testpad TP41
 U 1 1 62250C03
-P 10350 3100
-F 0 "TP41" H 10500 3100 50  0000 C CNN
-F 1 "RI" H 10150 3150 50  0000 C CNN
-F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10400 3125 50  0001 C CNN
-F 3 "" H 10400 3125 50  0001 C CNN
-	1    10350 3100
+P 10850 3100
+F 0 "TP41" H 11000 3100 50  0000 C CNN
+F 1 "RI" H 10650 3150 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10900 3125 50  0001 C CNN
+F 3 "" H 10900 3125 50  0001 C CNN
+	1    10850 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorProto:testpad TP42
 U 1 1 62251398
-P 10350 3200
-F 0 "TP42" H 10500 3200 50  0000 C CNN
-F 1 "DSR" H 10150 3250 50  0000 C CNN
-F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10400 3225 50  0001 C CNN
-F 3 "" H 10400 3225 50  0001 C CNN
-	1    10350 3200
+P 10850 3200
+F 0 "TP42" H 11000 3200 50  0000 C CNN
+F 1 "DSR" H 10650 3250 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10900 3225 50  0001 C CNN
+F 3 "" H 10900 3225 50  0001 C CNN
+	1    10850 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorProto:testpad TP43
 U 1 1 62251B3B
-P 10350 3300
-F 0 "TP43" H 10500 3300 50  0000 C CNN
-F 1 "CTS" H 10150 3350 50  0000 C CNN
-F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10400 3325 50  0001 C CNN
-F 3 "" H 10400 3325 50  0001 C CNN
-	1    10350 3300
+P 10850 3300
+F 0 "TP43" H 11000 3300 50  0000 C CNN
+F 1 "CTS" H 10650 3350 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10900 3325 50  0001 C CNN
+F 3 "" H 10900 3325 50  0001 C CNN
+	1    10850 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 2600 10050 2600
+	10750 2600 10550 2600
 Wire Wire Line
-	10050 2700 10250 2700
+	10550 2700 10750 2700
 Wire Wire Line
-	10250 2800 10050 2800
+	10750 2800 10550 2800
 Wire Wire Line
-	10050 2900 10250 2900
+	10550 2900 10750 2900
 Wire Wire Line
-	10250 3000 10050 3000
+	10750 3000 10550 3000
 Wire Wire Line
-	10050 3100 10250 3100
+	10550 3100 10750 3100
 Wire Wire Line
-	10250 3200 10050 3200
+	10750 3200 10550 3200
 Wire Wire Line
-	10050 3300 10250 3300
+	10550 3300 10750 3300
+Text Notes 10700 3600 0    50   ~ 0
+USB2UART
+Wire Notes Line
+	11150 3650 11150 2400
+Wire Notes Line
+	11150 2400 9100 2400
+Wire Notes Line
+	9100 2400 9100 3650
+Wire Notes Line
+	9100 3650 11150 3650
+Wire Notes Line
+	11150 3500 10650 3500
+Wire Notes Line
+	10650 3500 10650 3650
+$Comp
+L Connector_Generic:Conn_01x16 J2
+U 1 1 62181C9B
+P 11050 4600
+F 0 "J2" H 11000 5400 50  0000 L CNN
+F 1 "Conn_01x16" H 10650 3700 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S16B-PH-K_1x16_P2.00mm_Horizontal" H 11050 4600 50  0001 C CNN
+F 3 "~" H 11050 4600 50  0001 C CNN
+	1    11050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorProto:testpad TP44
+U 1 1 621838FB
+P 10550 3900
+F 0 "TP44" H 10700 3900 50  0000 C CNN
+F 1 "PH1" H 10350 3950 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 3925 50  0001 C CNN
+F 3 "" H 10600 3925 50  0001 C CNN
+	1    10550 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP45
+U 1 1 6218595A
+P 10550 4000
+F 0 "TP45" H 10700 4000 50  0000 C CNN
+F 1 "PH2" H 10350 4050 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4025 50  0001 C CNN
+F 3 "" H 10600 4025 50  0001 C CNN
+	1    10550 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP46
+U 1 1 62185CFE
+P 10550 4100
+F 0 "TP46" H 10700 4100 50  0000 C CNN
+F 1 "PH3" H 10350 4150 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4125 50  0001 C CNN
+F 3 "" H 10600 4125 50  0001 C CNN
+	1    10550 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP47
+U 1 1 62186057
+P 10550 4200
+F 0 "TP47" H 10700 4200 50  0000 C CNN
+F 1 "PH4" H 10350 4250 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4225 50  0001 C CNN
+F 3 "" H 10600 4225 50  0001 C CNN
+	1    10550 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP48
+U 1 1 621863F5
+P 10550 4300
+F 0 "TP48" H 10700 4300 50  0000 C CNN
+F 1 "PH5" H 10350 4350 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4325 50  0001 C CNN
+F 3 "" H 10600 4325 50  0001 C CNN
+	1    10550 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP49
+U 1 1 621874D6
+P 10550 4400
+F 0 "TP49" H 10700 4400 50  0000 C CNN
+F 1 "PH6" H 10350 4450 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4425 50  0001 C CNN
+F 3 "" H 10600 4425 50  0001 C CNN
+	1    10550 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP50
+U 1 1 6218789F
+P 10550 4500
+F 0 "TP50" H 10700 4500 50  0000 C CNN
+F 1 "PH7" H 10350 4550 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4525 50  0001 C CNN
+F 3 "" H 10600 4525 50  0001 C CNN
+	1    10550 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP51
+U 1 1 62187CBD
+P 10550 4600
+F 0 "TP51" H 10700 4600 50  0000 C CNN
+F 1 "PH8" H 10350 4650 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4625 50  0001 C CNN
+F 3 "" H 10600 4625 50  0001 C CNN
+	1    10550 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP52
+U 1 1 621881DC
+P 10550 4700
+F 0 "TP52" H 10700 4700 50  0000 C CNN
+F 1 "PH9" H 10350 4750 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4725 50  0001 C CNN
+F 3 "" H 10600 4725 50  0001 C CNN
+	1    10550 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP53
+U 1 1 6218862F
+P 10550 4800
+F 0 "TP53" H 10700 4800 50  0000 C CNN
+F 1 "PH10" H 10350 4850 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4825 50  0001 C CNN
+F 3 "" H 10600 4825 50  0001 C CNN
+	1    10550 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10650 3900 10850 3900
+Wire Wire Line
+	10850 4000 10650 4000
+Wire Wire Line
+	10650 4100 10850 4100
+Wire Wire Line
+	10850 4200 10650 4200
+Wire Wire Line
+	10650 4300 10850 4300
+Wire Wire Line
+	10850 4400 10650 4400
+Wire Wire Line
+	10650 4500 10850 4500
+Wire Wire Line
+	10850 4600 10650 4600
+Wire Wire Line
+	10650 4700 10850 4700
+Wire Wire Line
+	10850 4800 10650 4800
+$Comp
+L SquantorProto:testpad TP54
+U 1 1 621B740B
+P 10550 4900
+F 0 "TP54" H 10700 4900 50  0000 C CNN
+F 1 "PH11" H 10350 4950 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 4925 50  0001 C CNN
+F 3 "" H 10600 4925 50  0001 C CNN
+	1    10550 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP55
+U 1 1 621B7752
+P 10550 5000
+F 0 "TP55" H 10700 5000 50  0000 C CNN
+F 1 "PH12" H 10350 5050 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 5025 50  0001 C CNN
+F 3 "" H 10600 5025 50  0001 C CNN
+	1    10550 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP56
+U 1 1 621B7AA4
+P 10550 5100
+F 0 "TP56" H 10700 5100 50  0000 C CNN
+F 1 "PH13" H 10350 5150 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 5125 50  0001 C CNN
+F 3 "" H 10600 5125 50  0001 C CNN
+	1    10550 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP57
+U 1 1 621B7E97
+P 10550 5200
+F 0 "TP57" H 10700 5200 50  0000 C CNN
+F 1 "PH14" H 10350 5250 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 5225 50  0001 C CNN
+F 3 "" H 10600 5225 50  0001 C CNN
+	1    10550 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP58
+U 1 1 621B829B
+P 10550 5300
+F 0 "TP58" H 10700 5300 50  0000 C CNN
+F 1 "PH15" H 10350 5350 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 5325 50  0001 C CNN
+F 3 "" H 10600 5325 50  0001 C CNN
+	1    10550 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorProto:testpad TP59
+U 1 1 621B86BC
+P 10550 5400
+F 0 "TP59" H 10700 5400 50  0000 C CNN
+F 1 "PH16" H 10350 5450 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 10600 5425 50  0001 C CNN
+F 3 "" H 10600 5425 50  0001 C CNN
+	1    10550 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10650 4900 10850 4900
+Wire Wire Line
+	10850 5000 10650 5000
+Wire Wire Line
+	10650 5100 10850 5100
+Wire Wire Line
+	10850 5200 10650 5200
+Wire Wire Line
+	10650 5300 10850 5300
+Wire Wire Line
+	10850 5400 10650 5400
+$Comp
+L SquantorProto:testpad TP60
+U 1 1 621F8996
+P 900 4850
+F 0 "TP60" H 1050 4850 50  0000 C CNN
+F 1 "VSS" H 700 4900 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 4875 50  0001 C CNN
+F 3 "" H 950 4875 50  0001 C CNN
+	1    900  4850
+	-1   0    0    1   
+$EndComp
+Text Label 1050 4850 0    50   ~ 0
+VSS
+Wire Wire Line
+	1050 4850 1000 4850
+$Comp
+L SquantorProto:testpad TP61
+U 1 1 6220124F
+P 900 5000
+F 0 "TP61" H 1050 5000 50  0000 C CNN
+F 1 "VSS" H 700 5050 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10_small_text" H 950 5025 50  0001 C CNN
+F 3 "" H 950 5025 50  0001 C CNN
+	1    900  5000
+	-1   0    0    1   
+$EndComp
+Text Label 1050 5000 0    50   ~ 0
+VSS
+Wire Wire Line
+	1050 5000 1000 5000
+Text Notes 10350 5650 0    50   ~ 0
+Breakout connection
+Wire Notes Line
+	11150 5700 10250 5700
+Wire Notes Line
+	10250 5700 10250 3750
+Wire Notes Line
+	10250 3750 11150 3750
+Wire Notes Line
+	11150 3750 11150 5700
+$Comp
+L SquantorProto:Proto_1pin J5
+U 1 1 62221FE0
+P 9800 3950
+F 0 "J5" H 9750 4050 60  0000 L CNN
+F 1 "127" H 9700 3850 60  0000 L CNN
+F 2 "SquantorProto:proto-SMD-0127-08X08-P010X020+pin" H 9800 3950 60  0001 C CNN
+F 3 "" H 9800 3950 60  0001 C CNN
+	1    9800 3950
+	1    0    0    -1  
+$EndComp
+Text Label 9500 3950 2    50   ~ 0
+VSS
+Wire Wire Line
+	9500 3950 9550 3950
+$Comp
+L SquantorProto:Proto_1pin J6
+U 1 1 622384E7
+P 9800 4250
+F 0 "J6" H 9750 4350 60  0000 L CNN
+F 1 "127" H 9700 4150 60  0000 L CNN
+F 2 "SquantorProto:proto-SMD-0127-08X08-P010X020+pin" H 9800 4250 60  0001 C CNN
+F 3 "" H 9800 4250 60  0001 C CNN
+	1    9800 4250
+	1    0    0    -1  
+$EndComp
+Text Label 9500 4250 2    50   ~ 0
+VSS
+Wire Wire Line
+	9500 4250 9550 4250
+$Comp
+L SquantorProto:Proto_1pin J7
+U 1 1 62247F74
+P 9800 4550
+F 0 "J7" H 9750 4650 60  0000 L CNN
+F 1 "127" H 9700 4450 60  0000 L CNN
+F 2 "SquantorProto:proto-SMD-0127-08X08-P010X020+pin" H 9800 4550 60  0001 C CNN
+F 3 "" H 9800 4550 60  0001 C CNN
+	1    9800 4550
+	1    0    0    -1  
+$EndComp
+Text Label 9500 4550 2    50   ~ 0
+VSS
+Wire Wire Line
+	9500 4550 9550 4550
+$Comp
+L SquantorProto:Proto_1pin J8
+U 1 1 622481E6
+P 9800 4850
+F 0 "J8" H 9750 4950 60  0000 L CNN
+F 1 "127" H 9700 4750 60  0000 L CNN
+F 2 "SquantorProto:proto-SMD-0127-08X08-P010X020+pin" H 9800 4850 60  0001 C CNN
+F 3 "" H 9800 4850 60  0001 C CNN
+	1    9800 4850
+	1    0    0    -1  
+$EndComp
+Text Label 9500 4850 2    50   ~ 0
+VSS
+Wire Wire Line
+	9500 4850 9550 4850
 $EndSCHEMATC
