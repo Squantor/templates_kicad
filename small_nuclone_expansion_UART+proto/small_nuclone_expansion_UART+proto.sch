@@ -1590,4 +1590,16 @@ Text Label 9500 4850 2    50   ~ 0
 VSS
 Wire Wire Line
 	9500 4850 9550 4850
+Text Notes 9450 5150 0    50   ~ 0
+Prototyping area
+Wire Notes Line
+	9300 3700 9300 5200
+Wire Notes Line
+	9300 5200 10150 5200
+Wire Notes Line
+	10150 5200 10150 3700
+Wire Notes Line
+	10150 3700 9300 3700
+Wire Notes Line
+	9300 5050 10150 5050
 $EndSCHEMATC
