@@ -109,9 +109,9 @@
     (fp_line (start -0.5 0.6) (end 0.5 0.6) (layer "F.SilkS") (width 0.15) (tstamp 1fa508ef-df83-4c99-846b-9acf535b3ad9))
   )
 
-  (gr_line (start 30 20) (end 30 30) (layer "Edge.Cuts") (width 0.1) (tstamp 2bd88b42-a583-4824-8baf-4ecac716152a))
-  (gr_line (start 20 20) (end 30 20) (layer "Edge.Cuts") (width 0.1) (tstamp 6eafce75-f647-4f2f-ba41-2fb3afad3dcc))
-  (gr_line (start 20 30) (end 20 20) (layer "Edge.Cuts") (width 0.1) (tstamp ba9f70d8-c6db-4e51-81e3-f57811451c41))
-  (gr_line (start 30 30) (end 20 30) (layer "Edge.Cuts") (width 0.1) (tstamp d73b74ab-d195-481b-9b4f-035dda3740cc))
+  (gr_line (start 30 20) (end 30 30) (layer "Edge.Cuts") (width 0.02) (tstamp 2bd88b42-a583-4824-8baf-4ecac716152a))
+  (gr_line (start 20 20) (end 30 20) (layer "Edge.Cuts") (width 0.02) (tstamp 6eafce75-f647-4f2f-ba41-2fb3afad3dcc))
+  (gr_line (start 30 30) (end 20 30) (layer "Edge.Cuts") (width 0.02) (tstamp d73b74ab-d195-481b-9b4f-035dda3740cc))
+  (gr_line (start 20 20) (end 20 30) (layer "Edge.Cuts") (width 0.02) (tstamp f4a8afbe-ed68-4253-959f-6be4d2cbf8c5))
 
 )
