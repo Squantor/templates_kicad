@@ -28,3 +28,7 @@ rescue-backup/
 fp-info-cache
 *-cache.lib
 
+# kicad 6 temporaries and local settings
+*-backups/
+*.kicad_prl
+
