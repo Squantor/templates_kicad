@@ -2199,7 +2199,7 @@
     )
   )
 
-  (footprint "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" (layer "B.Cu")
+  (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" (layer "B.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005db691bf)
     (at 84.85 103.65 180)
     (descr "Open Source Hardware Symbol")
@@ -2210,11 +2210,11 @@
     (attr exclude_from_pos_files)
     (fp_text reference "N1" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-      (tstamp 653a86ba-a1ae-4175-9d4c-c788087956d0)
+      (tstamp 39a58874-d2bf-449b-9f58-07b2f1a46d16)
     )
     (fp_text value "OHWLOGO" (at 0.75 0) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-      (tstamp 3ed2c840-383d-4cbd-bc3b-c4ea4c97b333)
+      (tstamp 94d07718-2fcc-40a0-ad0e-c4bb67bc804a)
     )
     (fp_poly (pts
         (xy 0.555814 2.531069)
@@ -2554,7 +2554,7 @@
         (xy -0.453454 2.975693)
         (xy 0.471994 2.975693)
         (xy 0.555814 2.531069)
-      ) (layer "B.SilkS") (width 0.01) (fill solid) (tstamp 6a0919c2-460c-4229-b872-14e318e1ba8b))
+      ) (layer "B.SilkS") (width 0.01) (fill solid) (tstamp 268c6477-051a-4631-8f4a-c86c47bf5102))
   )
 
   (footprint "SquantorLabels:Label_Generic" (layer "B.Cu")
