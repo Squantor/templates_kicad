@@ -32,4 +32,9 @@ fp-info-cache
 *-backups/
 *.kicad_prl
 
-
+# kicad outputs
+plots/
+plots-*/
+*_plots_*/
+*_plots/
+*.zip
