@@ -22,6 +22,7 @@
   (lib (name "SquantorOpto")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorOpto.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorPCBOutline")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorPCBOutline.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorProto")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorProto.kicad_sym")(options "")(descr ""))
+  (lib (name "SquantorRaspberryPi")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorRaspberryPi.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorSilergy")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSilergy.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorSpecial")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSpecial.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorSwitches")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSwitches.kicad_sym")(options "")(descr ""))
