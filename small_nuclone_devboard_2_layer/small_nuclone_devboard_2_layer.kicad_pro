@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|100570000|61000000|00000000-0000-0000-0000-000061982351|6f5c3e16-f46a-49b8-9f89-d2d1652b5877",
+        "silk_over_copper|91630000|61000000|00000000-0000-0000-0000-000061982351|b7cc531d-71db-4e55-91a1-86ec557afbb6"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -137,27 +140,27 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.7,
           "drill": 0.4
         },
         {
-          "diameter": 0.8,
+          "diameter": 0.9,
           "drill": 0.6
         },
         {
-          "diameter": 1.0,
+          "diameter": 1.1,
           "drill": 0.8
         },
         {
-          "diameter": 1.3,
+          "diameter": 1.4,
           "drill": 1.0
         },
         {
-          "diameter": 1.7,
+          "diameter": 1.8,
           "drill": 1.4
         }
       ],
