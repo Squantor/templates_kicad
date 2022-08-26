@@ -4155,7 +4155,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 1f29d2e6-7cd1-4d55-a840-cbd748f8e68f) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
