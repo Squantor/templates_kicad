@@ -1,4 +1,5 @@
 (sym_lib_table
+  (lib (name "SquantorAtmel")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/Squantor6502.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorAtmel")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorAtmel.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorConnectors")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectors.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorConnectorsNamed")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectorsNamed.kicad_sym")(options "")(descr ""))
@@ -8,6 +9,7 @@
   (lib (name "SquantorDiodesInc")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorDiodesInc.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorFtdi")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorFtdi.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorGenericAnalog")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorGenericAnalog.kicad_sym")(options "")(descr ""))
+  (lib (name "SquantorGenericAnalog")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorGenericDigital.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorHi-link")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorHi-link.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorHoltek")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorHoltek.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorIC")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorIC.kicad_sym")(options "")(descr ""))
@@ -25,8 +27,8 @@
   (lib (name "SquantorRaspberryPi")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorRaspberryPi.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorSilergy")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSilergy.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorSpecial")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSpecial.kicad_sym")(options "")(descr ""))
+  (lib (name "SquantorSpecial")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorST.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorSwitches")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSwitches.kicad_sym")(options "")(descr ""))
-  (lib (name "SquantorST")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorST.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorTexasInstruments")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorTexasInstruments.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorTransformer")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorTransformer.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorUsb")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorUsb.kicad_sym")(options "")(descr ""))
