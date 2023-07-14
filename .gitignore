@@ -9,6 +9,7 @@
 *~
 _autosave-*
 *.tmp
+*.lck
 
 # Netlist files (exported from Eeschema)
 *.net
