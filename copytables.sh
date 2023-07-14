@@ -9,8 +9,8 @@ cp fp-lib-table alu_box_10x10cm_1x2_module/
 cp sym-lib-table alu_box_10x10cm_1x2_module/
 cp fp-lib-table alu_box_10x10cm_backplane/
 cp sym-lib-table alu_box_10x10cm_backplane/
-cp fp-lib-table alu_box_10x10cm_jlc2layer/
-cp sym-lib-table alu_box_10x10cm_jlc2layer/
+cp fp-lib-table alu_box_10x10cm_minimal/
+cp sym-lib-table alu_box_10x10cm_minimal/
 cp fp-lib-table Hammond_1550Z113/
 cp sym-lib-table Hammond_1550Z113/
 cp fp-lib-table Hammond_1551G_JLCPCB_4layer/
