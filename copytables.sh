@@ -3,12 +3,12 @@
 set -e
 cp fp-lib-table Aisler_simple_2_layer/
 cp sym-lib-table Aisler_simple_2_layer/
-cp fp-lib-table alu_box_10x10cm_1x1_module/
-cp sym-lib-table alu_box_10x10cm_1x1_module/
+cp fp-lib-table ModEleSys_1x1_module/
+cp sym-lib-table ModEleSys_1x1_module/
 cp fp-lib-table alu_box_10x10cm_1x2_module/
-cp sym-lib-table alu_box_10x10cm_1x2_module/
-cp fp-lib-table alu_box_10x10cm_backplane/
-cp sym-lib-table alu_box_10x10cm_backplane/
+cp sym-lib-table ModEleSys_1x2_module/
+cp fp-lib-table ModEleSys_backplane/
+cp sym-lib-table ModEleSys_backplane/
 cp fp-lib-table alu_box_10x10cm_minimal/
 cp sym-lib-table alu_box_10x10cm_minimal/
 cp fp-lib-table Hammond_1550Z113/
