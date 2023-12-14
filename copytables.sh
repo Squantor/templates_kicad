@@ -1,14 +1,14 @@
 # copy all the tables
 #!/bin/bash
 set -e
+cp fp-lib-table Aisler_complex_2_layer/
+cp sym-lib-table Aisler_complex_2_layer/
+cp fp-lib-table Aisler_complex_4_layer/
+cp sym-lib-table Aisler_complex_4_layer/
+cp fp-lib-table Aisler_complex_6_layer/
+cp sym-lib-table Aisler_complex_6_layer/
 cp fp-lib-table Aisler_simple_2_layer/
 cp sym-lib-table Aisler_simple_2_layer/
-cp fp-lib-table ModEleSys_1x1_module/
-cp sym-lib-table ModEleSys_1x1_module/
-cp fp-lib-table alu_box_10x10cm_1x2_module/
-cp sym-lib-table ModEleSys_1x2_module/
-cp fp-lib-table ModEleSys_backplane/
-cp sym-lib-table ModEleSys_backplane/
 cp fp-lib-table alu_box_10x10cm_minimal/
 cp sym-lib-table alu_box_10x10cm_minimal/
 cp fp-lib-table Hammond_1550Z113/
@@ -37,6 +37,12 @@ cp fp-lib-table jlcpcb_4_layer/
 cp sym-lib-table jlcpcb_4_layer/
 cp fp-lib-table medium_nuclone_devboard/
 cp sym-lib-table medium_nuclone_devboard/
+cp fp-lib-table ModEleSys_1x1_module/
+cp sym-lib-table ModEleSys_1x1_module/
+cp fp-lib-table ModEleSys_1x2_module/
+cp sym-lib-table ModEleSys_1x2_module/
+cp fp-lib-table ModEleSys_backplane/
+cp sym-lib-table ModEleSys_backplane/
 cp fp-lib-table OSH_Park_2_layer/
 cp sym-lib-table OSH_Park_2_layer/
 cp fp-lib-table OSH_Park_4_layer/
