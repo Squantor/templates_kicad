@@ -177,6 +177,7 @@
       ],
       "track_widths": [
         0.0,
+        0.125,
         0.2,
         0.3,
         0.4,
@@ -192,6 +193,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.1
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.2
         },
         {
           "diameter": 0.7,
@@ -230,7 +243,7 @@
           "drill": 1.6
         },
         {
-          "diameter": 2.5,
+          "diameter": 2.4,
           "drill": 2.0
         }
       ],
@@ -460,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Aisler_complex_2_layer.kicad_pro",
+    "filename": "Aisler_complex_4_layer.kicad_pro",
     "version": 1
   },
   "net_settings": {
