@@ -2936,7 +2936,7 @@
     )
     (pin "1" (uuid 15a50644-6f38-4031-b1ab-684cff7d0dd1))
     (pin "2" (uuid 6831b8a3-7811-43f3-a27d-06f8209c8e57))
-    (pin "2" (uuid 6831b8a3-7811-43f3-a27d-06f8209c8e57))
+    (pin "2" (uuid 6831b8a3-7811-43f3-a27d-06f8209c8e58))
     (pin "3" (uuid e226e327-1b07-42f3-bf6e-8ceed4f36009))
     (instances
       (project "small_nuclone_devboard_2_layer"
