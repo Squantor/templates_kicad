@@ -56,7 +56,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|135740000|42500000|fc1b33ea-9780-4ab1-a89a-01d25d78538a|4810b86b-6a21-4857-bc14-b667583fbbb1",
+        "silk_edge_clearance|139060000|140500000|0eb587e7-751f-47d7-9c36-57fccade3def|1d182752-99ad-4ef6-bfa9-2eebe1f7b3ae",
+        "silk_edge_clearance|177940000|42500000|fc1b33ea-9780-4ab1-a89a-01d25d78538a|d6adb3cf-4b80-4c3b-a5ad-bbc61e3329b2",
+        "silk_edge_clearance|181260000|140500000|0eb587e7-751f-47d7-9c36-57fccade3def|5dd87983-9174-48c6-8c84-d5f35e9cd180"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
