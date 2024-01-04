@@ -3198,7 +3198,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "N1") (unit 1)
         )
@@ -3232,7 +3232,7 @@
     (pin "8" (uuid 371d9bc7-acf2-411c-94cc-77722bcbb0eb))
     (pin "9" (uuid aa8438ad-492a-415e-a1e2-0ca217c83d29))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "J1") (unit 1)
         )
@@ -3258,7 +3258,7 @@
     (pin "1" (uuid 7a892250-680b-434b-866b-b5a8767bf67d))
     (pin "2" (uuid a440128b-2cde-4f2c-af58-c801e5dbb506))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "FB1") (unit 1)
         )
@@ -3284,7 +3284,7 @@
     (pin "1" (uuid acbf48df-2f2a-4a59-b097-c44f0c330b13))
     (pin "2" (uuid 0242cb59-b49e-425b-b907-b4046dcb7e39))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "F1") (unit 1)
         )
@@ -3310,7 +3310,7 @@
     (pin "1" (uuid e7449b5b-3bdc-46dd-8166-8b2b05fe2e8c))
     (pin "2" (uuid 566ee70f-b8e5-4ecb-8712-1f1a1b14d810))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "C2") (unit 1)
         )
@@ -3335,7 +3335,7 @@
     )
     (pin "1" (uuid ba8d7ba4-2a2d-40b7-a3b5-35b472195741))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "#FLG01") (unit 1)
         )
@@ -3359,7 +3359,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "H4") (unit 1)
         )
@@ -3383,7 +3383,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "H3") (unit 1)
         )
@@ -3407,7 +3407,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "H2") (unit 1)
         )
@@ -3431,7 +3431,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "H1") (unit 1)
         )
@@ -3455,7 +3455,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "N2") (unit 1)
         )
@@ -3483,7 +3483,7 @@
     (pin "2" (uuid aa1ed959-a959-48a2-8e4b-45078f53631d))
     (pin "3" (uuid 9558e9dd-8632-470a-a7f3-7ba63491a64b))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "U1") (unit 1)
         )
@@ -3509,7 +3509,7 @@
     (pin "1" (uuid bfedb636-86a1-4580-9cd2-9fd058b70bf3))
     (pin "2" (uuid 33d5d272-a05d-4dad-9247-53f99b91961d))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "C1") (unit 1)
         )
@@ -3573,7 +3573,7 @@
     (pin "8" (uuid 28de399f-21fc-492c-a40b-54983db4d217))
     (pin "9" (uuid 56f687d5-099a-4da8-ad84-19e769e3035b))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "J3") (unit 1)
         )
@@ -3637,7 +3637,7 @@
     (pin "8" (uuid 1ddebfe7-594a-4e93-9a27-019a2db1670f))
     (pin "9" (uuid d6683f14-62e7-446a-a196-a62bd4c9202e))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "J4") (unit 1)
         )
@@ -3661,7 +3661,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "N3") (unit 1)
         )
@@ -3687,7 +3687,7 @@
     (pin "1" (uuid 43c393ab-e02c-409c-b54a-da9331405f9d))
     (pin "2" (uuid 9f89f410-91d9-4d94-be84-3183e71a74da))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "SW1") (unit 1)
         )
@@ -3724,7 +3724,7 @@
     (pin "B8" (uuid 5abc43c0-a488-4323-970c-517037b87a81))
     (pin "S" (uuid 680c94ce-0c3b-4004-8ab1-6415e121065c))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "J2") (unit 1)
         )
@@ -3741,7 +3741,7 @@
     (property "Value" "5.1K" (at 45.72 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 45.72 108.712 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 45.72 108.712 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 110.49 0)
@@ -3750,7 +3750,7 @@
     (pin "1" (uuid 1d951946-a614-40ed-8a5f-f872defae1e9))
     (pin "2" (uuid c2f694c0-dfe8-40f2-b1b2-6c8dcf61801a))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R1") (unit 1)
         )
@@ -3776,7 +3776,7 @@
     (pin "1" (uuid 058a991d-0cd3-4ac0-9e9d-9fb74f911d11))
     (pin "2" (uuid 5bbdd582-c26c-4958-aa7e-7768a99e8eb0))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "C9") (unit 1)
         )
@@ -3793,7 +3793,7 @@
     (property "Value" "47K" (at 25.4 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 25.4 132.842 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 25.4 132.842 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 134.62 0)
@@ -3802,7 +3802,7 @@
     (pin "1" (uuid 3b20c696-f27c-4d81-813f-c6de43798ab1))
     (pin "2" (uuid 8c1907d8-a528-4d56-b17c-b2d75a925000))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R2") (unit 1)
         )
@@ -3819,7 +3819,7 @@
     (property "Value" "47K" (at 25.4 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 25.4 135.382 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 25.4 135.382 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 137.16 0)
@@ -3828,7 +3828,7 @@
     (pin "1" (uuid 8c4979ce-2af7-4d25-a9ff-51db5b8a9ff1))
     (pin "2" (uuid 3259291b-a206-40e0-809e-d00a59e4c2d3))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R3") (unit 1)
         )
@@ -3845,7 +3845,7 @@
     (property "Value" "47K" (at 25.4 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 25.4 137.922 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 25.4 137.922 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 139.7 0)
@@ -3854,7 +3854,7 @@
     (pin "1" (uuid afcfe023-4136-4672-bfd0-41b543613724))
     (pin "2" (uuid c30b1ce3-325f-431a-882b-66f603f280ef))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R4") (unit 1)
         )
@@ -3871,7 +3871,7 @@
     (property "Value" "47K" (at 25.4 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 25.4 140.462 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 25.4 140.462 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 142.24 0)
@@ -3880,7 +3880,7 @@
     (pin "1" (uuid 80b9a5e2-1173-44b2-95f8-b6722ce80de8))
     (pin "2" (uuid 16abd8b0-f9e5-4117-a77b-b56b085058fb))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R5") (unit 1)
         )
@@ -3897,7 +3897,7 @@
     (property "Value" "47K" (at 25.4 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 25.4 143.002 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 25.4 143.002 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 144.78 0)
@@ -3906,7 +3906,7 @@
     (pin "1" (uuid 605786c4-1fb0-4359-9856-53512dc44091))
     (pin "2" (uuid 2a26b2cf-b842-43f6-8a95-f6c4f9aa6277))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R6") (unit 1)
         )
@@ -3930,7 +3930,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "N4") (unit 1)
         )
@@ -3947,7 +3947,7 @@
     (property "Value" "100" (at 43.18 152.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 43.18 150.622 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 43.18 150.622 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.18 152.4 0)
@@ -3956,7 +3956,7 @@
     (pin "1" (uuid 37d67a0b-5790-4f67-92f1-5b37549c2086))
     (pin "2" (uuid e0093c4a-3d2b-4e28-ba0c-1d0f284e5b6f))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R13") (unit 1)
         )
@@ -3982,7 +3982,7 @@
     (pin "2" (uuid 5ea1eda4-e29a-4e87-8b44-4c0b09e6d3f0))
     (pin "1" (uuid bdfca140-83a7-4de1-a05e-50357aceda52))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "C14") (unit 1)
         )
@@ -4008,7 +4008,7 @@
     (pin "1" (uuid 6e46e6c6-6e81-4f07-bb7b-33abedd7e959))
     (pin "2" (uuid 989309c4-d97d-497f-9581-8cc38f75a47e))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R14") (unit 1)
         )
@@ -4034,7 +4034,7 @@
     (pin "1" (uuid 59513615-37ce-4840-b867-883297639532))
     (pin "2" (uuid 6e444d6b-6ab6-492a-846e-84e1aa1a65c8))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "D2") (unit 1)
         )
@@ -4051,7 +4051,7 @@
     (property "Value" "5.1K" (at 45.72 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 45.72 93.472 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 45.72 93.472 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 95.25 0)
@@ -4060,7 +4060,7 @@
     (pin "1" (uuid ce3b2479-4a0b-4cb1-8adb-af28f4347372))
     (pin "2" (uuid 5829281a-4106-4bb6-a294-4ac3aea063fa))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R7") (unit 1)
         )
@@ -4086,7 +4086,7 @@
     (pin "1" (uuid b809c036-4602-4f24-8122-e9d29a131552))
     (pin "2" (uuid 7ebf2062-021a-451a-8dd9-e081051588e7))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "C17") (unit 1)
         )
@@ -4112,7 +4112,7 @@
     (pin "1" (uuid 67e7fac2-6be0-4820-b885-4fec07f0028d))
     (pin "2" (uuid 3a0ef5d2-96f1-4cb0-92af-9ecbf66e7242))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "SW2") (unit 1)
         )
@@ -4129,7 +4129,7 @@
     (property "Value" "10K" (at 90.17 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:R_0402_hand" (at 90.17 141.732 90)
+    (property "Footprint" "SquantorResistors:R_0402_hand" (at 90.17 141.732 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 90.17 143.51 0)
@@ -4138,7 +4138,7 @@
     (pin "1" (uuid 14bfb151-a813-4b6e-be4e-2974af079c6c))
     (pin "2" (uuid 6770b2b9-d2a3-49d1-a930-ee24160a69c6))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "R8") (unit 1)
         )
@@ -4162,7 +4162,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "N5") (unit 1)
         )
@@ -4197,7 +4197,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "U2") (unit 1)
         )
@@ -4228,7 +4228,7 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e"
           (reference "C4") (unit 1)
         )
@@ -4527,7 +4527,7 @@
       (uuid cc30b857-26f9-4d81-b57a-9179046f6b15)
     )
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e" (page "2"))
       )
     )

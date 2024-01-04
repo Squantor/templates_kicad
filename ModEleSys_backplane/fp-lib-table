@@ -21,7 +21,7 @@
   (lib (name "SquantorPhoenixContact")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorPhoenixContact.pretty")(options "")(descr "squantor Phoenix Contact connectors"))
   (lib (name "SquantorProto")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorProto.pretty")(options "")(descr "squantor prototyping tool footprints"))
   (lib (name "SquantorRcl")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorRcl.pretty")(options "")(descr "squantor R C L library (depricated)"))
-  (lib (name "SquantorResistors")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorResistors.pretty")(options "")(descr "squantor Resistor library"))
+  (lib (name "SquantorResistor")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorResistor.pretty")(options "")(descr "squantor Resistors library"))
   (lib (name "SquantorSpecial")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSpecial.pretty")(options "")(descr "squantor special devices"))
   (lib (name "SquantorST")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorST.pretty")(options "")(descr "squantor ST Microelectronics devices"))
   (lib (name "SquantorSwitches")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSwitches.pretty")(options "")(descr "squantor switches"))

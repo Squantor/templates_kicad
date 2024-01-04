@@ -716,7 +716,7 @@
     (pin "1" (uuid 2656dc48-d093-466d-8c5c-feae9369b894))
     (pin "2" (uuid 6b612e14-6891-496a-b68d-52ea0931df96))
     (instances
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e/00000000-0000-0000-0000-00006127a958"
           (reference "C3") (unit 1)
         )
@@ -753,7 +753,7 @@
           (reference "J5") (unit 1)
         )
       )
-      (project "medium_nuclone_devboard"
+      (project "nuclone_devboard_medium"
         (path "/f714ce77-1b03-46de-8ce2-42d10401024e/00000000-0000-0000-0000-00006127a958"
           (reference "J5") (unit 1)
         )
