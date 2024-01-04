@@ -59,5 +59,3 @@ cp fp-lib-table OSH_Park_4_layer/
 cp sym-lib-table OSH_Park_4_layer/
 cp fp-lib-table squantorTemplate/
 cp sym-lib-table squantorTemplate/
-
-
