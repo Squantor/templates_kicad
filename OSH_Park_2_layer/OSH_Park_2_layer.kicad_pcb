@@ -1,4 +1,4 @@
-(kicad_pcb (version 20211014) (generator pcbnew)
+(kicad_pcb (version 20221018) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -34,14 +34,15 @@
     (pad_to_paste_clearance_ratio -0.1)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
-      (svguseinch false)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
       (svgprecision 6)
-      (excludeedgelayer true)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
@@ -70,7 +71,7 @@
   (net 0 "")
 
   (footprint "SquantorLabels:Label_Generic" (layer "F.Cu")
-    (tedit 5D8A7D4C) (tstamp 00000000-0000-0000-0000-00005ee12051)
+    (tstamp 00000000-0000-0000-0000-00005ee12051)
     (at 138.1 91.5)
     (descr "Label for general purpose use")
     (tags "Label")
@@ -79,18 +80,19 @@
     (path "/00000000-0000-0000-0000-00005ee12bf3")
     (attr smd)
     (fp_text reference "N1" (at 0 1.85) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e08f2a4-63d6-468b-bd8b-ec607077e023)
     )
     (fp_text value "20200610" (at 0.8 -0.1) (layer "F.SilkS")
-      (effects (font (size 0.8 0.8) (thickness 0.15)))
+        (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp b6bcc3cf-50de-4a33-bc41-678825c1ecf2)
     )
-    (fp_line (start -0.5 0.6) (end 0.5 0.6) (layer "F.SilkS") (width 0.15) (tstamp 5740c959-93d8-47fd-8f68-62f0109e753d))
+    (fp_line (start -0.5 0.6) (end 0.5 0.6)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 5740c959-93d8-47fd-8f68-62f0109e753d))
   )
 
   (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" (layer "F.Cu")
-    (tedit 0) (tstamp 00000000-0000-0000-0000-00005ee12086)
+    (tstamp 00000000-0000-0000-0000-00005ee12086)
     (at 138.7 87.6)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
@@ -99,14 +101,15 @@
     (path "/00000000-0000-0000-0000-00005ee13678")
     (attr exclude_from_pos_files)
     (fp_text reference "N2" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)))
       (tstamp db83d0af-e085-4050-8496-fa2ebdecbd62)
     )
     (fp_text value "OHWLOGO" (at 0.75 0) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a501555e-bbc7-4b58-ad89-28a0cd3dd6d0)
     )
-    (fp_poly (pts
+    (fp_poly
+      (pts
         (xy 0.555814 -2.531069)
         (xy 0.639635 -2.086445)
         (xy 0.94892 -1.958947)
@@ -444,7 +447,9 @@
         (xy -0.453454 -2.975693)
         (xy 0.471994 -2.975693)
         (xy 0.555814 -2.531069)
-      ) (layer "F.SilkS") (width 0.01) (fill solid) (tstamp 3cfcbcc7-4f45-46ab-82a8-c414c7972161))
+      )
+
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 3cfcbcc7-4f45-46ab-82a8-c414c7972161))
   )
 
 )

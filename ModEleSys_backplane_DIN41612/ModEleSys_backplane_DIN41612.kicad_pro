@@ -38,11 +38,11 @@
           "height": 6.4,
           "width": 6.4
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 0.7999999999999999,
         "silk_text_size_v": 0.7999999999999999,
-        "silk_text_thickness": 0.12,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
