@@ -335,7 +335,7 @@
     (uuid 105171da-2cfd-43fb-be66-1a1020169de8)
   )
 
-  (label "BOOTLOADER" (at 25.4 50.8 0) (fields_autoplaced)
+  (label "BOOT" (at 25.4 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 19979535-e060-45e8-91e3-20883d1fcb2d)
   )
@@ -343,7 +343,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4b9a4b22-a241-4855-9d5c-4ff2f9005b1b)
   )
-  (label "BOOTLOADER" (at 161.29 186.69 0) (fields_autoplaced)
+  (label "BOOT" (at 161.29 186.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 53d89ec5-ce33-404e-9053-136f08e4c0eb)
   )
@@ -550,7 +550,7 @@
     (property "Value" "10u" (at 28.321 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SquantorRcl:C_0603" (at 26.3652 31.75 0)
+    (property "Footprint" "SquantorCapacitor:C_0603" (at 26.3652 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 27.94 0)
@@ -559,7 +559,7 @@
     (pin "1" (uuid 1c3ce0ac-9fa0-446e-ab24-b8ec9da6a371))
     (pin "2" (uuid e35e25fe-45b5-4f94-89d0-e63b25ba9959))
     (instances
-      (project "small_nuclone_devboard_2_layer"
+      (project "nuclone_devboard_small_2_layer"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283/00000000-0000-0000-0000-00006127a958"
           (reference "C3") (unit 1)
         )
@@ -591,7 +591,7 @@
     (pin "7" (uuid 285aea7b-e77c-45db-bb55-675d453e6a55))
     (pin "8" (uuid 58a96cf0-e0cb-43a9-a3d3-de8b0b0b9e9b))
     (instances
-      (project "small_nuclone_devboard_2_layer"
+      (project "nuclone_devboard_small_2_layer"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283/00000000-0000-0000-0000-00006127a958"
           (reference "J5") (unit 1)
         )
