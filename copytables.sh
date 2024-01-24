@@ -43,8 +43,10 @@ cp fp-lib-table ModEleSys_backplane/
 cp sym-lib-table ModEleSys_backplane/
 cp fp-lib-table ModEleSys_backplane_DIN41612/
 cp sym-lib-table ModEleSys_backplane_DIN41612/
-cp fp-lib-table nuclone_devboard_medium/
-cp sym-lib-table nuclone_devboard_medium/
+cp fp-lib-table nuclone_devboard_medium_2_layer_USB-C_data/
+cp sym-lib-table nuclone_devboard_medium_2_layer_USB-C_data/
+cp fp-lib-table nuclone_devboard_medium_2_layer_USB-C_PD/
+cp sym-lib-table nuclone_devboard_medium_2_layer_USB-C_PD/
 cp fp-lib-table nuclone_devboard_small_2_layer/
 cp sym-lib-table nuclone_devboard_small_2_layer/
 cp fp-lib-table nuclone_devboard_small_4_layer/
