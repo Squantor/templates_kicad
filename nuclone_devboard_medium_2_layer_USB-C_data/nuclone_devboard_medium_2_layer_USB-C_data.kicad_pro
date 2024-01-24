@@ -462,7 +462,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nuclone_devboard_medium.kicad_pro",
+    "filename": "nuclone_devboard_medium_2_layer_USB-C_data.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -521,7 +521,7 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.5,
+        "diff_pair_gap": 0.6,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
