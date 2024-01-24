@@ -54,12 +54,14 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.6,
+          "via_gap": 10.0,
+          "width": 0.2
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|100570000|61000000|00000000-0000-0000-0000-000061982351|6f5c3e16-f46a-49b8-9f89-d2d1652b5877",
-        "silk_over_copper|91630000|61000000|00000000-0000-0000-0000-000061982351|b7cc531d-71db-4e55-91a1-86ec557afbb6"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -180,9 +182,11 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.3,
         0.4,
+        0.5,
         0.6,
         0.8,
         1.0,
@@ -518,6 +522,23 @@
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.6,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "diff_usb",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -537,6 +558,18 @@
       {
         "netclass": "Power",
         "pattern": "/VBUS"
+      },
+      {
+        "netclass": "diff_usb",
+        "pattern": "/DN"
+      },
+      {
+        "netclass": "diff_usb",
+        "pattern": "/DP"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VUSB"
       }
     ]
   },
