@@ -2002,10 +2002,6 @@
     (uuid d068a394-7054-45f9-ac53-014bf75c7213)
   )
 
-  (wire (pts (xy 49.53 118.11) (xy 48.26 118.11))
-    (stroke (width 0) (type default))
-    (uuid d0823f78-79d3-470b-87e6-694e750395bc)
-  )
   (wire (pts (xy 86.36 165.1) (xy 87.63 165.1))
     (stroke (width 0) (type default))
     (uuid d0c5561a-ecf5-4fb9-9963-743c221a8335)
