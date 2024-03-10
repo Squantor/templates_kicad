@@ -545,7 +545,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/DN": "diff_usb",
+      "/DP": "diff_usb"
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -566,10 +569,6 @@
       {
         "netclass": "diff_usb",
         "pattern": "/DP"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/VUSB"
       }
     ]
   },
