@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.0
         }
       },
@@ -460,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ModEleSys_1x2_module.kicad_pro",
+    "filename": "ModEleSys_V2_1x2_module.kicad_pro",
     "version": 1
   },
   "net_settings": {
