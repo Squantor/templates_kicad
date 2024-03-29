@@ -120,14 +120,14 @@
         "min_clearance": 0.15,
         "min_connection": 0.19999999999999998,
         "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.15,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
-        "min_text_thickness": 0.12,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.19999999999999998,
@@ -460,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ModEleSys_1x1_module.kicad_pro",
+    "filename": "ModEleSys_V2_1x1_module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -478,41 +478,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.4,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
         "via_diameter": 0.7,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.3,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }

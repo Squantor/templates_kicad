@@ -458,7 +458,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ModEleSys_backplane_DIN41612.kicad_pro",
+    "filename": "ModEleSys_V2_backplane.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -476,13 +476,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -493,13 +493,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
-        "via_diameter": 0.7,
-        "via_drill": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -509,8 +509,8 @@
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
+        "track_width": 0.2,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       }
