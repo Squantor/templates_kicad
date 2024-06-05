@@ -2692,7 +2692,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "N1") (unit 1)
         )
@@ -2726,7 +2726,7 @@
     (pin "8" (uuid 2ecef960-da4c-42cf-a72e-4a7cf3691990))
     (pin "9" (uuid 2157c2e1-a5cc-4885-bc22-fdf9da595931))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "J1") (unit 1)
         )
@@ -2752,7 +2752,7 @@
     (pin "1" (uuid 42589805-d870-4e5e-a7a4-a45895232563))
     (pin "2" (uuid 2ed120dc-814f-48c2-8306-066a8fc8c11b))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "FB1") (unit 1)
         )
@@ -2778,7 +2778,7 @@
     (pin "1" (uuid f3c68c6f-ffae-4f95-8166-23da4672383f))
     (pin "2" (uuid fb0196ac-4d5f-4730-83dc-c31452f11210))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "F1") (unit 1)
         )
@@ -2804,7 +2804,7 @@
     (pin "1" (uuid 833eacaa-a6d3-4911-8432-b9760f2891c7))
     (pin "2" (uuid d9e61282-8687-4b7d-afff-b0cd69e1634b))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "C2") (unit 1)
         )
@@ -2829,7 +2829,7 @@
     )
     (pin "1" (uuid 87735e19-7b3d-422c-8973-c55a8f0fee17))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "#FLG01") (unit 1)
         )
@@ -2853,7 +2853,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "H4") (unit 1)
         )
@@ -2877,7 +2877,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "H3") (unit 1)
         )
@@ -2901,7 +2901,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "H2") (unit 1)
         )
@@ -2925,7 +2925,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "H1") (unit 1)
         )
@@ -2949,7 +2949,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "N2") (unit 1)
         )
@@ -2977,7 +2977,7 @@
     (pin "2" (uuid 6831b8a3-7811-43f3-a27d-06f8209c8e58))
     (pin "3" (uuid e226e327-1b07-42f3-bf6e-8ceed4f36009))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "U1") (unit 1)
         )
@@ -3003,7 +3003,7 @@
     (pin "1" (uuid 98c4b092-bf78-43ca-8d74-941c15d8fe89))
     (pin "2" (uuid 15549caa-269f-468e-82f4-673a78270d01))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "C1") (unit 1)
         )
@@ -3047,7 +3047,7 @@
     (pin "8" (uuid 31a355b7-b81e-487e-b521-e984b30da8f2))
     (pin "9" (uuid 9ab94644-1c61-4cb2-ac5f-f369d7a15905))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "J3") (unit 1)
         )
@@ -3091,7 +3091,7 @@
     (pin "8" (uuid 10348096-9773-438d-9da9-f2de7511239d))
     (pin "9" (uuid 2964872b-c6b8-4f48-962d-ec7bc0dcfe45))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "J4") (unit 1)
         )
@@ -3115,7 +3115,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "N3") (unit 1)
         )
@@ -3141,7 +3141,7 @@
     (pin "1" (uuid 6dacda71-4bb3-4536-8dca-d85264482a57))
     (pin "2" (uuid f1c90a01-d865-4407-8359-f50e1ba5b802))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "SW1") (unit 1)
         )
@@ -3178,7 +3178,7 @@
     (pin "B8" (uuid ad39f576-a474-4f9d-a6f5-16ff30967042))
     (pin "S" (uuid eaaa5bfc-b13a-4d10-83ee-d0ac4993a607))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "J2") (unit 1)
         )
@@ -3204,7 +3204,7 @@
     (pin "1" (uuid 186e5d8a-6772-4375-829b-19a2df6700c3))
     (pin "2" (uuid 5304cac8-c45d-4937-8f4f-0a203d1a96c1))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R1") (unit 1)
         )
@@ -3230,7 +3230,7 @@
     (pin "1" (uuid 90f849e6-cdd7-4332-a915-111535ca3bca))
     (pin "2" (uuid cecc19c9-0715-41cb-a199-6edc91313e63))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R2") (unit 1)
         )
@@ -3256,7 +3256,7 @@
     (pin "1" (uuid 910d8f29-bf6a-405a-b101-8f86e9529841))
     (pin "2" (uuid 476f9437-4a89-4d76-af91-e2a134b95e6f))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R3") (unit 1)
         )
@@ -3282,7 +3282,7 @@
     (pin "1" (uuid 5886e575-b80c-446f-a435-0b4c9526c94e))
     (pin "2" (uuid 91696539-77c4-4a75-8e58-8ed056557991))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R4") (unit 1)
         )
@@ -3308,7 +3308,7 @@
     (pin "1" (uuid df154a3d-4d9b-4d06-bc5a-30761ca45e87))
     (pin "2" (uuid bb1d3653-b63a-47c0-b6f8-d8d1da193c13))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R5") (unit 1)
         )
@@ -3334,7 +3334,7 @@
     (pin "1" (uuid b16db6aa-eff9-4560-94eb-8f1df0edf71a))
     (pin "2" (uuid 7a96ea12-e031-49a1-a3a0-24202e6db0ee))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R6") (unit 1)
         )
@@ -3358,7 +3358,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "N4") (unit 1)
         )
@@ -3384,7 +3384,7 @@
     (pin "1" (uuid ccdfe3c8-7366-49d2-98e3-7aff624ff6b5))
     (pin "2" (uuid a5526636-fd62-4ac7-9917-24cf6dd27e9c))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R13") (unit 1)
         )
@@ -3410,7 +3410,7 @@
     (pin "1" (uuid c1be5a28-10c5-4401-a577-17211b92c028))
     (pin "2" (uuid 682b69c7-9f4b-40a7-b618-a1b81b2e5c2c))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "C14") (unit 1)
         )
@@ -3436,7 +3436,7 @@
     (pin "1" (uuid 750b9bf8-92da-4dca-8a08-f4e08afe86e8))
     (pin "2" (uuid 3748fc6c-2394-4259-aa1e-4bee3c172a6d))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R14") (unit 1)
         )
@@ -3462,7 +3462,7 @@
     (pin "1" (uuid 7f280c56-2afd-45c5-b3ee-e6225c105eda))
     (pin "2" (uuid c1344181-1d9e-48c4-b279-ab0e274e51f6))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "D2") (unit 1)
         )
@@ -3488,7 +3488,7 @@
     (pin "1" (uuid 2f31d828-0d1a-434e-9870-915efe828302))
     (pin "2" (uuid 12417bb3-56e1-452b-b243-11e466304b31))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R7") (unit 1)
         )
@@ -3514,7 +3514,7 @@
     (pin "1" (uuid 459089f5-4d3d-4635-8532-cb9674f35982))
     (pin "2" (uuid 14d6d401-a404-4c2f-a8da-d54e532483d5))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "C17") (unit 1)
         )
@@ -3538,7 +3538,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "N5") (unit 1)
         )
@@ -3568,7 +3568,7 @@
     (pin "5" (uuid 5b12bb61-076d-4c1f-9a6d-b399c284e4b7))
     (pin "6" (uuid 237297a1-afb3-46e7-b820-3f38e676d83b))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "U2") (unit 1)
         )
@@ -3594,7 +3594,7 @@
     (pin "1" (uuid 622bab52-754c-4280-9769-a1313a85f1ee))
     (pin "2" (uuid d77d8856-9294-49b5-a940-ee4a94d96a7d))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "C4") (unit 1)
         )
@@ -3620,7 +3620,7 @@
     (pin "1" (uuid f82a6ff0-ee17-4156-b72c-4c620ed00045))
     (pin "2" (uuid 0b2cdac7-52d7-4ca2-a8a1-b25c8c140e0d))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R8") (unit 1)
         )
@@ -3646,7 +3646,7 @@
     (pin "2" (uuid 3aed8eee-3c54-45a5-a97b-2987eedd96f0))
     (pin "1" (uuid 58899917-b16e-479f-8110-b0eb213f5c4f))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "C5") (unit 1)
         )
@@ -3672,7 +3672,7 @@
     (pin "1" (uuid f1b62de1-684c-49b4-9b6f-686741a8876b))
     (pin "2" (uuid 96ff239d-e98b-4235-beb7-a3839a2b69f0))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "R9") (unit 1)
         )
@@ -3704,7 +3704,7 @@
     (pin "1" (uuid c3c5bf4d-0ab0-4c0e-adad-da19ec894337))
     (pin "2" (uuid 1bee01ca-7a84-4a4e-a411-d55ff08d0f6a))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "D1") (unit 1)
         )
@@ -3730,7 +3730,7 @@
     (pin "1" (uuid 03af8a2b-15e7-4756-b5ad-a237cf99a609))
     (pin "2" (uuid b93681d0-f6d3-4d0f-ab09-872ad8fa1f10))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "C6") (unit 1)
         )
@@ -3756,7 +3756,7 @@
     (pin "1" (uuid beb304ad-d91e-4253-aeee-fe725d1d8fd9))
     (pin "2" (uuid 652b8879-a252-4bf7-9b57-841fbeb3e7d1))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283"
           (reference "SW2") (unit 1)
         )
@@ -3927,7 +3927,7 @@
       (uuid bd035ccc-9e40-4a7e-a5a6-95b177a95754)
     )
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283" (page "2"))
       )
     )

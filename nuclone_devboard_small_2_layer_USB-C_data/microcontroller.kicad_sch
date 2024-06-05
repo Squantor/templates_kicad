@@ -559,7 +559,7 @@
     (pin "1" (uuid 1c3ce0ac-9fa0-446e-ab24-b8ec9da6a371))
     (pin "2" (uuid e35e25fe-45b5-4f94-89d0-e63b25ba9959))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283/00000000-0000-0000-0000-00006127a958"
           (reference "C3") (unit 1)
         )
@@ -591,7 +591,7 @@
     (pin "7" (uuid 285aea7b-e77c-45db-bb55-675d453e6a55))
     (pin "8" (uuid 58a96cf0-e0cb-43a9-a3d3-de8b0b0b9e9b))
     (instances
-      (project "nuclone_devboard_small_2_layer"
+      (project "nuclone_devboard_small_2_layer_USB-C_data"
         (path "/937928d4-4dfb-4f2f-91d0-697ec54ac283/00000000-0000-0000-0000-00006127a958"
           (reference "J5") (unit 1)
         )
