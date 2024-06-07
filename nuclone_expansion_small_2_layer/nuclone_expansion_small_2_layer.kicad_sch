@@ -346,12 +346,56 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
   )
 
 
   (wire (pts (xy 24.13 102.87) (xy 25.4 102.87))
     (stroke (width 0) (type default))
     (uuid 03caada9-9e22-4e2d-9035-b15433dfbb17)
+  )
+  (polyline (pts (xy 67.31 190.5) (xy 67.31 190.5))
+    (stroke (width 0) (type default))
+    (uuid 0e2d8248-77b2-4fc1-873a-ee369a0ec461)
   )
   (polyline (pts (xy 39.37 125.73) (xy 39.37 129.54))
     (stroke (width 0) (type default))
@@ -387,6 +431,10 @@
     (stroke (width 0) (type default))
     (uuid 20c315f4-1e4f-49aa-8d61-778a7389df7e)
   )
+  (wire (pts (xy 76.2 185.42) (xy 77.47 185.42))
+    (stroke (width 0) (type default))
+    (uuid 234f8d20-d9af-4ec9-b4fc-f3821aeaab21)
+  )
   (polyline (pts (xy 58.42 194.31) (xy 58.42 170.18))
     (stroke (width 0) (type default))
     (uuid 23bb2798-d93a-4696-a962-c305c4298a0c)
@@ -399,6 +447,10 @@
   (polyline (pts (xy 54.61 129.54) (xy 54.61 54.61))
     (stroke (width 0) (type default))
     (uuid 29e058a7-50a3-43e5-81c3-bfee53da08be)
+  )
+  (polyline (pts (xy 83.82 194.31) (xy 83.82 177.8))
+    (stroke (width 0) (type default))
+    (uuid 31ad352e-6319-4fda-b624-6b1ee16b300d)
   )
 
   (wire (pts (xy 25.4 114.3) (xy 24.13 114.3))
@@ -422,6 +474,10 @@
     (stroke (width 0) (type default))
     (uuid 46918595-4a45-48e8-84c0-961b4db7f35f)
   )
+  (polyline (pts (xy 60.96 194.31) (xy 83.82 194.31))
+    (stroke (width 0) (type default))
+    (uuid 5382973e-b303-4f12-9a8d-ff44e14eb385)
+  )
   (polyline (pts (xy 106.68 165.1) (xy 173.99 165.1))
     (stroke (width 0) (type default))
     (uuid 5cbb5968-dbb5-4b84-864a-ead1cacf75b9)
@@ -429,6 +485,10 @@
   (polyline (pts (xy 54.61 54.61) (xy 15.24 54.61))
     (stroke (width 0) (type default))
     (uuid 5cf2db29-f7ab-499a-9907-cdeba64bf0f3)
+  )
+  (polyline (pts (xy 67.31 190.5) (xy 67.31 194.31))
+    (stroke (width 0) (type default))
+    (uuid 5fe128c6-68e2-4f6d-b4f1-fdc7e91d9646)
   )
   (polyline (pts (xy 173.99 165.1) (xy 173.99 195.58))
     (stroke (width 0) (type default))
@@ -468,6 +528,10 @@
     (stroke (width 0) (type default))
     (uuid 82be7aae-5d06-4178-8c3e-98760c41b054)
   )
+  (wire (pts (xy 76.2 182.88) (xy 77.47 182.88))
+    (stroke (width 0) (type default))
+    (uuid 86dd5a6e-23b9-4318-806b-b93f49ed6326)
+  )
   (wire (pts (xy 24.13 72.39) (xy 25.4 72.39))
     (stroke (width 0) (type default))
     (uuid 8c514922-ffe1-4e37-a260-e807409f2e0d)
@@ -483,6 +547,10 @@
   (wire (pts (xy 43.18 114.3) (xy 44.45 114.3))
     (stroke (width 0) (type default))
     (uuid 9193c41e-d425-447d-b95c-6986d66ea01c)
+  )
+  (polyline (pts (xy 60.96 193.04) (xy 60.96 194.31))
+    (stroke (width 0) (type default))
+    (uuid 92ea9964-3678-4a76-91ba-b6daa63ac2bb)
   )
   (polyline (pts (xy 15.24 194.31) (xy 58.42 194.31))
     (stroke (width 0) (type default))
@@ -510,6 +578,15 @@
     (stroke (width 0) (type default))
     (uuid a27eb049-c992-4f11-a026-1e6a8d9d0160)
   )
+  (wire (pts (xy 76.2 187.96) (xy 77.47 187.96))
+    (stroke (width 0) (type default))
+    (uuid a327447e-fb6d-4e35-9744-6ee863d0e7f0)
+  )
+  (polyline (pts (xy 83.82 190.5) (xy 67.31 190.5))
+    (stroke (width 0) (type default))
+    (uuid a344b743-b7f4-4030-9d28-694d73f7a61c)
+  )
+
   (wire (pts (xy 44.45 91.44) (xy 43.18 91.44))
     (stroke (width 0) (type default))
     (uuid a6b7df29-bcf8-46a9-b623-7eaac47f5110)
@@ -531,16 +608,28 @@
     (stroke (width 0) (type default))
     (uuid afb8e687-4a13-41a1-b8c0-89a749e897fe)
   )
+  (polyline (pts (xy 83.82 176.53) (xy 60.96 176.53))
+    (stroke (width 0) (type default))
+    (uuid b0e0534d-c30e-418c-a6de-db8398d92fbb)
+  )
 
   (wire (pts (xy 25.4 57.15) (xy 24.13 57.15))
     (stroke (width 0) (type default))
     (uuid b1086f75-01ba-4188-8d36-75a9e2828ca9)
+  )
+  (polyline (pts (xy 83.82 176.53) (xy 83.82 177.8))
+    (stroke (width 0) (type default))
+    (uuid baa6321e-3553-418a-b6e0-641a0eba4211)
   )
   (polyline (pts (xy 166.37 195.58) (xy 166.37 191.77))
     (stroke (width 0) (type default))
     (uuid bb7f0588-d4d8-44bf-9ebf-3c533fe4d6ae)
   )
 
+  (wire (pts (xy 76.2 180.34) (xy 77.47 180.34))
+    (stroke (width 0) (type default))
+    (uuid bc791b09-aefb-41bb-acda-e52f5023a532)
+  )
   (wire (pts (xy 43.18 57.15) (xy 44.45 57.15))
     (stroke (width 0) (type default))
     (uuid c094494a-f6f7-43fc-a007-4951484ddf3a)
@@ -591,6 +680,10 @@
     (stroke (width 0) (type default))
     (uuid e65b62be-e01b-4688-a999-1d1be370c4ae)
   )
+  (polyline (pts (xy 60.96 176.53) (xy 60.96 193.04))
+    (stroke (width 0) (type default))
+    (uuid e7963b79-77ee-4433-9539-82ca890f7a4b)
+  )
   (polyline (pts (xy 33.02 190.5) (xy 33.02 194.31))
     (stroke (width 0) (type default))
     (uuid e9bb29b2-2bb9-4ea2-acd9-2bb3ca677a12)
@@ -611,6 +704,10 @@
   (text "Labels and mounting" (at 34.29 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 94c158d1-8503-4553-b511-bf42f506c2a8)
+  )
+  (text "Powersupplies" (at 68.58 193.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d8d472a2-5323-4848-8548-bd120b25afcd)
   )
   (text "GPIO pinouts" (at 40.64 128.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -669,6 +766,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3172f2e2-18d2-4a80-ae30-5707b3409798)
   )
+  (label "VSS" (at 77.47 185.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 31b4da8f-24cf-4042-ac2a-68bbf9c6b9a0)
+  )
   (label "GPIO_23" (at 93.98 33.02 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3b838d52-596d-4e4d-a6ac-e4c8e7621137)
@@ -681,6 +782,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 417f13e4-c121-485a-a6b5-8b55e70350b8)
   )
+  (label "VDD1" (at 77.47 180.34 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 43b7f804-267d-46a7-b815-ad3c0276c266)
+  )
   (label "GPIO_15" (at 93.98 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44d8279a-9cd1-4db6-856f-0363131605fc)
@@ -692,6 +797,10 @@
   (label "GPIO_26" (at 44.45 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4a21e717-d46d-4d9e-8b98-af4ecb02d3ec)
+  )
+  (label "VBUS" (at 77.47 182.88 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4c1eeebe-c6fc-4ca9-ac84-5def87c955bf)
   )
   (label "GPIO_03" (at 25.4 80.01 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -833,6 +942,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ac264c30-3e9a-4be2-b97a-9949b68bd497)
   )
+  (label "VDD2" (at 77.47 187.96 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b46554ad-e112-4000-9ae2-4f400cc3b8f5)
+  )
   (label "GPIO_21" (at 44.45 95.25 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b96fe6ac-3535-4455-ab88-ed77f5e46d6e)
@@ -927,14 +1040,14 @@
     (property "Value" "OHWLOGO" (at 24.13 193.04 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" (at 24.13 189.23 0)
+    (property "Footprint" "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" (at 24.13 189.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 24.13 189.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "N1") (unit 1)
         )
@@ -951,14 +1064,14 @@
     (property "Value" "MountingHole" (at 43.18 186.563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 40.64 185.42 0)
+    (property "Footprint" "SquantorPcbOutline:MountingHole_3.2mm_M3_Pad_Via" (at 40.64 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "H4") (unit 1)
         )
@@ -975,14 +1088,14 @@
     (property "Value" "MountingHole" (at 43.18 182.753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 40.64 181.61 0)
+    (property "Footprint" "SquantorPcbOutline:MountingHole_3.2mm_M3_Pad_Via" (at 40.64 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "H3") (unit 1)
         )
@@ -999,14 +1112,14 @@
     (property "Value" "MountingHole" (at 43.18 178.943 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 40.64 177.8 0)
+    (property "Footprint" "SquantorPcbOutline:MountingHole_3.2mm_M3_Pad_Via" (at 40.64 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "H2") (unit 1)
         )
@@ -1023,14 +1136,14 @@
     (property "Value" "MountingHole" (at 43.18 175.133 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 40.64 173.99 0)
+    (property "Footprint" "SquantorPcbOutline:MountingHole_3.2mm_M3_Pad_Via" (at 40.64 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "H1") (unit 1)
         )
@@ -1044,7 +1157,7 @@
     (property "Reference" "N2" (at 22.86 180.34 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "V20220513" (at 17.78 182.88 0)
+    (property "Value" "V20240607" (at 17.78 182.88 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (at 24.13 182.88 0)
@@ -1054,7 +1167,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "N2") (unit 1)
         )
@@ -1098,7 +1211,7 @@
     (pin "8" (uuid 89df70f4-3579-42b9-861e-6beb04a3b25e))
     (pin "9" (uuid 2c488362-c230-4f6d-82f9-a229b1171a23))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "J3") (unit 1)
         )
@@ -1142,7 +1255,7 @@
     (pin "8" (uuid 2522909e-6f5c-4f36-9c3a-869dca14e50f))
     (pin "9" (uuid a647641f-bf16-4177-91ee-b01f347ff91c))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "J4") (unit 1)
         )
@@ -1166,7 +1279,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "N3") (unit 1)
         )
@@ -1191,7 +1304,7 @@
     )
     (pin "1" (uuid 57543893-39bf-4d83-b4e0-8d020b4a6d48))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP1") (unit 1)
         )
@@ -1216,7 +1329,7 @@
     )
     (pin "1" (uuid 7c6e532b-1afd-48d4-9389-2942dcbc7c3c))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP2") (unit 1)
         )
@@ -1241,7 +1354,7 @@
     )
     (pin "1" (uuid e7893166-2c2c-41b4-bd84-76ebc2e06551))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP3") (unit 1)
         )
@@ -1266,7 +1379,7 @@
     )
     (pin "1" (uuid be030c62-e776-405f-97d8-4a4c1aa2e428))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP4") (unit 1)
         )
@@ -1291,7 +1404,7 @@
     )
     (pin "1" (uuid 35343f32-90ff-4059-a108-111fb444c3d2))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP5") (unit 1)
         )
@@ -1316,7 +1429,7 @@
     )
     (pin "1" (uuid c10ace36-a93c-4c08-ac75-059ef9e1f71c))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP6") (unit 1)
         )
@@ -1341,7 +1454,7 @@
     )
     (pin "1" (uuid 36696ac6-2db1-4b52-ae3d-9f3c89d2042f))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP7") (unit 1)
         )
@@ -1366,7 +1479,7 @@
     )
     (pin "1" (uuid 87a0ffb1-5477-4b20-a3ac-fef5af129a33))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP8") (unit 1)
         )
@@ -1391,7 +1504,7 @@
     )
     (pin "1" (uuid 2d4d8c24-5b38-445b-8733-2a81ba21d33e))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP9") (unit 1)
         )
@@ -1416,7 +1529,7 @@
     )
     (pin "1" (uuid df93f76b-86da-45ae-87e2-4b691af12b00))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP10") (unit 1)
         )
@@ -1441,7 +1554,7 @@
     )
     (pin "1" (uuid 4c8704fa-310a-4c01-8dc1-2b7e2727fea0))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP11") (unit 1)
         )
@@ -1466,7 +1579,7 @@
     )
     (pin "1" (uuid 05e45f00-3c6b-4c0c-9ffb-3fe26fcda007))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP12") (unit 1)
         )
@@ -1491,7 +1604,7 @@
     )
     (pin "1" (uuid f74eb612-4697-4cb4-afe4-9f94828b954d))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP13") (unit 1)
         )
@@ -1516,7 +1629,7 @@
     )
     (pin "1" (uuid fab1abc4-c49d-4b88-8c7f-939d7feb7b6c))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP14") (unit 1)
         )
@@ -1541,7 +1654,7 @@
     )
     (pin "1" (uuid bf4036b4-c410-489a-b46c-abee2c31db09))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP15") (unit 1)
         )
@@ -1566,7 +1679,7 @@
     )
     (pin "1" (uuid c9badf80-21f8-404a-b5df-18e98bffebf9))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP16") (unit 1)
         )
@@ -1591,7 +1704,7 @@
     )
     (pin "1" (uuid b547dd70-2ea7-4cfd-a1ee-911561975d81))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP17") (unit 1)
         )
@@ -1616,7 +1729,7 @@
     )
     (pin "1" (uuid c8072c34-0f81-4552-9fbe-4bfe60c53e21))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP18") (unit 1)
         )
@@ -1641,7 +1754,7 @@
     )
     (pin "1" (uuid 90fa0465-7fe5-474b-8e7c-9f955c02a0f6))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP19") (unit 1)
         )
@@ -1666,7 +1779,7 @@
     )
     (pin "1" (uuid 929c74c0-78bf-4efe-a778-fa328e951865))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP22") (unit 1)
         )
@@ -1691,7 +1804,7 @@
     )
     (pin "1" (uuid 22ab392d-1989-4185-9178-8083812ea067))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP23") (unit 1)
         )
@@ -1716,7 +1829,7 @@
     )
     (pin "1" (uuid 58a87288-e2bf-4c88-9871-a753efc69e9d))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP24") (unit 1)
         )
@@ -1741,7 +1854,7 @@
     )
     (pin "1" (uuid dc7523a5-4408-4a51-bc92-6a47a538c094))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP25") (unit 1)
         )
@@ -1766,7 +1879,7 @@
     )
     (pin "1" (uuid 494d4ce3-60c4-4021-8bd1-ab41a12b14ed))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP26") (unit 1)
         )
@@ -1791,7 +1904,7 @@
     )
     (pin "1" (uuid a67dbe3b-ec7d-4ea5-b0e5-715c5263d8da))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP27") (unit 1)
         )
@@ -1816,7 +1929,7 @@
     )
     (pin "1" (uuid 6b69fc79-c78f-4df1-9a05-c51d4173705f))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP28") (unit 1)
         )
@@ -1841,7 +1954,7 @@
     )
     (pin "1" (uuid e0b36e60-bb2b-489c-a764-1b81e551ce62))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP29") (unit 1)
         )
@@ -1866,7 +1979,7 @@
     )
     (pin "1" (uuid ab0ea55a-63b3-4ece-836d-2844713a821f))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP30") (unit 1)
         )
@@ -1891,7 +2004,7 @@
     )
     (pin "1" (uuid ea7c53f9-3aa8-4198-9879-de95a5257915))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP31") (unit 1)
         )
@@ -1916,7 +2029,7 @@
     )
     (pin "1" (uuid 2cd3975a-2259-4fa9-8133-e1586b9b9618))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP32") (unit 1)
         )
@@ -1941,7 +2054,7 @@
     )
     (pin "1" (uuid 68039801-1b0f-480a-861d-d55f24af0c17))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP33") (unit 1)
         )
@@ -1966,7 +2079,7 @@
     )
     (pin "1" (uuid b55dabdc-b790-4740-9349-75159cff975a))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP34") (unit 1)
         )
@@ -1991,7 +2104,7 @@
     )
     (pin "1" (uuid cdfb661b-489b-4b76-99f4-62b92bb1ab18))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP35") (unit 1)
         )
@@ -2016,7 +2129,7 @@
     )
     (pin "1" (uuid 0ff398d7-e6e2-4972-a7a4-438407886f34))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP20") (unit 1)
         )
@@ -2041,9 +2154,109 @@
     )
     (pin "1" (uuid b121f1ff-8472-460b-ab2d-5110ddd1ca28))
     (instances
-      (project "small_nuclone_expansion_2_layer"
+      (project "nuclone_expansion_small_2_layer"
         (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
           (reference "TP21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 76.2 185.42 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a9f28a83-bda3-494e-ae79-af7f2ec2734d)
+    (property "Reference" "#FLG03" (at 74.295 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 72.39 185.42 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 76.2 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 76.2 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c9571ecd-478f-48b0-84c2-148e5c43bcc1))
+    (instances
+      (project "nuclone_expansion_small_2_layer"
+        (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
+          (reference "#FLG03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 76.2 180.34 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b2358345-a89f-4990-8410-b3ab58d89b1e)
+    (property "Reference" "#FLG01" (at 74.295 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 72.39 180.34 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 76.2 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 76.2 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7c597a19-29be-4f09-8d4e-41a5ff7f3a99))
+    (instances
+      (project "nuclone_expansion_small_2_layer"
+        (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 76.2 187.96 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c721c82a-e60c-48c3-ab57-2a75de3bee70)
+    (property "Reference" "#FLG04" (at 74.295 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 72.39 187.96 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 76.2 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 76.2 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eace1b4a-d184-4202-9548-ac8119d1d7a0))
+    (instances
+      (project "nuclone_expansion_small_2_layer"
+        (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
+          (reference "#FLG04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 76.2 182.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fff4c61a-e4ed-40b2-80e4-f57bea1dbed6)
+    (property "Reference" "#FLG02" (at 74.295 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 72.39 182.88 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 76.2 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 76.2 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 95ff6437-ef87-41b7-b087-43bc9ead0aa1))
+    (instances
+      (project "nuclone_expansion_small_2_layer"
+        (path "/4831966c-bb32-4bc8-a400-0382a02ffa1c"
+          (reference "#FLG02") (unit 1)
         )
       )
     )
