@@ -9,8 +9,8 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -1318,7 +1318,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3100,7 +3100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 40.64 185.42 0)
 			(effects
 				(font
@@ -3163,7 +3163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 40.64 181.61 0)
 			(effects
 				(font
@@ -3226,7 +3226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 40.64 177.8 0)
 			(effects
 				(font
@@ -3289,7 +3289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 40.64 173.99 0)
 			(effects
 				(font
@@ -3413,7 +3413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "small Nuclone left hand connector"
 			(at 36.83 31.75 0)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small nuclone right hand connector"
 			(at 81.28 31.75 0)
 			(effects
 				(font
@@ -3718,7 +3718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 57.15 0)
 			(effects
 				(font
@@ -3782,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 60.96 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 64.77 0)
 			(effects
 				(font
@@ -3910,7 +3910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 68.58 0)
 			(effects
 				(font
@@ -3974,7 +3974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 72.39 0)
 			(effects
 				(font
@@ -4038,7 +4038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 76.2 0)
 			(effects
 				(font
@@ -4102,7 +4102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 80.01 0)
 			(effects
 				(font
@@ -4166,7 +4166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 83.82 0)
 			(effects
 				(font
@@ -4230,7 +4230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 87.63 0)
 			(effects
 				(font
@@ -4294,7 +4294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 91.44 0)
 			(effects
 				(font
@@ -4358,7 +4358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 95.25 0)
 			(effects
 				(font
@@ -4422,7 +4422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 99.06 0)
 			(effects
 				(font
@@ -4486,7 +4486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 102.87 0)
 			(effects
 				(font
@@ -4550,7 +4550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 106.68 0)
 			(effects
 				(font
@@ -4614,7 +4614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 110.49 0)
 			(effects
 				(font
@@ -4678,7 +4678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 114.3 0)
 			(effects
 				(font
@@ -4742,7 +4742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 21.59 118.11 0)
 			(effects
 				(font
@@ -4806,7 +4806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 57.15 0)
 			(effects
 				(font
@@ -4870,7 +4870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 60.96 0)
 			(effects
 				(font
@@ -4934,7 +4934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 72.39 0)
 			(effects
 				(font
@@ -4998,7 +4998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 76.2 0)
 			(effects
 				(font
@@ -5062,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 80.01 0)
 			(effects
 				(font
@@ -5126,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 83.82 0)
 			(effects
 				(font
@@ -5190,7 +5190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 87.63 0)
 			(effects
 				(font
@@ -5254,7 +5254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 95.25 0)
 			(effects
 				(font
@@ -5382,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -5446,7 +5446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 102.87 0)
 			(effects
 				(font
@@ -5510,7 +5510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -5574,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 110.49 0)
 			(effects
 				(font
@@ -5638,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 114.3 0)
 			(effects
 				(font
@@ -5702,7 +5702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 118.11 0)
 			(effects
 				(font
@@ -5766,7 +5766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 121.92 0)
 			(effects
 				(font
@@ -5830,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 64.77 0)
 			(effects
 				(font
@@ -5894,7 +5894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round single test pad"
 			(at 40.64 68.58 0)
 			(effects
 				(font
@@ -5961,7 +5961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 76.2 185.42 0)
 			(effects
 				(font
@@ -6028,7 +6028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 76.2 180.34 0)
 			(effects
 				(font
@@ -6095,7 +6095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 76.2 187.96 0)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 76.2 182.88 0)
 			(effects
 				(font
