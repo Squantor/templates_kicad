@@ -65,3 +65,9 @@ cp fp-lib-table OSH_Park_4_layer/
 cp sym-lib-table OSH_Park_4_layer/
 cp fp-lib-table squantorTemplate/
 cp sym-lib-table squantorTemplate/
+cp fp-lib-table protoboard_5x7cm/
+cp sym-lib-table protoboard_5x7cm/
+cp fp-lib-table protoboard_6x8cm/
+cp sym-lib-table protoboard_6x8cm/
+cp fp-lib-table protoboard_7x9cm/
+cp sym-lib-table protoboard_7x9cm/
