@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "646d9e91-59b4-4865-a2fc-29780ed32563")
 	(paper "A4")
 	(lib_symbols
@@ -79,6 +79,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SquantorLabels:VYYYYMMDD"
 			(pin_names
@@ -143,7 +144,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Logos and version"
+		(exclude_from_sim no)
+		(at 16.51 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37e4dc66-4492-4061-908d-7213940a2ec3")
 	)
 	(polyline
 		(pts
@@ -195,17 +208,6 @@
 		)
 		(uuid "f144a97d-c3f0-423f-b0a9-3f7dbc42478b")
 	)
-	(text "Logos and version"
-		(exclude_from_sim no)
-		(at 16.51 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37e4dc66-4492-4061-908d-7213940a2ec3")
-	)
 	(symbol
 		(lib_id "SquantorLabels:VYYYYMMDD")
 		(at 26.67 189.23 0)
@@ -224,7 +226,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20231214"
+		(property "Value" "20250926"
 			(at 20.32 189.23 0)
 			(effects
 				(font
@@ -337,4 +339,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -1,4 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "SquantorAtmel")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorAtmel.pretty")(options "")(descr "Squantor Atmel devices"))
   (lib (name "SquantorCapacitor")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorCapacitor.pretty")(options "")(descr "squantor capacitors"))
   (lib (name "SquantorConnectors")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectors.pretty")(options "")(descr "squantor connectors"))
@@ -14,6 +15,7 @@
   (lib (name "SquantorLinearTechnology")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorLinearTechnology.pretty")(options "")(descr "squantor Linear Technology devices"))
   (lib (name "SquantorMicrochip")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorMicrochip.pretty")(options "")(descr "squantor Microchip devices"))
   (lib (name "SquantorModules")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorModules.pretty")(options "")(descr "squantor general modules"))
+  (lib (name "SquantorNuclone")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorNuclone.pretty")(options "")(descr "squantor nuclone board outlines"))
   (lib (name "SquantorOHW_logo")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorOHW_logo.pretty")(options "")(descr "squantor open hardware logo"))
   (lib (name "SquantorOnSemi")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorOnSemi.pretty")(options "")(descr "squantor On Semiconductor devices"))
   (lib (name "SquantorOpto")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorOpto.pretty")(options "")(descr "squantor optical devices"))

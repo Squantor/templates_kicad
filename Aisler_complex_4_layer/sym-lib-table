@@ -22,6 +22,7 @@
   (lib (name "SquantorMaxim")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorMaxim.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorMicrochip")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorMicrochip.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorModules")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorModules.kicad_sym")(options "")(descr ""))
+  (lib (name "SquantorNuclone")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorNuclone.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorNxp")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorNxp.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorOnSemi")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorOnSemi.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorOpto")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorOpto.kicad_sym")(options "")(descr ""))
