@@ -8,7 +8,7 @@ Still some things need to be done:
 * Fill in HSI
 * PCB layout
 * Review with one night in between
-* Produce at [OSHPARK](https://oshpark.com/)
+* Produce at [Aisler](https://aisler.net/)
 * Assemble
 * Test & characterise
 * update Readme.md with pictures and BOM
