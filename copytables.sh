@@ -57,6 +57,8 @@ cp fp-lib-table nuclone_devboard_small_2_layer_USB-C_PD/
 cp sym-lib-table nuclone_devboard_small_2_layer_USB-C_PD/
 cp fp-lib-table nuclone_devboard_small_4_layer/
 cp sym-lib-table nuclone_devboard_small_4_layer/
+cp fp-lib-table nuclone_expansion_medium_2_layer/
+cp sym-lib-table nuclone_expansion_medium_2_layer/
 cp fp-lib-table nuclone_expansion_small_2_layer/
 cp sym-lib-table nuclone_expansion_small_2_layer/
 cp fp-lib-table nuclone_expansion_small_UART+proto/
