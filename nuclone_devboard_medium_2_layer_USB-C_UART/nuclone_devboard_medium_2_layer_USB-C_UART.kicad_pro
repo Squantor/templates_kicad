@@ -530,7 +530,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nuclone_devboard_medium_2_layer_USB-C_data.kicad_pro",
+    "filename": "nuclone_devboard_medium_2_layer_USB-C_UART.kicad_pro",
     "version": 3
   },
   "net_settings": {

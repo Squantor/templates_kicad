@@ -5666,6 +5666,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SquantorProto:testpad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "testpad"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Round single test pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "testpad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "testpad_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "testpad_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SquantorUsb:USB-C_PD_USB"
 			(pin_names
 				(offset 1.016)
@@ -5976,6 +6074,361 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SquantorWCH:CH340B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CH340B"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CH340B_0_1"
+				(rectangle
+					(start -6.35 11.43)
+					(end 6.35 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CH340B_1_1"
+				(pin power_in line
+					(at -8.89 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 6.35 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "UD+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "UD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -6.35 0)
+					(length 2.54)
+					(name "RST#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -8.89 -8.89 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 8.89 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 6.35 180)
+					(length 2.54)
+					(name "TNOW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "RTS#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "DTR#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "DCD#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "RI#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -6.35 180)
+					(length 2.54)
+					(name "DSR#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -8.89 180)
+					(length 2.54)
+					(name "CTS#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -6261,6 +6714,17 @@
 		)
 		(uuid "6c345944-913f-46f5-a42f-2df127247eae")
 	)
+	(text "USB to serial"
+		(exclude_from_sim no)
+		(at 123.19 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b9534ec-69b2-4155-bd4d-7c9e66808b8e")
+	)
 	(text "Power regulator"
 		(exclude_from_sim no)
 		(at 74.93 193.04 0)
@@ -6342,6 +6806,10 @@
 		(uuid "d9ff17f0-123b-43d0-a9b5-09663c58515d")
 	)
 	(no_connect
+		(at 100.33 107.95)
+		(uuid "1bd62252-5b08-4fc1-a9db-1f4d98666bc4")
+	)
+	(no_connect
 		(at 40.64 107.95)
 		(uuid "485600b6-4d8f-4326-bde7-10ab1349b663")
 	)
@@ -6373,6 +6841,16 @@
 		(at 58.42 111.76)
 		(uuid "f770bfd2-7a97-47d5-b663-5564de87ed52")
 	)
+	(polyline
+		(pts
+			(xy 91.44 121.92) (xy 138.43 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e7ab62-4a52-4971-9b03-d785e9e699a0")
+	)
 	(wire
 		(pts
 			(xy 83.82 133.35) (xy 85.09 133.35)
@@ -6402,6 +6880,16 @@
 			(type default)
 		)
 		(uuid "0adec514-fcb7-48ed-b8b2-e61e07e42db2")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b418850-f302-4554-9d04-6299dcc29971")
 	)
 	(wire
 		(pts
@@ -6445,6 +6933,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ebbb27-47ae-424d-92df-322c1ccac073")
+	)
+	(wire
+		(pts
 			(xy 240.03 35.56) (xy 241.3 35.56)
 		)
 		(stroke
@@ -6485,6 +6983,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 93.98) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192fe491-0416-4367-96c4-d5bc59cc41a9")
+	)
+	(wire
+		(pts
 			(xy 21.59 142.24) (xy 20.32 142.24)
 		)
 		(stroke
@@ -6502,6 +7010,16 @@
 			(type default)
 		)
 		(uuid "1baee309-dbe7-4ef7-a337-f655fb3558f5")
+	)
+	(polyline
+		(pts
+			(xy 91.44 81.28) (xy 91.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be0444a-02fd-4336-9435-2474c4781b86")
 	)
 	(wire
 		(pts
@@ -6545,6 +7063,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213755cb-4694-4095-931a-c74ebdc31f4e")
+	)
+	(wire
+		(pts
 			(xy 40.64 113.03) (xy 45.72 113.03)
 		)
 		(stroke
@@ -6582,6 +7110,16 @@
 			(type default)
 		)
 		(uuid "28631c41-2bfb-49be-a884-5d46d3db6dca")
+	)
+	(wire
+		(pts
+			(xy 116.84 118.11) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298f3614-0c19-4561-83d9-165af3108128")
 	)
 	(wire
 		(pts
@@ -6692,6 +7230,16 @@
 			(type default)
 		)
 		(uuid "321e4157-995d-4791-aaca-f603fcec6ddc")
+	)
+	(wire
+		(pts
+			(xy 125.73 110.49) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34704fe1-0fe2-4a61-aa4f-74758c2c3867")
 	)
 	(wire
 		(pts
@@ -6895,6 +7443,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 97.79) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d54694c-82bc-4b8a-b7dd-a6991a629375")
+	)
+	(wire
+		(pts
 			(xy 241.3 27.94) (xy 240.03 27.94)
 		)
 		(stroke
@@ -6983,6 +7541,16 @@
 		)
 		(uuid "58d00317-cbb6-49b1-8a6c-d3c64aa5b7ed")
 	)
+	(polyline
+		(pts
+			(xy 138.43 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59174d7b-5bf7-4846-97e0-e3cd04cb0434")
+	)
 	(wire
 		(pts
 			(xy 240.03 30.48) (xy 241.3 30.48)
@@ -6992,6 +7560,16 @@
 			(type default)
 		)
 		(uuid "5a564ee7-c6e0-4104-b5c3-9a5819897826")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 118.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bac152b-5382-4a00-b605-de69298c416e")
 	)
 	(wire
 		(pts
@@ -7012,6 +7590,16 @@
 			(type default)
 		)
 		(uuid "5cb61912-8e9a-4580-b4de-6b736b0ef25f")
+	)
+	(polyline
+		(pts
+			(xy 138.43 121.92) (xy 138.43 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cffd6d1-629e-4ebd-8a44-e8eccfd91711")
 	)
 	(wire
 		(pts
@@ -7175,6 +7763,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 118.11) (xy 105.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa67bfe-4f3c-4b7c-b2ea-ab74b1a39b9a")
+	)
+	(wire
+		(pts
 			(xy 76.2 90.17) (xy 74.93 90.17)
 		)
 		(stroke
@@ -7222,6 +7820,26 @@
 			(type default)
 		)
 		(uuid "809bcc0a-c5bf-4a19-8ca7-1153828fd3e9")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e6b922-c15c-426a-87cb-e127ccf356bb")
+	)
+	(polyline
+		(pts
+			(xy 138.43 118.11) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811f774f-4c83-4d42-89b8-5954462f4135")
 	)
 	(wire
 		(pts
@@ -7282,6 +7900,26 @@
 			(type default)
 		)
 		(uuid "8c74d1c5-a8f9-42ca-9d16-b117635a4600")
+	)
+	(wire
+		(pts
+			(xy 128.27 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e46166e-65e5-4525-a20b-9a137605a191")
+	)
+	(polyline
+		(pts
+			(xy 121.92 118.11) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ad1617-19de-44f7-9e66-3bd6c21d5916")
 	)
 	(wire
 		(pts
@@ -7472,6 +8110,16 @@
 			(type default)
 		)
 		(uuid "a32deeec-778a-417d-8b49-958a41215047")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b4ce0e-d247-463f-b9e2-141095baade3")
 	)
 	(polyline
 		(pts
@@ -7745,6 +8393,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be45be0b-6c11-4547-81ae-6af769135e24")
+	)
+	(wire
+		(pts
 			(xy 26.67 152.4) (xy 27.94 152.4)
 		)
 		(stroke
@@ -7802,6 +8460,16 @@
 			(type default)
 		)
 		(uuid "cc503ef4-0b93-4792-b67f-6a88b9f8f772")
+	)
+	(wire
+		(pts
+			(xy 118.11 105.41) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce06e0b1-0977-4364-a812-78b97fa131be")
 	)
 	(wire
 		(pts
@@ -7945,6 +8613,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 97.79) (xy 118.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40c3db2-aaa6-4ca8-b63b-1c8714dd9cb7")
+	)
+	(wire
+		(pts
 			(xy 241.3 17.78) (xy 240.03 17.78)
 		)
 		(stroke
@@ -8083,6 +8761,26 @@
 		)
 		(uuid "f6fbb596-36d7-4896-a038-8abc4aa8607a")
 	)
+	(wire
+		(pts
+			(xy 97.79 118.11) (xy 96.52 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b60c70-6052-4eac-a6fb-bd1157939d2e")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6594ca-4cad-44dc-b00d-1eeddbee72e1")
+	)
 	(polyline
 		(pts
 			(xy 60.96 162.56) (xy 60.96 194.31)
@@ -8102,6 +8800,26 @@
 			(type default)
 		)
 		(uuid "fd71fd5f-8174-4cfd-a4a7-9d5a70056262")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0bbf46-5a5f-4597-9927-93609c1bbcb1")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3c3ee5-4f82-499a-b2af-05d7f5664180")
 	)
 	(label "GPIO_07"
 		(at 199.39 35.56 180)
@@ -8342,6 +9060,16 @@
 			(justify left bottom)
 		)
 		(uuid "1b432562-23a6-4133-914b-7246a4991b62")
+	)
+	(label "VSS"
+		(at 100.33 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ecea6f9-ca1d-40a4-9fd1-ac893273c8a5")
 	)
 	(label "VDD"
 		(at 20.32 139.7 180)
@@ -8632,6 +9360,16 @@
 			(justify right bottom)
 		)
 		(uuid "446fe88b-4ca0-4178-94bd-50c740870468")
+	)
+	(label "DN"
+		(at 100.33 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44a1d413-023f-4bfb-956e-5c47eb8d1778")
 	)
 	(label "VSS"
 		(at 24.13 68.58 180)
@@ -8953,6 +9691,16 @@
 		)
 		(uuid "6f4421db-ff66-491c-b62c-a0698f15b926")
 	)
+	(label "TNOW"
+		(at 118.11 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f4e6ac4-eb97-4cb5-8c7b-a50670712018")
+	)
 	(label "VSS"
 		(at 24.13 25.4 180)
 		(effects
@@ -9083,6 +9831,16 @@
 		)
 		(uuid "83290b74-b0f2-499d-849f-bcd0ff5dd0d3")
 	)
+	(label "VDD"
+		(at 113.03 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85068113-8620-4212-ad83-4507c80067bb")
+	)
 	(label "VSS"
 		(at 78.74 166.37 180)
 		(effects
@@ -9132,6 +9890,16 @@
 			(justify right bottom)
 		)
 		(uuid "8af2c78a-c8a2-4da0-8830-043538cacce0")
+	)
+	(label "VDD"
+		(at 100.33 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c7389c5-ec17-457d-9a24-1c94a6e5a773")
 	)
 	(label "GPIO_09"
 		(at 199.39 40.64 180)
@@ -9213,6 +9981,16 @@
 		)
 		(uuid "9505561e-477f-40b7-99a9-1609a34660d3")
 	)
+	(label "DP"
+		(at 100.33 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "956450f0-fecf-4da2-8f8a-bb397e405d21")
+	)
 	(label "VDD"
 		(at 20.32 134.62 180)
 		(effects
@@ -9272,6 +10050,16 @@
 			(justify left bottom)
 		)
 		(uuid "9a28d221-06d7-4032-ac59-49dd934a2087")
+	)
+	(label "BOOT_RX"
+		(at 100.33 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b209d2d-67ee-4aed-85e7-bc4d5164af1c")
 	)
 	(label "GPIO_42"
 		(at 93.98 50.8 0)
@@ -9633,6 +10421,16 @@
 		)
 		(uuid "c9bc7c3b-ddce-45af-ae1f-c0c3edb6f3a1")
 	)
+	(label "TNOW"
+		(at 116.84 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cac0c715-5c0d-45df-8daf-c29298820499")
+	)
 	(label "GPIO_36"
 		(at 93.98 58.42 0)
 		(effects
@@ -9873,6 +10671,16 @@
 		)
 		(uuid "e480ded6-7958-4d7a-9947-0cb874790b74")
 	)
+	(label "VSS"
+		(at 105.41 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e484cfa5-c5ae-4ed5-badd-799b9e5a3b54")
+	)
 	(label "GPIO_54"
 		(at 93.98 33.02 0)
 		(effects
@@ -9892,6 +10700,16 @@
 			(justify right bottom)
 		)
 		(uuid "e7676d5d-dd47-4df5-976f-e8cd4f38409e")
+	)
+	(label "VSS"
+		(at 96.52 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e835977e-aa43-4b5b-a1c4-e1b819082174")
 	)
 	(label "VSS"
 		(at 26.67 152.4 180)
@@ -9952,6 +10770,16 @@
 			(justify left bottom)
 		)
 		(uuid "edf89e09-a291-4ece-b35a-5e3eaca81a72")
+	)
+	(label "VDD"
+		(at 118.11 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f067b5ef-f559-498d-a658-48cf03bf1329")
 	)
 	(label "GPIO_42"
 		(at 241.3 66.04 0)
@@ -10042,6 +10870,16 @@
 			(justify right bottom)
 		)
 		(uuid "f9bf19f0-25dd-46cf-9a97-f93808576145")
+	)
+	(label "BOOT_TX"
+		(at 100.33 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd0c64aa-ee69-4ca5-8db9-b3372c702276")
 	)
 	(label "GPIO_38"
 		(at 241.3 76.2 0)
@@ -12041,6 +12879,138 @@
 		)
 	)
 	(symbol
+		(lib_id "SquantorProto:testpad")
+		(at 130.81 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b309fce-1c00-4573-9673-e6626908f55f")
+		(property "Reference" "TP10"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CTS"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SquantorTestPoints:TestPoint_hole_H05R10"
+			(at 132.08 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73eefb34-e7e7-4f84-8d6c-98ce5270d2f2")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SquantorProto:testpad")
+		(at 130.81 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e849fde-5bcb-49b1-9772-4c8ecfbb3911")
+		(property "Reference" "TP5"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RTS"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SquantorTestPoints:TestPoint_hole_H05R10"
+			(at 132.08 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "497a8a10-85bb-4e0f-a2e7-2affb93defe9")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 50.8 90.17 180)
 		(unit 1)
@@ -12187,6 +13157,115 @@
 			(project "nuclone_devboard_medium_2_layer_USB-C_data"
 				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SquantorWCH:CH340B")
+		(at 109.22 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3edad160-b64f-4530-8e69-b25e4466f68d")
+		(property "Reference" "U4"
+			(at 104.14 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH340B"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SquantorIC:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c596c91d-bc6a-4cca-a631-3f1cc4e794ef")
+		)
+		(pin "2"
+			(uuid "c77b8fdf-8c69-4726-b6ae-7dac106997ee")
+		)
+		(pin "5"
+			(uuid "384fc27a-1374-4171-8657-393a22081222")
+		)
+		(pin "14"
+			(uuid "fb30d082-c874-4495-810d-ed0bb04a241b")
+		)
+		(pin "12"
+			(uuid "c3fab959-444f-4303-bdee-a16d6a79ce43")
+		)
+		(pin "7"
+			(uuid "2086694f-adba-4d95-b9ef-6603c5ae9f84")
+		)
+		(pin "3"
+			(uuid "cddce72e-e652-423a-8a75-f15aa138df00")
+		)
+		(pin "9"
+			(uuid "d343e29a-8df1-43b3-8f09-5d4a8c281aef")
+		)
+		(pin "1"
+			(uuid "06dbf66f-9dcb-4e15-8923-f5f1a029178a")
+		)
+		(pin "11"
+			(uuid "d4ecfead-1685-44b9-872d-99231ccd81ec")
+		)
+		(pin "4"
+			(uuid "e20c392e-0176-4dda-9ecd-1ed07effe271")
+		)
+		(pin "13"
+			(uuid "ed87ede0-977d-438f-9b16-05406907d573")
+		)
+		(pin "10"
+			(uuid "be3604cb-6055-4af7-84c0-f7256da6522a")
+		)
+		(pin "16"
+			(uuid "cf5be8fa-6085-4729-acda-a045fb5bf43d")
+		)
+		(pin "8"
+			(uuid "02ac5829-69b8-42d0-9fa0-bbfe80e7d555")
+		)
+		(pin "15"
+			(uuid "db42b049-5190-4211-83a2-545cb3076dfb")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12658,6 +13737,206 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 101.6 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b693401-b340-4332-89c4-238955266793")
+		(property "Reference" "D3"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SquantorDiodes:LED_0603_hand"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6437af34-168a-4a2d-83cc-41b3d81e514d")
+		)
+		(pin "2"
+			(uuid "4762d086-7e16-4258-a49d-e5fee549e8b1")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72626528-516b-400f-b3eb-f8f875ae3c3c")
+		(property "Reference" "R10"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 111.76 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SquantorResistor:R_0603_hand"
+			(at 111.76 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b2a3370-ba5c-41da-a201-561a5eb135cc")
+		)
+		(pin "2"
+			(uuid "89f6d0db-4551-4975-8319-f4b63016778b")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SquantorProto:testpad")
+		(at 130.81 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "985bd975-c724-44d3-99ad-2407b6ebceb5")
+		(property "Reference" "TP8"
+			(at 125.73 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RI"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SquantorTestPoints:TestPoint_hole_H05R10"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26e0cabd-7882-4acb-ab02-919363c1246a")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 119.38 270)
 		(unit 1)
@@ -12725,6 +14004,139 @@
 			(project "nuclone_devboard_medium_2_layer_USB-C_data"
 				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SquantorProto:testpad")
+		(at 130.81 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab8c491f-d11d-4ce3-8730-e188a3bea577")
+		(property "Reference" "TP7"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DCD"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SquantorTestPoints:TestPoint_hole_H05R10"
+			(at 132.08 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "117ac671-b5bf-48d8-9e65-4fad2e269ece")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7e44ab0-01a5-4b1d-b53e-ff807e0063ff")
+		(property "Reference" "C11"
+			(at 106.68 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 111.76 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SquantorCapacitor:C_0603"
+			(at 105.41 88.5952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33f9058e-2d39-4cbd-a4e3-5a26b25ae930")
+		)
+		(pin "2"
+			(uuid "17ac4c61-1a0e-47d8-99ca-98e72b212733")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13039,6 +14451,138 @@
 				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
 					(reference "BRD1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SquantorProto:testpad")
+		(at 130.81 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1bd6026-f47d-4787-bc49-86f1830949e9")
+		(property "Reference" "TP9"
+			(at 125.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DSR"
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SquantorTestPoints:TestPoint_hole_H05R10"
+			(at 132.08 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6296d6f2-7d22-4a6c-a909-364343152bca")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SquantorProto:testpad")
+		(at 130.81 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e887fe84-9cc3-41ef-b3c0-44b1ec268538")
+		(property "Reference" "TP6"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTR"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SquantorTestPoints:TestPoint_hole_H05R10"
+			(at 132.08 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce03f711-1bd1-422d-8c74-acb765d41197")
+		)
+		(instances
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
+				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
+					(reference "TP6")
+					(unit 1)
 				)
 			)
 		)
@@ -14159,7 +15703,7 @@
 			)
 		)
 		(instances
-			(project "nuclone_devboard_medium_2_layer_USB-C_data"
+			(project "nuclone_devboard_medium_2_layer_USB-C_UART"
 				(path "/f714ce77-1b03-46de-8ce2-42d10401024e"
 					(page "2")
 				)
