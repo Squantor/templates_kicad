@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "dacfc6b2-f197-4446-86ee-d141533404be")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,19 +76,19 @@
 			)
 			(symbol "Conn_02x04_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -107,8 +109,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -118,19 +120,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -140,8 +131,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -162,8 +153,19 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -191,24 +193,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -219,24 +203,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -263,24 +229,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
@@ -291,6 +239,60 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -317,9 +319,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -392,7 +397,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -404,7 +409,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -453,7 +458,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Testpads"
+		(exclude_from_sim no)
+		(at 166.37 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "105171da-2cfd-43fb-be66-1a1020169de8")
 	)
 	(junction
 		(at 146.05 179.07)
@@ -915,20 +932,8 @@
 		)
 		(uuid "f7e302aa-3272-4f66-adfa-924527979998")
 	)
-	(text "Testpads"
-		(exclude_from_sim no)
-		(at 166.37 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "105171da-2cfd-43fb-be66-1a1020169de8")
-	)
 	(label "BOOT"
 		(at 25.4 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -939,7 +944,6 @@
 	)
 	(label "VDD"
 		(at 26.67 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -950,7 +954,6 @@
 	)
 	(label "BOOT"
 		(at 161.29 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -961,7 +964,6 @@
 	)
 	(label "TCK"
 		(at 161.29 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -972,7 +974,6 @@
 	)
 	(label "VSS"
 		(at 26.67 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -983,7 +984,6 @@
 	)
 	(label "TMS"
 		(at 161.29 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -994,7 +994,6 @@
 	)
 	(label "VSS"
 		(at 144.78 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1005,7 +1004,6 @@
 	)
 	(label "RESET"
 		(at 25.4 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1016,7 +1014,6 @@
 	)
 	(label "TCK"
 		(at 25.4 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,7 +1024,6 @@
 	)
 	(label "TDO"
 		(at 25.4 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1038,7 +1034,6 @@
 	)
 	(label "TMS"
 		(at 25.4 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1049,7 +1044,6 @@
 	)
 	(label "TDI"
 		(at 25.4 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1060,7 +1054,6 @@
 	)
 	(label "RESET"
 		(at 161.29 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1072,7 +1065,6 @@
 	(hierarchical_label "GPIO_16"
 		(shape bidirectional)
 		(at 24.13 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1084,7 +1076,6 @@
 	(hierarchical_label "GPIO_17"
 		(shape bidirectional)
 		(at 24.13 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1096,7 +1087,6 @@
 	(hierarchical_label "GPIO_20"
 		(shape bidirectional)
 		(at 24.13 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1108,7 +1098,6 @@
 	(hierarchical_label "GPIO_18"
 		(shape bidirectional)
 		(at 24.13 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1120,7 +1109,6 @@
 	(hierarchical_label "GPIO_02"
 		(shape bidirectional)
 		(at 24.13 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1132,7 +1120,6 @@
 	(hierarchical_label "GPIO_01"
 		(shape bidirectional)
 		(at 24.13 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1144,7 +1131,6 @@
 	(hierarchical_label "GPIO_12"
 		(shape bidirectional)
 		(at 24.13 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1156,7 +1142,6 @@
 	(hierarchical_label "TCK"
 		(shape input)
 		(at 24.13 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1168,7 +1153,6 @@
 	(hierarchical_label "GPIO_24"
 		(shape bidirectional)
 		(at 24.13 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1180,7 +1164,6 @@
 	(hierarchical_label "TDO"
 		(shape output)
 		(at 24.13 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1192,7 +1175,6 @@
 	(hierarchical_label "GPIO_10"
 		(shape bidirectional)
 		(at 24.13 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1204,7 +1186,6 @@
 	(hierarchical_label "GPIO_05"
 		(shape bidirectional)
 		(at 24.13 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1216,7 +1197,6 @@
 	(hierarchical_label "GPIO_00"
 		(shape bidirectional)
 		(at 24.13 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1228,7 +1208,6 @@
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 24.13 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1240,7 +1219,6 @@
 	(hierarchical_label "GPIO_23"
 		(shape bidirectional)
 		(at 24.13 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1252,7 +1230,6 @@
 	(hierarchical_label "GPIO_09"
 		(shape bidirectional)
 		(at 24.13 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1264,7 +1241,6 @@
 	(hierarchical_label "GPIO_13"
 		(shape bidirectional)
 		(at 24.13 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1276,7 +1252,6 @@
 	(hierarchical_label "TMS"
 		(shape input)
 		(at 24.13 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1288,7 +1263,6 @@
 	(hierarchical_label "GPIO_11"
 		(shape bidirectional)
 		(at 24.13 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1300,7 +1274,6 @@
 	(hierarchical_label "TDI"
 		(shape input)
 		(at 24.13 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1312,7 +1285,6 @@
 	(hierarchical_label "GPIO_04"
 		(shape bidirectional)
 		(at 24.13 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1324,7 +1296,6 @@
 	(hierarchical_label "GPIO_15"
 		(shape bidirectional)
 		(at 24.13 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1336,7 +1307,6 @@
 	(hierarchical_label "BOOT"
 		(shape input)
 		(at 24.13 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1348,7 +1318,6 @@
 	(hierarchical_label "GPIO_14"
 		(shape bidirectional)
 		(at 24.13 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1360,7 +1329,6 @@
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 24.13 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1372,7 +1340,6 @@
 	(hierarchical_label "GPIO_21"
 		(shape bidirectional)
 		(at 24.13 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1384,7 +1351,6 @@
 	(hierarchical_label "GPIO_28"
 		(shape bidirectional)
 		(at 24.13 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1396,7 +1362,6 @@
 	(hierarchical_label "GPIO_07"
 		(shape bidirectional)
 		(at 24.13 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1408,7 +1373,6 @@
 	(hierarchical_label "GPIO_08"
 		(shape bidirectional)
 		(at 24.13 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1420,7 +1384,6 @@
 	(hierarchical_label "GPIO_25"
 		(shape bidirectional)
 		(at 24.13 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1432,7 +1395,6 @@
 	(hierarchical_label "GPIO_03"
 		(shape bidirectional)
 		(at 24.13 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1444,7 +1406,6 @@
 	(hierarchical_label "GPIO_22"
 		(shape bidirectional)
 		(at 24.13 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1456,7 +1417,6 @@
 	(hierarchical_label "VSS"
 		(shape input)
 		(at 24.13 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1468,7 +1428,6 @@
 	(hierarchical_label "GPIO_29"
 		(shape bidirectional)
 		(at 24.13 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1480,7 +1439,6 @@
 	(hierarchical_label "GPIO_26"
 		(shape bidirectional)
 		(at 24.13 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1492,7 +1450,6 @@
 	(hierarchical_label "GPIO_19"
 		(shape bidirectional)
 		(at 24.13 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1504,7 +1461,6 @@
 	(hierarchical_label "GPIO_06"
 		(shape bidirectional)
 		(at 24.13 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1516,7 +1472,6 @@
 	(hierarchical_label "GPIO_27"
 		(shape bidirectional)
 		(at 24.13 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
