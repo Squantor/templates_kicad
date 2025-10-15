@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8d9a3ecc-539f-41da-8099-d37cea9c28e7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,8 +76,19 @@
 			)
 			(symbol "Conn_01x03_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -96,25 +109,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
@@ -172,9 +174,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -247,7 +252,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -259,7 +264,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -308,9 +313,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -429,6 +437,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -511,11 +520,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -613,6 +627,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SquantorConnectors:DIN41612_03x10_ABC_screws"
 			(exclude_from_sim no)
@@ -693,32 +708,14 @@
 				(pin passive line
 					(at -5.08 11.43 0)
 					(length 2.54)
-					(name "a1"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -11.43 0)
-					(length 2.54)
-					(name "a10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a10"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -729,14 +726,14 @@
 				(pin passive line
 					(at -5.08 8.89 0)
 					(length 2.54)
-					(name "a2"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a2"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -747,14 +744,14 @@
 				(pin passive line
 					(at -5.08 6.35 0)
 					(length 2.54)
-					(name "a3"
+					(name "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a3"
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -765,14 +762,14 @@
 				(pin passive line
 					(at -5.08 3.81 0)
 					(length 2.54)
-					(name "a4"
+					(name "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a4"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -783,14 +780,14 @@
 				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
-					(name "a5"
+					(name "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a5"
+					(number "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -801,14 +798,14 @@
 				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
-					(name "a6"
+					(name "A6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a6"
+					(number "A6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -819,14 +816,14 @@
 				(pin passive line
 					(at -5.08 -3.81 0)
 					(length 2.54)
-					(name "a7"
+					(name "A7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a7"
+					(number "A7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -837,14 +834,14 @@
 				(pin passive line
 					(at -5.08 -6.35 0)
 					(length 2.54)
-					(name "a8"
+					(name "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a8"
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -855,14 +852,32 @@
 				(pin passive line
 					(at -5.08 -8.89 0)
 					(length 2.54)
-					(name "a9"
+					(name "A9"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a9"
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -873,14 +888,14 @@
 				(pin passive line
 					(at 5.08 11.43 180)
 					(length 2.54)
-					(name "s"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "s"
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -904,32 +919,14 @@
 				(pin passive line
 					(at -5.08 11.43 0)
 					(length 2.54)
-					(name "b1"
+					(name "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -11.43 0)
-					(length 2.54)
-					(name "b10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b10"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -940,14 +937,14 @@
 				(pin passive line
 					(at -5.08 8.89 0)
 					(length 2.54)
-					(name "b2"
+					(name "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b2"
+					(number "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -958,14 +955,14 @@
 				(pin passive line
 					(at -5.08 6.35 0)
 					(length 2.54)
-					(name "b3"
+					(name "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b3"
+					(number "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -976,14 +973,14 @@
 				(pin passive line
 					(at -5.08 3.81 0)
 					(length 2.54)
-					(name "b4"
+					(name "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b4"
+					(number "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -994,14 +991,14 @@
 				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
-					(name "b5"
+					(name "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b5"
+					(number "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1012,14 +1009,14 @@
 				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
-					(name "b6"
+					(name "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b6"
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1030,14 +1027,14 @@
 				(pin passive line
 					(at -5.08 -3.81 0)
 					(length 2.54)
-					(name "b7"
+					(name "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b7"
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1048,14 +1045,14 @@
 				(pin passive line
 					(at -5.08 -6.35 0)
 					(length 2.54)
-					(name "b8"
+					(name "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b8"
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1066,14 +1063,32 @@
 				(pin passive line
 					(at -5.08 -8.89 0)
 					(length 2.54)
-					(name "b9"
+					(name "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b9"
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1097,32 +1112,14 @@
 				(pin passive line
 					(at -5.08 11.43 0)
 					(length 2.54)
-					(name "c1"
+					(name "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -11.43 0)
-					(length 2.54)
-					(name "c10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "c10"
+					(number "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1133,14 +1130,14 @@
 				(pin passive line
 					(at -5.08 8.89 0)
 					(length 2.54)
-					(name "c2"
+					(name "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c2"
+					(number "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1151,14 +1148,14 @@
 				(pin passive line
 					(at -5.08 6.35 0)
 					(length 2.54)
-					(name "c3"
+					(name "C3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c3"
+					(number "C3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1169,14 +1166,14 @@
 				(pin passive line
 					(at -5.08 3.81 0)
 					(length 2.54)
-					(name "c4"
+					(name "C4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c4"
+					(number "C4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1187,14 +1184,14 @@
 				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
-					(name "c5"
+					(name "C5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c5"
+					(number "C5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1205,14 +1202,14 @@
 				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
-					(name "c6"
+					(name "C6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c6"
+					(number "C6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1223,14 +1220,14 @@
 				(pin passive line
 					(at -5.08 -3.81 0)
 					(length 2.54)
-					(name "c7"
+					(name "C7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c7"
+					(number "C7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1241,14 +1238,14 @@
 				(pin passive line
 					(at -5.08 -6.35 0)
 					(length 2.54)
-					(name "c8"
+					(name "C8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c8"
+					(number "C8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1259,14 +1256,32 @@
 				(pin passive line
 					(at -5.08 -8.89 0)
 					(length 2.54)
-					(name "c9"
+					(name "C9"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "c9"
+					(number "C9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "C10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1275,10 +1290,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SquantorDevice:LED_Dual_CC"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1337,7 +1357,7 @@
 			(symbol "LED_Dual_CC_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.905) (xy 1.27 -1.905)
+						(xy -1.27 1.905) (xy 1.27 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1349,7 +1369,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.905) (xy 1.27 1.905)
+						(xy -1.27 -1.905) (xy 1.27 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1373,18 +1393,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.905) (xy -1.27 -4.445) (xy 1.27 -4.445) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 1.905) (xy 1.27 4.445) (xy -1.27 4.445) (xy 0 1.905)
 					)
 					(stroke
@@ -1393,6 +1401,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy -1.27 -4.445) (xy 1.27 -4.445) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1452,6 +1472,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SquantorLabels:OHWLOGO"
 			(pin_names
@@ -1527,6 +1548,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SquantorLabels:VYYYYMMDD"
 			(pin_names
@@ -1591,11 +1613,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SquantorProto:testpad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1684,11 +1711,308 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "SquantorSwitches:switch_DPDT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "switch_DPDT"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "switch_DPDT_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -1.905 2.54) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -1.905 -2.54) (xy -1.905 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 5.08) (xy 4.445 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 1.905 2.54) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 1.905 -2.54) (xy 1.905 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_DPDT_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "SW1_P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "SW1_C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "SW1_P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SW2_P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SW2_C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SW2_P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1763,8 +2087,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1780,12 +2104,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1876,7 +2205,52 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Proto area parts"
+		(exclude_from_sim no)
+		(at 115.57 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36a93081-63a8-47cf-8204-6291832f70e3")
+	)
+	(text "Mechanical"
+		(exclude_from_sim no)
+		(at 163.83 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b34a16c-5a14-4291-8242-ea6d6ac54372")
+	)
+	(text "Interface"
+		(exclude_from_sim no)
+		(at 270.51 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d72247f-3a85-4c07-9532-55d9afabbee2")
+	)
+	(text "Backplane Bus"
+		(exclude_from_sim no)
+		(at 69.85 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3695cdc-7c89-41fc-b7d2-ec3e58b62284")
 	)
 	(junction
 		(at 152.4 172.72)
@@ -1927,12 +2301,6 @@
 		(uuid "649731c0-65f9-455f-bfd2-14e6d6967396")
 	)
 	(junction
-		(at 152.4 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68fabed0-10be-4c6c-a8df-8364f451a3ce")
-	)
-	(junction
 		(at 152.4 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1969,16 +2337,6 @@
 			(type default)
 		)
 		(uuid "0136b9e9-85dd-4ca5-88c4-f77ca83546b2")
-	)
-	(wire
-		(pts
-			(xy 152.4 191.77) (xy 153.67 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f4e9d9-0f39-4254-b87c-c87aec3a92fc")
 	)
 	(wire
 		(pts
@@ -2122,6 +2480,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 77.47) (xy 255.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecc0599-f2dd-423d-922a-82e1af6afef2")
+	)
+	(wire
+		(pts
 			(xy 38.1 72.39) (xy 39.37 72.39)
 		)
 		(stroke
@@ -2152,7 +2520,7 @@
 	)
 	(polyline
 		(pts
-			(xy 270.51 49.53) (xy 270.51 53.34)
+			(xy 269.24 85.09) (xy 269.24 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2282,7 +2650,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 53.34) (xy 281.94 15.24)
+			(xy 280.67 88.9) (xy 280.67 15.24)
 		)
 		(stroke
 			(width 0)
@@ -2372,6 +2740,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 66.04) (xy 271.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da4c052-6c7d-4634-949a-c8c116373b86")
+	)
+	(wire
+		(pts
 			(xy 71.12 69.85) (xy 72.39 69.85)
 		)
 		(stroke
@@ -2429,6 +2807,16 @@
 			(type default)
 		)
 		(uuid "35a9f71f-ba35-47f6-814e-4106ac36c51e")
+	)
+	(wire
+		(pts
+			(xy 270.51 63.5) (xy 271.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f95297-e64b-4534-abb8-71763505a696")
 	)
 	(wire
 		(pts
@@ -2519,6 +2907,16 @@
 			(type default)
 		)
 		(uuid "3e1df504-175b-4bc1-86ea-ede5a2ca8467")
+	)
+	(wire
+		(pts
+			(xy 254 74.93) (xy 255.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e73acc6-df0b-4417-84c7-bfabcb038d6e")
 	)
 	(wire
 		(pts
@@ -2642,6 +3040,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 60.96) (xy 255.27 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c052778-53f9-4951-9ad8-6e6b15719ebf")
+	)
+	(wire
+		(pts
 			(xy 54.61 102.87) (xy 55.88 102.87)
 		)
 		(stroke
@@ -2689,6 +3097,16 @@
 			(type default)
 		)
 		(uuid "554bcc2c-b98a-4b35-a756-ab9edce07485")
+	)
+	(wire
+		(pts
+			(xy 270.51 74.93) (xy 271.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582f547c-213e-4f86-a98f-693ea266becc")
 	)
 	(wire
 		(pts
@@ -2872,6 +3290,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 80.01) (xy 255.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfbb6a6-3ee9-405e-a225-902d98048e58")
+	)
+	(wire
+		(pts
+			(xy 270.51 60.96) (xy 271.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0135bf-6ec3-4762-8110-b864a52e86b8")
+	)
+	(wire
+		(pts
 			(xy 54.61 36.83) (xy 55.88 36.83)
 		)
 		(stroke
@@ -3022,7 +3460,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.38 53.34) (xy 281.94 53.34)
+			(xy 245.11 88.9) (xy 280.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3272,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 77.47) (xy 271.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a430658a-1326-470b-bb27-8d533af7b963")
+	)
+	(wire
+		(pts
 			(xy 21.59 97.79) (xy 22.86 97.79)
 		)
 		(stroke
@@ -3282,7 +3730,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 49.53) (xy 270.51 49.53)
+			(xy 280.67 85.09) (xy 269.24 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3299,6 +3747,16 @@
 			(type default)
 		)
 		(uuid "a5e0c530-e535-4056-9ebf-751148438d9e")
+	)
+	(wire
+		(pts
+			(xy 254 63.5) (xy 255.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73e0417-c52f-43d4-bc84-de5539ac4341")
 	)
 	(wire
 		(pts
@@ -3522,7 +3980,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.38 15.24) (xy 246.38 53.34)
+			(xy 245.11 15.24) (xy 245.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3582,6 +4040,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 80.01) (xy 271.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8e0c47-c4b4-4d8a-9d37-71e5bb6dd043")
+	)
+	(wire
+		(pts
 			(xy 54.61 92.71) (xy 55.88 92.71)
 		)
 		(stroke
@@ -3619,6 +4087,16 @@
 			(type default)
 		)
 		(uuid "d38ac882-92ac-40e2-9fa3-8145f4777516")
+	)
+	(wire
+		(pts
+			(xy 254 66.04) (xy 255.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4887618-3ab3-441f-9cd0-74f29af22ebb")
 	)
 	(wire
 		(pts
@@ -3990,53 +4468,8 @@
 		)
 		(uuid "ffaf73e5-62e7-4825-aa95-63f4b2dfa266")
 	)
-	(text "Proto area parts"
-		(exclude_from_sim no)
-		(at 115.57 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36a93081-63a8-47cf-8204-6291832f70e3")
-	)
-	(text "Mechanical"
-		(exclude_from_sim no)
-		(at 163.83 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b34a16c-5a14-4291-8242-ea6d6ac54372")
-	)
-	(text "Interface"
-		(exclude_from_sim no)
-		(at 271.78 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d72247f-3a85-4c07-9532-55d9afabbee2")
-	)
-	(text "Backplane Bus"
-		(exclude_from_sim no)
-		(at 69.85 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3695cdc-7c89-41fc-b7d2-ec3e58b62284")
-	)
 	(label "B5"
 		(at 71.12 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4047,7 +4480,6 @@
 	)
 	(label "A10"
 		(at 21.59 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4058,7 +4490,6 @@
 	)
 	(label "B1"
 		(at 71.12 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4069,7 +4500,6 @@
 	)
 	(label "B8"
 		(at 21.59 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4080,7 +4510,6 @@
 	)
 	(label "A10"
 		(at 38.1 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4091,7 +4520,6 @@
 	)
 	(label "B8"
 		(at 38.1 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4102,7 +4530,6 @@
 	)
 	(label "B1"
 		(at 21.59 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4113,7 +4540,6 @@
 	)
 	(label "C10"
 		(at 21.59 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4124,7 +4550,6 @@
 	)
 	(label "C2"
 		(at 71.12 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4135,7 +4560,6 @@
 	)
 	(label "B2"
 		(at 71.12 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4146,7 +4570,6 @@
 	)
 	(label "A1"
 		(at 21.59 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4157,7 +4580,6 @@
 	)
 	(label "C2"
 		(at 38.1 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4168,7 +4590,6 @@
 	)
 	(label "C2"
 		(at 54.61 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4179,7 +4600,6 @@
 	)
 	(label "A4"
 		(at 21.59 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4190,7 +4610,6 @@
 	)
 	(label "A9"
 		(at 21.59 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4201,7 +4620,6 @@
 	)
 	(label "B3"
 		(at 38.1 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4212,7 +4630,6 @@
 	)
 	(label "C8"
 		(at 38.1 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4223,7 +4640,6 @@
 	)
 	(label "B3"
 		(at 21.59 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4234,7 +4650,6 @@
 	)
 	(label "A3"
 		(at 71.12 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4245,7 +4660,6 @@
 	)
 	(label "C8"
 		(at 54.61 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4256,7 +4670,6 @@
 	)
 	(label "C5"
 		(at 71.12 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4267,7 +4680,6 @@
 	)
 	(label "A3"
 		(at 54.61 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4278,7 +4690,6 @@
 	)
 	(label "A2"
 		(at 54.61 24.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4289,7 +4700,6 @@
 	)
 	(label "C3"
 		(at 54.61 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4300,7 +4710,6 @@
 	)
 	(label "A6"
 		(at 21.59 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4311,7 +4720,6 @@
 	)
 	(label "C1"
 		(at 21.59 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4322,7 +4730,6 @@
 	)
 	(label "B4"
 		(at 38.1 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4333,7 +4740,6 @@
 	)
 	(label "C4"
 		(at 38.1 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4344,7 +4750,6 @@
 	)
 	(label "C10"
 		(at 71.12 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4355,7 +4760,6 @@
 	)
 	(label "C3"
 		(at 38.1 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4366,7 +4770,6 @@
 	)
 	(label "C5"
 		(at 38.1 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4377,7 +4780,6 @@
 	)
 	(label "B10"
 		(at 21.59 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4388,7 +4790,6 @@
 	)
 	(label "C10"
 		(at 54.61 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4399,7 +4800,6 @@
 	)
 	(label "A4"
 		(at 54.61 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4410,7 +4810,6 @@
 	)
 	(label "A1"
 		(at 71.12 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4421,7 +4820,6 @@
 	)
 	(label "A5"
 		(at 71.12 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4432,7 +4830,6 @@
 	)
 	(label "A6"
 		(at 71.12 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4443,7 +4840,6 @@
 	)
 	(label "A3"
 		(at 38.1 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4454,7 +4850,6 @@
 	)
 	(label "C7"
 		(at 71.12 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4465,7 +4860,6 @@
 	)
 	(label "C9"
 		(at 71.12 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4476,7 +4870,6 @@
 	)
 	(label "C3"
 		(at 71.12 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4487,7 +4880,6 @@
 	)
 	(label "C5"
 		(at 54.61 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4498,7 +4890,6 @@
 	)
 	(label "A3"
 		(at 21.59 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4509,7 +4900,6 @@
 	)
 	(label "A2"
 		(at 38.1 24.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4520,7 +4910,6 @@
 	)
 	(label "B5"
 		(at 38.1 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4531,7 +4920,6 @@
 	)
 	(label "A2"
 		(at 71.12 24.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4542,7 +4930,6 @@
 	)
 	(label "B2"
 		(at 38.1 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4553,7 +4940,6 @@
 	)
 	(label "B8"
 		(at 71.12 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4564,7 +4950,6 @@
 	)
 	(label "C9"
 		(at 38.1 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4575,7 +4960,6 @@
 	)
 	(label "A9"
 		(at 71.12 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4586,7 +4970,6 @@
 	)
 	(label "C2"
 		(at 21.59 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4597,7 +4980,6 @@
 	)
 	(label "A5"
 		(at 21.59 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4608,7 +4990,6 @@
 	)
 	(label "C1"
 		(at 71.12 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4619,7 +5000,6 @@
 	)
 	(label "B9"
 		(at 71.12 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4630,7 +5010,6 @@
 	)
 	(label "A5"
 		(at 38.1 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4641,7 +5020,6 @@
 	)
 	(label "C6"
 		(at 21.59 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,7 +5030,6 @@
 	)
 	(label "A6"
 		(at 38.1 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4663,7 +5040,6 @@
 	)
 	(label "B10"
 		(at 71.12 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4674,7 +5050,6 @@
 	)
 	(label "B2"
 		(at 54.61 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4685,7 +5060,6 @@
 	)
 	(label "B1"
 		(at 38.1 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4696,7 +5070,6 @@
 	)
 	(label "B7"
 		(at 54.61 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4707,7 +5080,6 @@
 	)
 	(label "B6"
 		(at 71.12 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4718,7 +5090,6 @@
 	)
 	(label "A6"
 		(at 54.61 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4729,7 +5100,6 @@
 	)
 	(label "C9"
 		(at 54.61 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4740,7 +5110,6 @@
 	)
 	(label "B4"
 		(at 71.12 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4751,7 +5120,6 @@
 	)
 	(label "B5"
 		(at 54.61 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4762,7 +5130,6 @@
 	)
 	(label "A7"
 		(at 38.1 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4773,7 +5140,6 @@
 	)
 	(label "C9"
 		(at 21.59 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4784,7 +5150,6 @@
 	)
 	(label "C8"
 		(at 21.59 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4795,7 +5160,6 @@
 	)
 	(label "C4"
 		(at 21.59 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4806,7 +5170,6 @@
 	)
 	(label "C1"
 		(at 38.1 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4817,7 +5180,6 @@
 	)
 	(label "A2"
 		(at 21.59 24.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4828,7 +5190,6 @@
 	)
 	(label "C10"
 		(at 38.1 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4839,7 +5200,6 @@
 	)
 	(label "A8"
 		(at 71.12 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4850,7 +5210,6 @@
 	)
 	(label "B7"
 		(at 38.1 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4861,7 +5220,6 @@
 	)
 	(label "C6"
 		(at 54.61 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4872,7 +5230,6 @@
 	)
 	(label "B2"
 		(at 21.59 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4883,7 +5240,6 @@
 	)
 	(label "A7"
 		(at 71.12 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4894,7 +5250,6 @@
 	)
 	(label "A10"
 		(at 54.61 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4905,7 +5260,6 @@
 	)
 	(label "B3"
 		(at 71.12 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4916,7 +5270,6 @@
 	)
 	(label "B6"
 		(at 21.59 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4927,7 +5280,6 @@
 	)
 	(label "A4"
 		(at 38.1 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4938,7 +5290,6 @@
 	)
 	(label "A8"
 		(at 54.61 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4949,7 +5300,6 @@
 	)
 	(label "A9"
 		(at 38.1 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4960,7 +5310,6 @@
 	)
 	(label "C4"
 		(at 71.12 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4971,7 +5320,6 @@
 	)
 	(label "B8"
 		(at 54.61 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4982,7 +5330,6 @@
 	)
 	(label "B10"
 		(at 54.61 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4993,7 +5340,6 @@
 	)
 	(label "A1"
 		(at 38.1 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5004,7 +5350,6 @@
 	)
 	(label "B6"
 		(at 54.61 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5015,7 +5360,6 @@
 	)
 	(label "C5"
 		(at 21.59 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5026,7 +5370,6 @@
 	)
 	(label "A7"
 		(at 54.61 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5037,7 +5380,6 @@
 	)
 	(label "C7"
 		(at 21.59 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5048,7 +5390,6 @@
 	)
 	(label "A8"
 		(at 38.1 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5059,7 +5400,6 @@
 	)
 	(label "B9"
 		(at 54.61 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5070,7 +5410,6 @@
 	)
 	(label "C3"
 		(at 21.59 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5081,7 +5420,6 @@
 	)
 	(label "C7"
 		(at 54.61 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5092,7 +5430,6 @@
 	)
 	(label "B6"
 		(at 38.1 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5103,7 +5440,6 @@
 	)
 	(label "A4"
 		(at 71.12 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5114,7 +5450,6 @@
 	)
 	(label "B9"
 		(at 21.59 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5125,7 +5460,6 @@
 	)
 	(label "C7"
 		(at 38.1 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5136,7 +5470,6 @@
 	)
 	(label "C6"
 		(at 71.12 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5147,7 +5480,6 @@
 	)
 	(label "B5"
 		(at 21.59 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5158,7 +5490,6 @@
 	)
 	(label "B3"
 		(at 54.61 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5169,7 +5500,6 @@
 	)
 	(label "B7"
 		(at 71.12 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5180,7 +5510,6 @@
 	)
 	(label "A10"
 		(at 71.12 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5191,7 +5520,6 @@
 	)
 	(label "B4"
 		(at 54.61 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5202,7 +5530,6 @@
 	)
 	(label "C8"
 		(at 71.12 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5213,7 +5540,6 @@
 	)
 	(label "A9"
 		(at 54.61 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5224,7 +5550,6 @@
 	)
 	(label "A5"
 		(at 54.61 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5235,7 +5560,6 @@
 	)
 	(label "C1"
 		(at 54.61 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5246,7 +5570,6 @@
 	)
 	(label "B10"
 		(at 38.1 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5257,7 +5580,6 @@
 	)
 	(label "B9"
 		(at 38.1 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5268,7 +5590,6 @@
 	)
 	(label "A8"
 		(at 21.59 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5279,7 +5600,6 @@
 	)
 	(label "A7"
 		(at 21.59 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5290,7 +5610,6 @@
 	)
 	(label "B4"
 		(at 21.59 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5301,7 +5620,6 @@
 	)
 	(label "B7"
 		(at 21.59 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5312,7 +5630,6 @@
 	)
 	(label "C6"
 		(at 38.1 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5323,7 +5640,6 @@
 	)
 	(label "A1"
 		(at 54.61 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5334,7 +5650,6 @@
 	)
 	(label "B1"
 		(at 54.61 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5345,7 +5660,6 @@
 	)
 	(label "C4"
 		(at 54.61 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5433,7 +5747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V:20240218"
+		(property "Value" "V:20251015"
 			(at 158.75 167.64 0)
 			(effects
 				(font
@@ -5788,7 +6102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 110.49 0)
 			(effects
 				(font
@@ -5804,6 +6118,85 @@
 			(project "ModEleSys_backplane_DIN41612"
 				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SquantorSwitches:switch_DPDT")
+		(at 262.89 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d944d89-291e-4c85-8822-b8e0cb54a1ac")
+		(property "Reference" "SW1"
+			(at 255.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "switch_DPDT"
+			(at 262.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SquantorSwitches:PS-22F02"
+			(at 262.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbedc259-e069-4178-8e2c-69b77165a4ad")
+		)
+		(pin "2"
+			(uuid "d738da86-d8a4-4e4b-a169-8ba008faddc2")
+		)
+		(pin "3"
+			(uuid "4726725c-825d-4a23-b08e-0a3df81c2c09")
+		)
+		(pin "4"
+			(uuid "687d903c-74b7-427b-a42d-376f3f0c3dbd")
+		)
+		(pin "5"
+			(uuid "941175c9-668b-42ca-ae3e-4f7a2319d463")
+		)
+		(pin "6"
+			(uuid "7687ca7d-cc1a-48af-b277-3878a6610fbc")
+		)
+		(instances
+			(project "ModEleSys_V2_backplane"
+				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5852,7 +6245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 44.45 33.02 0)
 			(effects
 				(font
@@ -5861,97 +6254,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "B1"
 			(uuid "bfb69612-83e2-4e71-be2a-911d2799aa26")
 		)
-		(pin "c3"
+		(pin "A2"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111cff")
 		)
-		(pin "b4"
+		(pin "A3"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c67430")
 		)
-		(pin "c1"
+		(pin "A4"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044f1")
 		)
-		(pin "c2"
+		(pin "A5"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cf0")
 		)
-		(pin "c10"
+		(pin "A6"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bd9")
 		)
-		(pin "b1"
+		(pin "A7"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a5fe")
 		)
-		(pin "c8"
+		(pin "A8"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879c8")
 		)
-		(pin "b6"
+		(pin "A9"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22ee6")
 		)
-		(pin "a7"
+		(pin "A10"
 			(uuid "b2e9eff2-8a6e-4c5e-9ae6-183fd2e25a54")
 		)
-		(pin "a8"
+		(pin "S"
 			(uuid "361e928b-a337-4a4e-8a57-46710a1ef15d")
 		)
-		(pin "b8"
+		(pin "A1"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd875d")
 		)
-		(pin "b7"
+		(pin "B2"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b402005")
 		)
-		(pin "b10"
+		(pin "B3"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd15839a")
 		)
-		(pin "c6"
+		(pin "B4"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6ed7")
 		)
-		(pin "a2"
+		(pin "B5"
 			(uuid "c061cc66-42b0-41ac-b027-dac37c6af444")
 		)
-		(pin "c7"
+		(pin "B6"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d6998")
 		)
-		(pin "b9"
+		(pin "B7"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c912")
 		)
-		(pin "c4"
+		(pin "B8"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be876")
 		)
-		(pin "c5"
+		(pin "B9"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb2")
 		)
-		(pin "b2"
+		(pin "B10"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f167")
 		)
-		(pin "b5"
+		(pin "C1"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b52")
 		)
-		(pin "b3"
+		(pin "C2"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b74")
 		)
-		(pin "s"
+		(pin "C3"
 			(uuid "bc9b9a32-8455-413e-b99f-c996d1d2f83a")
 		)
-		(pin "a1"
+		(pin "C4"
 			(uuid "94383bde-00e3-4b9f-85f4-d7002be3d4d1")
 		)
-		(pin "a6"
+		(pin "C5"
 			(uuid "573ec59f-6210-4cdf-8de0-cdb64e81f5d8")
 		)
-		(pin "a10"
+		(pin "C6"
 			(uuid "3036f540-740b-4c71-829b-b2ef14c1b5ab")
 		)
-		(pin "c9"
+		(pin "C7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19bb")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "ec4f97c6-4496-4584-8bcb-3f81c7aee6e9")
 		)
-		(pin "a4"
+		(pin "C9"
 			(uuid "65c5ad60-abd4-4cdc-9072-368fcf432cc4")
 		)
-		(pin "a3"
+		(pin "C10"
 			(uuid "1042b684-94e9-4f81-846d-c0d232667967")
 		)
 		(instances
@@ -6137,7 +6530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -6146,97 +6539,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "B1"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a1673e")
 		)
-		(pin "c3"
+		(pin "A2"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111cfd")
 		)
-		(pin "b4"
+		(pin "A3"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c6742e")
 		)
-		(pin "c1"
+		(pin "A4"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044ef")
 		)
-		(pin "c2"
+		(pin "A5"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cee")
 		)
-		(pin "c10"
+		(pin "A6"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bd7")
 		)
-		(pin "b1"
+		(pin "A7"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a5fc")
 		)
-		(pin "c8"
+		(pin "A8"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879c6")
 		)
-		(pin "b6"
+		(pin "A9"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22ee4")
 		)
-		(pin "a7"
+		(pin "A10"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd6154")
 		)
-		(pin "a8"
+		(pin "S"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fd2")
 		)
-		(pin "b8"
+		(pin "A1"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd875b")
 		)
-		(pin "b7"
+		(pin "B2"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b402003")
 		)
-		(pin "b10"
+		(pin "B3"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd158398")
 		)
-		(pin "c6"
+		(pin "B4"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6ed5")
 		)
-		(pin "a2"
+		(pin "B5"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a06")
 		)
-		(pin "c7"
+		(pin "B6"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d6996")
 		)
-		(pin "b9"
+		(pin "B7"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c910")
 		)
-		(pin "c4"
+		(pin "B8"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be874")
 		)
-		(pin "c5"
+		(pin "B9"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb0")
 		)
-		(pin "b2"
+		(pin "B10"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f165")
 		)
-		(pin "b5"
+		(pin "C1"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b50")
 		)
-		(pin "b3"
+		(pin "C2"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b72")
 		)
-		(pin "s"
+		(pin "C3"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a52")
 		)
-		(pin "a1"
+		(pin "C4"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b73")
 		)
-		(pin "a6"
+		(pin "C5"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce069")
 		)
-		(pin "a10"
+		(pin "C6"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6be6")
 		)
-		(pin "c9"
+		(pin "C7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19b9")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d880b")
 		)
-		(pin "a4"
+		(pin "C9"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce4c")
 		)
-		(pin "a3"
+		(pin "C10"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f08234")
 		)
 		(instances
@@ -6291,7 +6684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 60.96 33.02 0)
 			(effects
 				(font
@@ -6300,97 +6693,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "A1"
 			(uuid "4d5555e4-7057-4603-b648-f5418da551e4")
 		)
-		(pin "c3"
+		(pin "B1"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111d00")
 		)
-		(pin "b4"
+		(pin "A2"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c67431")
 		)
-		(pin "c1"
+		(pin "A3"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044f2")
 		)
-		(pin "c2"
+		(pin "A4"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cf1")
 		)
-		(pin "c10"
+		(pin "A5"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bda")
 		)
-		(pin "b1"
+		(pin "A6"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a5ff")
 		)
-		(pin "c8"
+		(pin "A7"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879c9")
 		)
-		(pin "b6"
+		(pin "A8"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22ee7")
 		)
-		(pin "a7"
+		(pin "B2"
 			(uuid "37e5f90c-5bf6-41ca-9de1-bb728876398f")
 		)
-		(pin "a8"
+		(pin "B3"
 			(uuid "ab5d0969-7d1c-4c9d-bb30-8285ff601121")
 		)
-		(pin "b8"
+		(pin "B4"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd875e")
 		)
-		(pin "b7"
+		(pin "C1"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b402006")
 		)
-		(pin "b10"
+		(pin "C2"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd15839b")
 		)
-		(pin "c6"
+		(pin "C3"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6ed8")
 		)
-		(pin "a2"
+		(pin "C4"
 			(uuid "ee8133d4-1b63-4a48-9d39-50a4e7249635")
 		)
-		(pin "c7"
+		(pin "C5"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d6999")
 		)
-		(pin "b9"
+		(pin "C6"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c913")
 		)
-		(pin "c4"
+		(pin "B5"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be877")
 		)
-		(pin "c5"
+		(pin "B6"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb3")
 		)
-		(pin "b2"
+		(pin "B7"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f168")
 		)
-		(pin "b5"
+		(pin "B8"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b53")
 		)
-		(pin "b3"
+		(pin "B9"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b75")
 		)
-		(pin "s"
+		(pin "B10"
 			(uuid "0bc589e7-6932-4676-a68b-8c39a79d1862")
 		)
-		(pin "a1"
+		(pin "A10"
 			(uuid "d9eb441f-43ab-4999-89a1-e1b9697638aa")
 		)
-		(pin "a6"
+		(pin "S"
 			(uuid "5124753f-094a-4cdb-99e9-b299b6eca46c")
 		)
-		(pin "a10"
+		(pin "A9"
 			(uuid "66a3c120-e9f2-4813-b150-efd41537693d")
 		)
-		(pin "c9"
+		(pin "C7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19bc")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "c355b1c4-a7f2-408d-917e-38aab2359bd8")
 		)
-		(pin "a4"
+		(pin "C9"
 			(uuid "2fac4171-b240-4517-aac7-58181a5e2e7d")
 		)
-		(pin "a3"
+		(pin "C10"
 			(uuid "47977b7e-6f0b-4f41-8ff8-b273988762dc")
 		)
 		(instances
@@ -6594,6 +6987,76 @@
 			(project "ModEleSys_backplane_DIN41612"
 				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 248.92 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30f9942b-c84a-4715-9728-61397c2814d4")
+		(property "Reference" "J13"
+			(at 248.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 252.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+			(at 248.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ce32f29-b67f-46be-ba3b-c8e65bc02699")
+		)
+		(pin "2"
+			(uuid "8c494cb7-71b7-4c15-8df3-61c355fc42c2")
+		)
+		(pin "3"
+			(uuid "290315ab-8564-4d01-8e72-d5d2fbfa7153")
+		)
+		(instances
+			(project "ModEleSys_V2_backplane"
+				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -6847,7 +7310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 57.15 110.49 0)
 			(effects
 				(font
@@ -6912,7 +7375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -6921,97 +7384,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "B7"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a1673f")
 		)
-		(pin "c3"
+		(pin "B5"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111cfe")
 		)
-		(pin "b4"
+		(pin "C2"
 			(uuid "5398d742-d703-4978-be79-75889f913187")
 		)
-		(pin "c1"
+		(pin "A7"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044f0")
 		)
-		(pin "c2"
+		(pin "A1"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cef")
 		)
-		(pin "c10"
+		(pin "B10"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bd8")
 		)
-		(pin "b1"
+		(pin "C4"
 			(uuid "657b7daa-5ca2-4c13-ad8e-c7f9895d0032")
 		)
-		(pin "c8"
+		(pin "A6"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879c7")
 		)
-		(pin "b6"
+		(pin "A2"
 			(uuid "59b5aa2c-f8bf-4d0c-8a2c-0b56f9e10167")
 		)
-		(pin "a7"
+		(pin "B6"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd6155")
 		)
-		(pin "a8"
+		(pin "B4"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fd3")
 		)
-		(pin "b8"
+		(pin "C3"
 			(uuid "70aa9cfa-8d9b-4a59-a2ab-d973088747f0")
 		)
-		(pin "b7"
+		(pin "C1"
 			(uuid "ccaa67f8-95ed-48da-a33c-6a0708eb19d4")
 		)
-		(pin "b10"
+		(pin "C5"
 			(uuid "33b57181-653d-417c-b4e8-c5257546635b")
 		)
-		(pin "c6"
+		(pin "A10"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6ed6")
 		)
-		(pin "a2"
+		(pin "B9"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a07")
 		)
-		(pin "c7"
+		(pin "B8"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d6997")
 		)
-		(pin "b9"
+		(pin "S"
 			(uuid "fc18b558-036b-4f6f-a48b-3f25c9b5af16")
 		)
-		(pin "c4"
+		(pin "A4"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be875")
 		)
-		(pin "c5"
+		(pin "B3"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb1")
 		)
-		(pin "b2"
+		(pin "B2"
 			(uuid "34b003ca-9081-48e4-a8a8-7ed8afcedf76")
 		)
-		(pin "b5"
+		(pin "B1"
 			(uuid "609adba1-4f1f-49b2-85af-e6e65093c708")
 		)
-		(pin "b3"
+		(pin "A8"
 			(uuid "9f8b68ca-072a-41de-b8d7-775b1c92f615")
 		)
-		(pin "s"
+		(pin "A3"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a53")
 		)
-		(pin "a1"
+		(pin "A9"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b74")
 		)
-		(pin "a6"
+		(pin "A5"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce06a")
 		)
-		(pin "a10"
+		(pin "C6"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6be7")
 		)
-		(pin "c9"
+		(pin "C7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19ba")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d880c")
 		)
-		(pin "a4"
+		(pin "C9"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce4d")
 		)
-		(pin "a3"
+		(pin "C10"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f08235")
 		)
 		(instances
@@ -7019,6 +7482,76 @@
 				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
 					(reference "J3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 248.92 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46796781-3cbe-4cd8-b508-3112aed296e1")
+		(property "Reference" "J7"
+			(at 248.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 252.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b5e14ae-60a3-4fba-8e80-2f6a329ae319")
+		)
+		(pin "2"
+			(uuid "3b7093ef-e014-483e-b760-280f107f1aff")
+		)
+		(pin "3"
+			(uuid "2ea18ea1-984a-4269-bd89-bcc62f87c165")
+		)
+		(instances
+			(project "ModEleSys_V2_backplane"
+				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
+					(reference "J7")
+					(unit 1)
 				)
 			)
 		)
@@ -7157,6 +7690,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 276.86 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a0ef56d-d7d7-4f3f-878d-0c94d8538538")
+		(property "Reference" "J15"
+			(at 275.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 267.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+			(at 276.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3524375-d4d4-4520-b56d-fea8aec5655f")
+		)
+		(pin "2"
+			(uuid "cb6085f3-c16c-43d3-bdbd-dc5505b7ea47")
+		)
+		(pin "3"
+			(uuid "5d021afd-8703-4ba1-bf9c-cd3946689601")
+		)
+		(instances
+			(project "ModEleSys_V2_backplane"
+				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 22.86 0)
 		(mirror y)
@@ -7202,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 33.02 22.86 0)
 			(effects
 				(font
@@ -7248,7 +7854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SquantorRcl:R_0603_hand"
+		(property "Footprint" "SquantorResistor:R_0603_hand"
 			(at 257.81 38.608 90)
 			(effects
 				(font
@@ -7334,7 +7940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 77.47 93.98 0)
 			(effects
 				(font
@@ -7343,97 +7949,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "A1"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a16740")
 		)
-		(pin "c3"
+		(pin "A2"
 			(uuid "8be6f4ea-550a-405c-b977-aaba5880e8ae")
 		)
-		(pin "b4"
+		(pin "A3"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c6742f")
 		)
-		(pin "c1"
+		(pin "A4"
 			(uuid "25dd37e7-7f60-4198-86dc-b7c84e55f382")
 		)
-		(pin "c2"
+		(pin "A5"
 			(uuid "da16909c-f3a2-4107-bd95-9bd20c632863")
 		)
-		(pin "c10"
+		(pin "A6"
 			(uuid "0a6bbd90-ef14-48eb-9806-4f0ad709ad7a")
 		)
-		(pin "b1"
+		(pin "A7"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a5fd")
 		)
-		(pin "c8"
+		(pin "B6"
 			(uuid "9a92126e-c506-4b4c-b1e0-5ebf4fc16de6")
 		)
-		(pin "b6"
+		(pin "B7"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22ee5")
 		)
-		(pin "a7"
+		(pin "B8"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd6156")
 		)
-		(pin "a8"
+		(pin "B9"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fd4")
 		)
-		(pin "b8"
+		(pin "B10"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd875c")
 		)
-		(pin "b7"
+		(pin "C1"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b402004")
 		)
-		(pin "b10"
+		(pin "C2"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd158399")
 		)
-		(pin "c6"
+		(pin "C3"
 			(uuid "b2d99383-1b05-47cc-9c6f-945749143351")
 		)
-		(pin "a2"
+		(pin "C4"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a08")
 		)
-		(pin "c7"
+		(pin "C5"
 			(uuid "906ae740-3c66-48be-8d84-4eec350c0453")
 		)
-		(pin "b9"
+		(pin "C6"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c911")
 		)
-		(pin "c4"
+		(pin "C7"
 			(uuid "31eeab9c-6e6b-401e-a7a1-6783548e73b3")
 		)
-		(pin "c5"
+		(pin "C8"
 			(uuid "731ca517-1b54-4589-ae08-3308378239ca")
 		)
-		(pin "b2"
+		(pin "C9"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f166")
 		)
-		(pin "b5"
+		(pin "C10"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b51")
 		)
-		(pin "b3"
+		(pin "A10"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b73")
 		)
-		(pin "s"
+		(pin "B1"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a54")
 		)
-		(pin "a1"
+		(pin "B4"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b75")
 		)
-		(pin "a6"
+		(pin "A9"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce06b")
 		)
-		(pin "a10"
+		(pin "B3"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6be8")
 		)
-		(pin "c9"
+		(pin "B2"
 			(uuid "85fe8808-9a8d-455a-ab89-15d088cedc42")
 		)
-		(pin "a9"
+		(pin "A8"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d880d")
 		)
-		(pin "a4"
+		(pin "B5"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce4e")
 		)
-		(pin "a3"
+		(pin "S"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f08236")
 		)
 		(instances
@@ -7536,7 +8142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SquantorRcl:R_0603_hand"
+		(property "Footprint" "SquantorResistor:R_0603_hand"
 			(at 257.81 20.828 90)
 			(effects
 				(font
@@ -7688,7 +8294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 27.94 63.5 0)
 			(effects
 				(font
@@ -7697,97 +8303,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "B2"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a16741")
 		)
-		(pin "c3"
+		(pin "B1"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111d01")
 		)
-		(pin "b4"
+		(pin "A2"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c67432")
 		)
-		(pin "c1"
+		(pin "A3"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044f3")
 		)
-		(pin "c2"
+		(pin "A4"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cf2")
 		)
-		(pin "c10"
+		(pin "A5"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bdb")
 		)
-		(pin "b1"
+		(pin "A6"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a600")
 		)
-		(pin "c8"
+		(pin "A7"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879ca")
 		)
-		(pin "b6"
+		(pin "A9"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22ee8")
 		)
-		(pin "a7"
+		(pin "A10"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd6157")
 		)
-		(pin "a8"
+		(pin "S"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fd5")
 		)
-		(pin "b8"
+		(pin "A1"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd875f")
 		)
-		(pin "b7"
+		(pin "A8"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b402007")
 		)
-		(pin "b10"
+		(pin "B3"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd15839c")
 		)
-		(pin "c6"
+		(pin "B4"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6ed9")
 		)
-		(pin "a2"
+		(pin "B5"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a09")
 		)
-		(pin "c7"
+		(pin "B6"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d699a")
 		)
-		(pin "b9"
+		(pin "B7"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c914")
 		)
-		(pin "c4"
+		(pin "B8"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be878")
 		)
-		(pin "c5"
+		(pin "B9"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb4")
 		)
-		(pin "b2"
+		(pin "B10"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f169")
 		)
-		(pin "b5"
+		(pin "C1"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b54")
 		)
-		(pin "b3"
+		(pin "C2"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b76")
 		)
-		(pin "s"
+		(pin "C3"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a55")
 		)
-		(pin "a1"
+		(pin "C4"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b76")
 		)
-		(pin "a6"
+		(pin "C5"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce06c")
 		)
-		(pin "a10"
+		(pin "C6"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6be9")
 		)
-		(pin "c9"
+		(pin "C7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19bd")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d880e")
 		)
-		(pin "a4"
+		(pin "C9"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce4f")
 		)
-		(pin "a3"
+		(pin "C10"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f08237")
 		)
 		(instances
@@ -7917,7 +8523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 24.13 110.49 0)
 			(effects
 				(font
@@ -7984,7 +8590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 66.04 22.86 0)
 			(effects
 				(font
@@ -8302,7 +8908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SquantorRcl:R_0603_hand"
+		(property "Footprint" "SquantorResistor:R_0603_hand"
 			(at 257.81 33.528 90)
 			(effects
 				(font
@@ -8388,7 +8994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 44.45 93.98 0)
 			(effects
 				(font
@@ -8397,97 +9003,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "A1"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a16742")
 		)
-		(pin "c3"
+		(pin "A2"
 			(uuid "c757cc17-8942-483a-81e6-9dff52b7a5a3")
 		)
-		(pin "b4"
+		(pin "A3"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c67433")
 		)
-		(pin "c1"
+		(pin "A4"
 			(uuid "41b55fdd-afa7-458c-9ea1-d8a1c9557aaf")
 		)
-		(pin "c2"
+		(pin "A5"
 			(uuid "4fe66c27-836c-4e03-8826-f18599f3b448")
 		)
-		(pin "c10"
+		(pin "A6"
 			(uuid "8725d88a-5bd1-413b-aaec-c89dc8918649")
 		)
-		(pin "b1"
+		(pin "A7"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a601")
 		)
-		(pin "c8"
+		(pin "A8"
 			(uuid "80f8a93a-5311-468e-a43f-596196f4851d")
 		)
-		(pin "b6"
+		(pin "S"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22ee9")
 		)
-		(pin "a7"
+		(pin "B1"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd6158")
 		)
-		(pin "a8"
+		(pin "B2"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fd6")
 		)
-		(pin "b8"
+		(pin "B3"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd8760")
 		)
-		(pin "b7"
+		(pin "B4"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b402008")
 		)
-		(pin "b10"
+		(pin "C2"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd15839d")
 		)
-		(pin "c6"
+		(pin "C9"
 			(uuid "12fba259-41fa-411c-a39d-7480abee499d")
 		)
-		(pin "a2"
+		(pin "C10"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a0a")
 		)
-		(pin "c7"
+		(pin "C7"
 			(uuid "77d16ef4-0e57-43d0-8f9b-157e0713335f")
 		)
-		(pin "b9"
+		(pin "C6"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c915")
 		)
-		(pin "c4"
+		(pin "B5"
 			(uuid "08e5b947-53bd-4068-ab3d-c1fed5787026")
 		)
-		(pin "c5"
+		(pin "C8"
 			(uuid "a7c8e6c5-c286-40bb-a1cc-696387676d31")
 		)
-		(pin "b2"
+		(pin "C3"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f16a")
 		)
-		(pin "b5"
+		(pin "C5"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b55")
 		)
-		(pin "b3"
+		(pin "A10"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b77")
 		)
-		(pin "s"
+		(pin "B10"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a56")
 		)
-		(pin "a1"
+		(pin "B7"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b77")
 		)
-		(pin "a6"
+		(pin "A9"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce06d")
 		)
-		(pin "a10"
+		(pin "C1"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6bea")
 		)
-		(pin "c9"
+		(pin "B6"
 			(uuid "653384fa-c1bc-4cac-be72-67a63d7bd45d")
 		)
-		(pin "a9"
+		(pin "B8"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d880f")
 		)
-		(pin "a4"
+		(pin "C4"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce50")
 		)
-		(pin "a3"
+		(pin "B9"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f08238")
 		)
 		(instances
@@ -8524,7 +9130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SquantorRcl:R_0603_hand"
+		(property "Footprint" "SquantorResistor:R_0603_hand"
 			(at 257.81 51.308 90)
 			(effects
 				(font
@@ -8612,7 +9218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 165.1 0)
 			(effects
 				(font
@@ -8743,7 +9349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 77.47 33.02 0)
 			(effects
 				(font
@@ -8752,103 +9358,182 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "A9"
 			(uuid "bc0b6bc2-636a-4844-a4a7-b32454188e08")
 		)
-		(pin "c3"
+		(pin "A8"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111d02")
 		)
-		(pin "b4"
+		(pin "A7"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c67434")
 		)
-		(pin "c1"
+		(pin "B1"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044f4")
 		)
-		(pin "c2"
+		(pin "A2"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cf3")
 		)
-		(pin "c10"
+		(pin "A3"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bdc")
 		)
-		(pin "b1"
+		(pin "A4"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a602")
 		)
-		(pin "c8"
+		(pin "A5"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879cb")
 		)
-		(pin "b6"
+		(pin "A6"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22eea")
 		)
-		(pin "a7"
+		(pin "A10"
 			(uuid "b684202e-0ceb-414b-8164-912a708021fb")
 		)
-		(pin "a8"
+		(pin "S"
 			(uuid "21598b33-d0df-4148-b2c5-15abc64209a7")
 		)
-		(pin "b8"
+		(pin "A1"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd8761")
 		)
-		(pin "b7"
+		(pin "B2"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b402009")
 		)
-		(pin "b10"
+		(pin "B3"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd15839e")
 		)
-		(pin "c6"
+		(pin "B4"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6eda")
 		)
-		(pin "a2"
+		(pin "B5"
 			(uuid "0bf56d20-1c0c-43f0-9cb1-27d6983a4d99")
 		)
-		(pin "c7"
+		(pin "B6"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d699b")
 		)
-		(pin "b9"
+		(pin "B7"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c916")
 		)
-		(pin "c4"
+		(pin "B8"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be879")
 		)
-		(pin "c5"
+		(pin "B9"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb5")
 		)
-		(pin "b2"
+		(pin "B10"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f16b")
 		)
-		(pin "b5"
+		(pin "C1"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b56")
 		)
-		(pin "b3"
+		(pin "C2"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b78")
 		)
-		(pin "s"
+		(pin "C3"
 			(uuid "9ab7ce40-7010-4431-a4f6-d37e96bba379")
 		)
-		(pin "a1"
+		(pin "C4"
 			(uuid "92c22052-93ac-41ec-808e-a4b4c68f6282")
 		)
-		(pin "a6"
+		(pin "C5"
 			(uuid "46e10fd8-d1ee-4f64-9331-052f77202f1c")
 		)
-		(pin "a10"
+		(pin "C6"
 			(uuid "299a4455-ddce-48c9-a544-c18804aa488b")
 		)
-		(pin "c9"
+		(pin "C7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19be")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "ff1d2287-d737-4f5a-93ce-4c28d2a8bc07")
 		)
-		(pin "a4"
+		(pin "C9"
 			(uuid "5fa43cf5-51c4-4240-808d-37fe6d460275")
 		)
-		(pin "a3"
+		(pin "C10"
 			(uuid "a21020e5-85ee-49b6-8e4e-2a5f1aee90f8")
 		)
 		(instances
 			(project "ModEleSys_backplane_DIN41612"
 				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SquantorSwitches:switch_DPDT")
+		(at 262.89 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b24efe52-bdae-483e-b70c-0bf51d37f203")
+		(property "Reference" "SW2"
+			(at 255.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "switch_DPDT"
+			(at 262.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SquantorSwitches:PS-22F02"
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e9d542-f6d3-475a-8510-0d96ec676efa")
+		)
+		(pin "2"
+			(uuid "e1eac78c-1dae-481e-a0f4-dbd64d2607a5")
+		)
+		(pin "3"
+			(uuid "035c411a-3099-4ec2-953b-3d3552b87fb3")
+		)
+		(pin "4"
+			(uuid "91f077c6-2fff-4847-b9aa-94cd4bb2b17e")
+		)
+		(pin "5"
+			(uuid "a80b911a-6cae-44a1-802b-1f0f907a52c3")
+		)
+		(pin "6"
+			(uuid "a26c0d00-2fca-452e-b029-f761892457fb")
+		)
+		(instances
+			(project "ModEleSys_V2_backplane"
+				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9031,7 +9716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -9040,97 +9725,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "A5"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a16743")
 		)
-		(pin "c3"
+		(pin "A6"
 			(uuid "9ad1d428-519c-40c4-a8ed-f3487b8ebd5b")
 		)
-		(pin "b4"
+		(pin "A7"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c67435")
 		)
-		(pin "c1"
+		(pin "A9"
 			(uuid "aa634cdc-2f52-4ac5-9de1-aec3e2886287")
 		)
-		(pin "c2"
+		(pin "A1"
 			(uuid "aa432b36-05b1-411a-8ae5-0bc05f1dd2ec")
 		)
-		(pin "c10"
+		(pin "A2"
 			(uuid "24ee3a5f-072f-4c09-8256-9a9316ca1488")
 		)
-		(pin "b1"
+		(pin "A3"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a603")
 		)
-		(pin "c8"
+		(pin "A4"
 			(uuid "47dc9005-d693-465a-9809-e7188324e3c5")
 		)
-		(pin "b6"
+		(pin "A10"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22eeb")
 		)
-		(pin "a7"
+		(pin "S"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd6159")
 		)
-		(pin "a8"
+		(pin "B1"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fd7")
 		)
-		(pin "b8"
+		(pin "B2"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd8762")
 		)
-		(pin "b7"
+		(pin "B3"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b40200a")
 		)
-		(pin "b10"
+		(pin "B4"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd15839f")
 		)
-		(pin "c6"
+		(pin "B5"
 			(uuid "0d8263e8-464c-42a6-9c71-65e59ae160e0")
 		)
-		(pin "a2"
+		(pin "B6"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a0b")
 		)
-		(pin "c7"
+		(pin "B7"
 			(uuid "9ca09a76-8c06-4978-a005-11d36d130937")
 		)
-		(pin "b9"
+		(pin "B8"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c917")
 		)
-		(pin "c4"
+		(pin "B9"
 			(uuid "b3ae15ee-8485-4e68-9947-734b2632d9de")
 		)
-		(pin "c5"
+		(pin "B10"
 			(uuid "d191f929-78ae-4257-a426-69f99732e50a")
 		)
-		(pin "b2"
+		(pin "C1"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f16c")
 		)
-		(pin "b5"
+		(pin "C2"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b57")
 		)
-		(pin "b3"
+		(pin "C3"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b79")
 		)
-		(pin "s"
+		(pin "C4"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a57")
 		)
-		(pin "a1"
+		(pin "C5"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b78")
 		)
-		(pin "a6"
+		(pin "C6"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce06e")
 		)
-		(pin "a10"
+		(pin "C7"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6beb")
 		)
-		(pin "c9"
+		(pin "C8"
 			(uuid "a4b22c0a-978f-4e77-9c56-35bcf3e84c51")
 		)
-		(pin "a9"
+		(pin "C9"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d8810")
 		)
-		(pin "a4"
+		(pin "C10"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce51")
 		)
-		(pin "a3"
+		(pin "A8"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f08239")
 		)
 		(instances
@@ -9185,7 +9870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -9194,97 +9879,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "B1"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a16744")
 		)
-		(pin "c3"
+		(pin "A2"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111d03")
 		)
-		(pin "b4"
+		(pin "A3"
 			(uuid "40716538-23b4-4f5a-a217-3c1052c67436")
 		)
-		(pin "c1"
+		(pin "A4"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044f5")
 		)
-		(pin "c2"
+		(pin "A5"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cf4")
 		)
-		(pin "c10"
+		(pin "A6"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bdd")
 		)
-		(pin "b1"
+		(pin "A7"
 			(uuid "00ec2148-c54b-4d61-b33e-7f94c9a7a604")
 		)
-		(pin "c8"
+		(pin "A8"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879cc")
 		)
-		(pin "b6"
+		(pin "A9"
 			(uuid "5335ef18-b3ae-41db-a7fd-01bae6b22eec")
 		)
-		(pin "a7"
+		(pin "A10"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd615a")
 		)
-		(pin "a8"
+		(pin "S"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fd8")
 		)
-		(pin "b8"
+		(pin "A1"
 			(uuid "41fe3731-9679-4d7b-ac4d-e940f0dd8763")
 		)
-		(pin "b7"
+		(pin "B2"
 			(uuid "7bbc198f-1198-4fad-8939-9e907b40200b")
 		)
-		(pin "b10"
+		(pin "B3"
 			(uuid "5de0cfae-5127-446d-8cec-a365dd1583a0")
 		)
-		(pin "c6"
+		(pin "B4"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6edb")
 		)
-		(pin "a2"
+		(pin "B5"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a0c")
 		)
-		(pin "c7"
+		(pin "B6"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d699c")
 		)
-		(pin "b9"
+		(pin "B7"
 			(uuid "12b24b83-64a5-4996-b89e-dee3e9a1c918")
 		)
-		(pin "c4"
+		(pin "B8"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be87a")
 		)
-		(pin "c5"
+		(pin "B9"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb6")
 		)
-		(pin "b2"
+		(pin "B10"
 			(uuid "19142b74-4b01-4370-9d88-832c6fd3f16d")
 		)
-		(pin "b5"
+		(pin "C1"
 			(uuid "8cd516a6-8c1c-4732-90c3-524040ee8b58")
 		)
-		(pin "b3"
+		(pin "C2"
 			(uuid "e5d37af7-0a6e-4d1c-99ed-1b6330375b7a")
 		)
-		(pin "s"
+		(pin "C3"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a58")
 		)
-		(pin "a1"
+		(pin "C4"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b79")
 		)
-		(pin "a6"
+		(pin "C5"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce06f")
 		)
-		(pin "a10"
+		(pin "C6"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6bec")
 		)
-		(pin "c9"
+		(pin "C7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19bf")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d8811")
 		)
-		(pin "a4"
+		(pin "C9"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce52")
 		)
-		(pin "a3"
+		(pin "C10"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f0823a")
 		)
 		(instances
@@ -9342,7 +10027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 49.53 22.86 0)
 			(effects
 				(font
@@ -9358,6 +10043,79 @@
 			(project "ModEleSys_backplane_DIN41612"
 				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 276.86 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d04d9ad0-7e75-451d-b5c7-f21cbba51b47")
+		(property "Reference" "J8"
+			(at 275.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 267.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "194f1e17-4619-4ac3-ba9a-b1d0f8227b2a")
+		)
+		(pin "2"
+			(uuid "2158f41a-2f1d-444f-8be1-7abada526bbe")
+		)
+		(pin "3"
+			(uuid "7f708860-db1a-4a78-8247-8a2e7d56a711")
+		)
+		(instances
+			(project "ModEleSys_V2_backplane"
+				(path "/8d9a3ecc-539f-41da-8099-d37cea9c28e7"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9474,7 +10232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 77.47 63.5 0)
 			(effects
 				(font
@@ -9483,97 +10241,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "A5"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a16745")
 		)
-		(pin "c3"
+		(pin "A6"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111d04")
 		)
-		(pin "b4"
+		(pin "A8"
 			(uuid "acfb74c9-d588-4876-8798-64a3b33b2452")
 		)
-		(pin "c1"
+		(pin "A1"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044f6")
 		)
-		(pin "c2"
+		(pin "A2"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cf5")
 		)
-		(pin "c10"
+		(pin "A3"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bde")
 		)
-		(pin "b1"
+		(pin "A4"
 			(uuid "e1697d36-faf8-4126-a977-963156a8034b")
 		)
-		(pin "c8"
+		(pin "A10"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879cd")
 		)
-		(pin "b6"
+		(pin "S"
 			(uuid "f895020d-7861-4157-96a7-7756c3d05039")
 		)
-		(pin "a7"
+		(pin "B1"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd615b")
 		)
-		(pin "a8"
+		(pin "B2"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fd9")
 		)
-		(pin "b8"
+		(pin "B3"
 			(uuid "c7684a17-722a-4bc8-9b01-9c446b0a27ed")
 		)
-		(pin "b7"
+		(pin "B4"
 			(uuid "2bee3fe7-c6f5-47ce-b7fe-216ec683a6e1")
 		)
-		(pin "b10"
+		(pin "A7"
 			(uuid "03a7c6fb-97e4-4411-b080-78aaa1535980")
 		)
-		(pin "c6"
+		(pin "B9"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6edc")
 		)
-		(pin "a2"
+		(pin "B6"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a0d")
 		)
-		(pin "c7"
+		(pin "C5"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d699d")
 		)
-		(pin "b9"
+		(pin "C1"
 			(uuid "4c346a8e-daee-409e-98fc-34cd062cad5d")
 		)
-		(pin "c4"
+		(pin "C7"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be87b")
 		)
-		(pin "c5"
+		(pin "C9"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb7")
 		)
-		(pin "b2"
+		(pin "C6"
 			(uuid "b29186d4-c5b1-42af-9d88-c6c8934eb4c1")
 		)
-		(pin "b5"
+		(pin "C2"
 			(uuid "1137265d-4998-4e08-b2db-fd2b0c62f95c")
 		)
-		(pin "b3"
+		(pin "C10"
 			(uuid "23b18a8a-e654-4058-8d0b-e6744b4f923d")
 		)
-		(pin "s"
+		(pin "B5"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a59")
 		)
-		(pin "a1"
+		(pin "B8"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b7a")
 		)
-		(pin "a6"
+		(pin "C3"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce070")
 		)
-		(pin "a10"
+		(pin "A9"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6bed")
 		)
-		(pin "c9"
+		(pin "B7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19c0")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d8812")
 		)
-		(pin "a4"
+		(pin "B10"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce53")
 		)
-		(pin "a3"
+		(pin "C4"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f0823b")
 		)
 		(instances
@@ -9629,7 +10387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 3 by 10 pin connector with screw terminals"
 			(at 44.45 63.5 0)
 			(effects
 				(font
@@ -9638,97 +10396,97 @@
 				(hide yes)
 			)
 		)
-		(pin "a5"
+		(pin "A8"
 			(uuid "e2600985-dd67-4a61-918b-fa1606a16746")
 		)
-		(pin "c3"
+		(pin "A7"
 			(uuid "d8b85315-3679-4137-aa22-2ed425111d05")
 		)
-		(pin "b4"
+		(pin "A1"
 			(uuid "16c4a042-08f3-4abe-9f4a-66954850bf9e")
 		)
-		(pin "c1"
+		(pin "A2"
 			(uuid "3faed3c4-3ece-467c-9cb5-50b4886044f7")
 		)
-		(pin "c2"
+		(pin "A3"
 			(uuid "74ae2c22-77df-4219-9c6d-fb8ed52d3cf6")
 		)
-		(pin "c10"
+		(pin "A4"
 			(uuid "ec3a5533-704f-4b79-85ec-44462c4e1bdf")
 		)
-		(pin "b1"
+		(pin "A5"
 			(uuid "d4f74338-9e49-487c-930e-4546cba9cad0")
 		)
-		(pin "c8"
+		(pin "A6"
 			(uuid "dc91ec8f-1e89-43bc-8292-e651449879ce")
 		)
-		(pin "b6"
+		(pin "S"
 			(uuid "7377cc5f-a942-4346-ab68-ecb49c3fadff")
 		)
-		(pin "a7"
+		(pin "B1"
 			(uuid "0253f7e3-1395-42fc-a86c-030f7ebd615c")
 		)
-		(pin "a8"
+		(pin "A9"
 			(uuid "9a80e992-5738-4fc8-957b-0dc3709a1fda")
 		)
-		(pin "b8"
+		(pin "A10"
 			(uuid "57d6c0ad-f90b-4bd6-a824-0e0162c12d02")
 		)
-		(pin "b7"
+		(pin "B2"
 			(uuid "e40179cb-9488-4f0d-9303-753b1362ddc9")
 		)
-		(pin "b10"
+		(pin "B3"
 			(uuid "79592557-7524-4487-9d20-04035a313b6e")
 		)
-		(pin "c6"
+		(pin "B4"
 			(uuid "5280127f-dfbf-4c74-a97a-4bf07c7e6edd")
 		)
-		(pin "a2"
+		(pin "B5"
 			(uuid "84192d5a-84d9-4452-ad81-30aa2ad88a0e")
 		)
-		(pin "c7"
+		(pin "B6"
 			(uuid "ab91a21e-99df-4597-8935-dffc977d699e")
 		)
-		(pin "b9"
+		(pin "B7"
 			(uuid "4cc9a95d-d316-4bf5-b555-cb7ea262cf17")
 		)
-		(pin "c4"
+		(pin "B8"
 			(uuid "e9bb0ab3-2eba-49b3-ab5d-c808ba0be87c")
 		)
-		(pin "c5"
+		(pin "B9"
 			(uuid "0c779725-70b9-46e9-85d4-caeec682ceb8")
 		)
-		(pin "b2"
+		(pin "B10"
 			(uuid "d4b2c2e3-60d1-41d9-9d9f-75662f2dd043")
 		)
-		(pin "b5"
+		(pin "C1"
 			(uuid "9f194664-b649-4668-a219-8c2bd62890d2")
 		)
-		(pin "b3"
+		(pin "C2"
 			(uuid "4a1c80d0-d9ec-44bd-98cb-f3938b1df8cb")
 		)
-		(pin "s"
+		(pin "C3"
 			(uuid "c8c0edbd-ea0b-4374-9f20-b16bf2d69a5a")
 		)
-		(pin "a1"
+		(pin "C4"
 			(uuid "aaa49747-f569-46f4-84c3-3bc14ddf9b7b")
 		)
-		(pin "a6"
+		(pin "C5"
 			(uuid "6c2e145b-a329-45e6-a610-348a399ce071")
 		)
-		(pin "a10"
+		(pin "C6"
 			(uuid "70753a40-f4df-4361-82f8-27f7305c6bee")
 		)
-		(pin "c9"
+		(pin "C7"
 			(uuid "2fe2dd3b-b789-442d-9f2e-d06e563b19c1")
 		)
-		(pin "a9"
+		(pin "C8"
 			(uuid "cc13736b-f451-4314-9ee4-2735125d8813")
 		)
-		(pin "a4"
+		(pin "C9"
 			(uuid "8a08f0fd-389b-45ef-9e9c-913e819dce54")
 		)
-		(pin "a3"
+		(pin "C10"
 			(uuid "9be25bc7-9057-4df5-a9ea-94d285f0823c")
 		)
 		(instances
@@ -9786,7 +10544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 22.86 0)
 			(effects
 				(font
@@ -9853,7 +10611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 110.49 0)
 			(effects
 				(font
@@ -9879,4 +10637,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
